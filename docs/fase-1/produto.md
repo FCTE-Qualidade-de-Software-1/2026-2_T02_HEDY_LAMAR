@@ -106,6 +106,18 @@ Como a avaliação é externa, é possível medir:
 
 ---
 
+## 2.3.3 ODS, metas e indicadores
+
+**ODS 4: Educação de Qualidade**
+
+O projeto se relaciona ao ODS 4, em especial à **meta 4.3**. Na versão adaptada ao Brasil, publicada pelo IPEA, a meta é: "Até 2030, assegurar a equidade (gênero, raça, renda, território e outros) de acesso e permanência à educação profissional e à educação superior de qualidade, de forma gratuita ou a preços acessíveis".
+
+O indicador oficial dessa meta, o **4.3.1** (taxa de participação de jovens e adultos na educação formal e não formal nos últimos 12 meses, por sexo), tem escala populacional e não pode ser alterado por um software isolado. Por isso o usamos como contexto, não como medida do produto.
+
+**Justificativa.** A pertinência está na permanência dos estudantes. Planejar o semestre é uma etapa recorrente da vida acadêmica em uma universidade pública, e o Sua Grade UnB reduz o esforço dessa etapa. Argumentamos que a qualidade do produto determina se esse apoio é confiável: dados corretos (Adequação Funcional), disponibilidade quando o estudante precisa (Confiabilidade) e acesso nos dispositivos que ele usa (Portabilidade). A avaliação contribui, portanto, de forma indireta para o ODS 4, ao apontar melhorias que sustentam essa confiança.
+
+---
+
 ## Bibliografia
 
 > 1. EQUIPE SUA GRADE UNB. *Sua Grade UnB: repositório do projeto no GitHub*. Disponível em: <https://github.com/unb-mds/2023-2-SuaGradeUnB>. Acesso em: 17 out. 2026.
@@ -113,6 +125,8 @@ Como a avaliação é externa, é possível medir:
 > 2. EQUIPE SUA GRADE UNB. *Arquitetura*. In: Docs - Sua Grade UnB. Disponível em: <https://unb-mds.github.io/2023-2-SuaGradeUnB/architecture/>. Acesso em: 17 out. 2026.
 
 > 3. IEEE. *IEEE Std 1062-1998: Recommended Practice for Software Acquisition*. 1998 apud RAMOS, Cristiane Soares. *Processo de Avaliação de Produto de Software*. Material da disciplina Qualidade de Software 1. Universidade de Brasília (UnB), 2026.
+
+> 4. INSTITUTO DE PESQUISA ECONÔMICA APLICADA. *ODS 4: Educação de Qualidade*. Disponível em: <https://ipea.gov.br/ods/ods4.html>. Acesso em: 17 out. 2026.
 
 ## Histórico de Versão
 
