@@ -1,10 +1,18 @@
 # 2.5 Modelo de Qualidade e Escopo
 
-O objetivo desta página é representar o modelo de qualidade (ISO/IEC 25010) adotado, a priorização das características e o escopo e a profundidade da análise. As características selecionadas, com suas subcaracterísticas:
+O objetivo desta página é representar o modelo de qualidade (ISO/IEC 25010) adotado, a priorização das características e o escopo e a profundidade da análise. As características selecionadas, com suas subcaracterísticas, aparecem na Figura 1:
 
-- Adequação Funcional
-- Confiabilidade
-- Portabilidade
+1. Adequação Funcional
+2. Confiabilidade
+3. Portabilidade
+
+<font size="3"><p style="text-align: left">Figura 1: Modelo de qualidade do produto da ISO/IEC 25010:2011 com a seleção da equipe. Contornos azuis: características avaliadas. Em cinza: características não selecionadas. Subcaracterísticas riscadas: fora do escopo (D4).</p></font>
+
+![Figura 4 da ISO/IEC 25010:2011, com a raiz System/Software Product Quality e as oito características com suas subcaracterísticas. Destacadas em azul: Functional Suitability, Reliability e Portability. As outras cinco aparecem esmaecidas. Recoverability e Replaceability estão riscadas por ficarem fora do escopo.](../assets/modelo-qualidade-iso.png)
+
+Fonte: adaptado de ISO/IEC 25010:2011, Figura 4 (Product quality model).
+
+Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 
 ## Metodologia
 
@@ -21,7 +29,7 @@ A edição de 2023 da norma, entre outras mudanças, renomeia Portabilidade para
 Das oito características do modelo, excluímos **Usabilidade por exigência do trabalho** e avaliamos as outras sete por uma matriz de impacto por risco.
 
 - **Impacto (1 a 5):** consequências de uma falha para os usuários primários e para a equipe mantenedora.
-- **Risco (1 a 5):** probabilidade de falha, estimada a partir das evidências de [2.3 Descrição do Produto](produto.md#233-fatos-verificados), como a atualização manual dos dados.
+- **Risco (1 a 5):** probabilidade de falha, estimada a partir das evidências de [2.3 Descrição do Produto](produto.md#231-sobre-o-sua-grade-unb), como a atualização manual dos dados.
 - **Viabilidade (1 a 5):** facilidade de medir a característica de fora. É um filtro: características com viabilidade abaixo de 3 são excluídas.
 
 Os valores abaixo são julgamentos da equipe, apoiados nessas evidências.
@@ -80,7 +88,7 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 
 ### Profundidade
 
-A profundidade é de caixa-preta, em nível de interface,
+A profundidade é de caixa-preta, em nível de interface, sobre uma amostra de disciplinas.
 
 ### Limites de validade dos resultados
 
