@@ -126,7 +126,7 @@ O indicador oficial dessa meta, o **4.3.1** (taxa de participação de jovens e 
 
 > 3. IEEE. *IEEE Std 1062-1998: Recommended Practice for Software Acquisition*. 1998 apud RAMOS, Cristiane Soares. *Processo de Avaliação de Produto de Software*. Material da disciplina Qualidade de Software 1. Universidade de Brasília (UnB), 2026.
 
-> 4. INSTITUTO DE PESQUISA ECONÔMICA APLICADA. *ODS 4: Educação de Qualidade*. Disponível em: <https://ipea.gov.br/ods/ods4.html>. Acesso em: 17 out. 2026.
+> 4. INSTITUTO DE PESQUISA ECONÔMICA APLICADA. *ODS 4: Educação de Qualidade*. Disponível em: <https://ipea.gov.br/ods/ods4.html>. Acesso em: 18 out. 2026.
 
 ## Histórico de Versão
 
