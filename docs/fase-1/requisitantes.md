@@ -15,7 +15,7 @@ As partes interessadas foram classificadas segundo a seção 3.6 da ISO/IEC 2501
 | Parte | Necessidade | Critério de sucesso | Influência na avaliação |
 | :--- | :--- | :--- | :--- |
 | Estudantes da UnB (usuário primário) | Montar a grade com turmas atuais, sem conflitos e com pouco esforço | Gerar e guardar uma grade válida do período corrente, no dispositivo que já usam | Define a prioridade da Adequação Funcional e a matriz de ambientes da Portabilidade |
-| Equipe mantenedora (secundário: mantenedor e operador, requisitante) | Lista de defeitos priorizada e reproduzível; executa a atualização manual dos dados | Relatório com evidências suficientes para decidir o que corrigir primeiro | Define o propósito e o ponto de vista das métricas (GQM, Fase 2) |
+| Equipe mantenedora (secundário: mantenedor e operador, requisitante) | Lista de defeitos priorizada e reproduzível; executa a atualização manual dos dados | Relatório com evidências suficientes para decidir o que corrigir primeiro | Define o propósito e o ponto de vista das métricas |
 | UnB/SIGAA (secundário: provedor de conteúdo) | Evitar sobrecarga do SIGAA por requisições, motivo declarado do *scraping* na documentação | Dados do produto coerentes com a página pública de turmas | Fornece a referência de verdade da corretude; limita a coleta a consultas manuais da página pública |
 | Quem recebe a grade exportada (indireto) | Abrir um arquivo legível e fiel à grade que o estudante montou | O PDF exportado reproduz a grade, com os mesmos horários, salas e professores | Sem influência direta nas escolhas da avaliação; justifica incluir a exportação em PDF no escopo, por ser a saída do sistema entregue a terceiros |
 
