@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Somos o grupo **Hedy Lamarr** da disciplina Qualidade de software, orientados pela professora Cristiane Soares Ramois, na Universidade de Brasília (UnB). Este repositório tem como propósito reunir todos os materiais, relatórios e artefados desenvolvidos no projeto durante a disciplina. Nosso projeto foca no [Sua Grade UnB](https://suagradeunb.com.br/).
+Somos o grupo **Hedy Lamarr** da disciplina Qualidade de Software, orientados pela professora Cristiane Soares Ramos, na Universidade de Brasília (UnB). Este repositório reúne os materiais, relatórios e artefatos desenvolvidos pelo grupo durante a disciplina. Nosso projeto foca no [Sua Grade UnB](https://suagradeunb.com.br/).
 
 ## Sobre o site
 
