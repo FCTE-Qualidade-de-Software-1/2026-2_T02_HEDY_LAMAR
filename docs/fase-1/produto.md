@@ -84,14 +84,14 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 
 | Item | Descrição |
 | :--- | :--- |
-| Funções (11) | 1. Login com Google; 2. Acesso anônimo; 3. Busca por matéria ou professor com filtro de ano e período; 4. Consulta de turmas; 5. Inclusão e remoção de turmas; 6. Geração de grades com prioridade de turno; 7. Listagem de grades; 8. Grade semanal; 9. Exportação em PDF; 10. Exclusão de grade; 11. Aba Sobre. |
+| Funções (11) | 1. Login com Google; 2. Criar grade horária; 3. Filtrar matérias; Selecionar turma; 4. Adicionar matéria selecionada; 5. Selecionar preferencia de turno; 6. Fazer registro e login via google; 7. Visualizar grade horária; 8. Salvar grade localmente; 9. Apagar grade local; 10. Salvar grade na nuvem; 11. Acesso anônimo |
 | Janelas e tarefa principal | Sete janelas: boas-vindas, painel de montagem, busca, prioridade de turno, Suas Grades, grade semanal e Sobre. Tarefa principal: montar, com as turmas escolhidas, uma grade sem conflitos, e salvá-la ou exportá-la |
 | Componentes | Frontend (Next.js, TypeScript; Vercel); API REST (Django REST Framework; Heroku); banco PostgreSQL |
 | Interfaces e dependências | Login com Google (OAuth); página pública de turmas do SIGAA, lida por *web scraping* que, segundo a documentação, a equipe executa manualmente e tenta repetir a cada 24 h; armazenamento local do navegador no modo anônimo |
 | Restrições | Até quatro turmas por disciplina; prioridade Mínima, Média ou Máxima para os turnos manhã, tarde e noite; até 10 grades salvas na conta; grade semanal de segunda a sábado, das 08:00 às 22:30; a API retorna as cinco melhores grades |
 | Usuários, dados e ambiente | Estudantes da UnB, com uso básico de navegador. A oferta de turmas pública no SIGAA serve de massa de dados para comparação |
 
-Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
+Autor(es):  [João Vitor](https://github.com/Jauzimm), [Pablo Rodrigues](https://github.com/Pablo-R-L), 2026.
 
 ### O que a avaliação consegue medir
 
@@ -133,4 +133,5 @@ O indicador oficial dessa meta, o **4.3.1** (taxa de participação de jovens e 
 | Versão |          Descrição          |                       Autor                       |    Data    |                       Revisor                       | Data de revisão |
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
 |  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Caua Clemente](https://github.com/CauaoClemente) |   |
+|  1.1   |       Padronização das funções do sistema        |     [Pablo Rodrigues](https://github.com/Pablo-R-L)      | 21/10/2026 |  |   |
 

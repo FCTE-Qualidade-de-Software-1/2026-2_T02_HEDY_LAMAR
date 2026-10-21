@@ -111,11 +111,11 @@ As definições desta página são tradução livre da equipe a partir da ISO/IE
 
 | Subcaracterística | Descrição (ISO/IEC 25010) | Interpretação no Sua Grade UnB |
 | :--- | :--- | :--- |
-| Completude funcional | Grau em que o conjunto de funções cobre todas as tarefas e objetivos do usuário especificados | As funções declaradas na aba Sobre cobrem busca, escolha de até quatro turmas, geração, salvamento e exportação |
+| Completude funcional | Grau em que o conjunto de funções cobre todas as tarefas e objetivos do usuário especificados | As funções declaradas no story map presente no github cobrem: Criar grade horaria, visualizar grade horaria, salvar grade localmente e na nuvem, apagar grade localmente e na nuvem, filtrar e adicionar materias, selecionar e adicionar turmas em uma lista, selecionar preferencia de turno, fazer registro via google. |
 | Corretude funcional | Grau em que um produto ou sistema fornece os resultados corretos com o grau de precisão necessário | Turmas, horários, salas e docentes iguais aos do SIGAA; grades geradas sem conflitos nem disciplinas repetidas |
 | Adequação funcional | Grau em que as funções facilitam a realização de tarefas e objetivos especificados | A grade é montada apenas com as etapas necessárias |
 
-Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
+Autor(es):  [João Vitor](https://github.com/Jauzimm), [Pablo Rodrigues](https://github.com/Pablo-R-L), 2026.
 
 ## 2.5.4 Confiabilidade
 
@@ -141,10 +141,10 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 | Subcaracterística | Descrição (ISO/IEC 25010) | Interpretação no Sua Grade UnB |
 | :--- | :--- | :--- |
 | Adaptabilidade | Grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes ou evoluindo hardware, software ou outros ambientes operacionais ou de uso | Funções completas em diferentes navegadores, sistemas operacionais e tamanhos de tela |
-| Instalabilidade | Grau de eficácia e eficiência com que um produto ou sistema pode ser instalado e/ou desinstalado com sucesso em um ambiente especificado | Formas de acesso por ambiente; por ser aplicação web, a instalação se resume ao acesso por endereço; o código não tem manifesto de aplicativo web, então a instalação como aplicativo provavelmente não é oferecida (a confirmar) |
+| Instalabilidade | Grau de eficácia e eficiência com que um produto ou sistema pode ser instalado e/ou desinstalado com sucesso em um ambiente especificado | Formas de acesso por ambiente; por ser aplicação web, a instalação se resume ao acesso por endereço; o código não tem manifesto de aplicativo web, então a instalação como aplicativo não é oferecida |
 | Substituibilidade (fora do escopo, D4) | Grau em que um produto pode substituir outro produto de software especificado para o mesmo propósito no mesmo ambiente | O produto não se destina a substituir outro e não tem função de migração |
 
-Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
+Autor(es):  [João Vitor](https://github.com/Jauzimm), [Pablo Rodrigues](https://github.com/Pablo-R-L), 2026.
 
 ---
 
@@ -160,4 +160,4 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 
 | Versão |          Descrição          |                       Autor                       |    Data    |                       Revisor                       | Data de revisão |
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
-|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) |   |
+|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026  |
