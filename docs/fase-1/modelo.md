@@ -161,3 +161,4 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), [Pablo Rodrigues](https:/
 | Versão |          Descrição          |                       Autor                       |    Data    |                       Revisor                       | Data de revisão |
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
 |  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026  |
+|  1.1   |       Mudanças de completude funcional        |     [Pablo Rodrigues](https://github.com/Pablo-R-L)      | 21/10/2026 |  |   |

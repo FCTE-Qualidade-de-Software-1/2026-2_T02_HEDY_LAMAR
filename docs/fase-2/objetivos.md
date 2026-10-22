@@ -80,9 +80,7 @@ A questão investiga o comportamento observável do sistema nessas condições, 
 
 A questão considera a execução dos fluxos principais em uma matriz de ambientes definida previamente, permitindo identificar incompatibilidades ou limitações específicas.
 
-**Q8. Instalabilidade:** O usuário consegue iniciar o uso do Sua Grade UnB nos ambientes selecionados por meio do procedimento de acesso previsto, sem depender de uma instalação adicional não oferecida pelo produto?
-
-A questão considera que o Sua Grade UnB é uma aplicação web. Não se pressupõe a existência de instalação como aplicativo, pois esse recurso ainda precisa ser confirmado. O acesso pelo navegador será considerado de acordo com o funcionamento efetivamente oferecido pelo produto.
+Considerando que o Sua Grade UnB é uma aplicação web, não se pressupõe a existência de instalação como aplicativo. O acesso pelo navegador será considerado de acordo com o funcionamento efetivamente oferecido pelo produto.
 
 ## 3.1.3 Hipóteses de medição — Nível operacional
 
@@ -90,7 +88,7 @@ As hipóteses expressam os comportamentos esperados para cada questão e deverã
 
 ### Hipóteses do objetivo G1 — Adequação Funcional
 
-**H1 — Completude funcional (Q1):** Espera-se que as funções previstas para a tarefa principal estejam disponíveis e possam ser executadas nos modos de acesso aplicáveis. A hipótese será contrariada se uma função prevista estiver ausente ou não puder ser concluída nas condições de avaliação.
+**H1 — Completude funcional (Q1):** Espera-se que as funções previstas pelo story map estejam disponíveis e possam ser executadas nos modos de acesso aplicáveis. A hipótese será contrariada se uma função prevista estiver ausente ou não puder ser concluída nas condições de avaliação.
 
 **H2 — Corretude funcional (Q2):** Espera-se que os dados das turmas examinadas correspondam às informações de referência do SIGAA e que as grades geradas respeitem as restrições de horário e de disciplinas. Divergências nos dados ou grades com conflitos e repetições constituirão evidências contrárias à hipótese.
 
@@ -108,7 +106,6 @@ As hipóteses expressam os comportamentos esperados para cada questão e deverã
 
 **H7 — Adaptabilidade (Q7):** Espera-se que as funções principais permaneçam operacionais nos ambientes selecionados para a avaliação. Diferenças de comportamento que impeçam a execução dos fluxos previstos em algum dos ambientes fornecerão evidências contrárias à hipótese.
 
-**H8 — Instalabilidade (Q8):** Espera-se que o usuário consiga iniciar o uso do produto nos ambientes selecionados pelo procedimento de acesso oferecido, sem necessidade de instalar componentes adicionais não previstos. A impossibilidade de acessar o produto por esse procedimento fornecerá evidências contrárias à hipótese. A hipótese não pressupõe que o produto ofereça instalação como aplicativo independente.
 
 ## 3.1.4 Rastreabilidade entre objetivos, questões e hipóteses
 
@@ -123,7 +120,6 @@ A tabela a seguir resume a relação entre os elementos GQM definidos neste arte
 | G2 | Confiabilidade | Q5 — Disponibilidade | H5 |
 | G2 | Confiabilidade | Q6 — Tolerância a falhas | H6 |
 | G3 | Portabilidade | Q7 — Adaptabilidade | H7 |
-| G3 | Portabilidade | Q8 — Instalabilidade | H8 |
 
 Essa hierarquia estabelece a base para a próxima etapa do GQM: a seleção das métricas que permitirão responder às questões. Para cada métrica, deverão ser especificados sua definição, o procedimento de cálculo, a fonte dos dados, o procedimento de coleta e os critérios de interpretação. Os níveis de pontuação e os critérios de julgamento deverão ser definidos antes da análise dos resultados.
 
@@ -138,3 +134,4 @@ Essa hierarquia estabelece a base para a próxima etapa do GQM: a seleção das 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | Versão inicial dos objetivos, questões e hipóteses de medição | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 |   |  |
+| 1.1 | Remoção de instalabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 |   |  |
