@@ -43,6 +43,19 @@ Foram identificadas 11 funcionalidades planejadas, das quais 10 estão implement
 ```text
 C_f = (10 / 11) * 100 ≈ 90,90%
 ```
+| ID | Requisito | Evidência |
+| :---: | :--- | :--- |
+| R1 | Criar grade horária | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Gerar%20grades%20validas.png) |
+| R2 | Filtrar matéria em uma lista pré-definida | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Sele%C3%A7%C3%A3o%20de%20mat%C3%A9ria.png) |
+| R3 | Selecionar uma turma em uma lista | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Sele%C3%A7%C3%A3o%20de%20mat%C3%A9ria.png) |
+| R4 | Adicionar matéria selecionada | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Materia%20selecionada.png) |
+| R5 | Selecionar preferência de turno | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Escolher%20preferencia%20de%20turno.png) |
+| R6 | Fazer registro e login via Google | [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Cadastro%20atrav%C3%A9s%20do%20google.png) |
+| R7 | Visualizar grade horária | [E7](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Visualizar%20grade%20horaria.png) |
+| R8 | Salvar grade localmente | [E8](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grade%20localmente.png) |
+| R9 | Apagar grade horária local | Não implementado |
+| R10 | Salvar grade na nuvem | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
+| R11 | Apagar grade horária na nuvem | [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 
 **Interpretação:** o resultado indica que 90,90% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em `criterios-julgamento.md`.
 
@@ -74,9 +87,26 @@ Em que:
 4. Registrar o resultado observado.
 5. Contabilizar as execuções que produziram o resultado esperado e calcular a proporção.
 
-# espaço para resultado obtido, atualizar interpretação com o resultado tambem 
+Procedimento de coleta: Escolhemos cinco funcionalidades pricipais para testes, já que a execução delas implica a execução das restantes. Selecionamos: Logar, buscar matérias, adicionar materias, criar grades e salvar grades. Cada uma foi testada cinco vezes, totalizando 25 execuções. Em cada execução, verificou-se se a funcionalidade apresentava o comportamento esperado.
 
-**Interpretação:** valores mais elevados indicam maior proporção de execuções que produziram os resultados esperados. O resultado deverá ser julgado de acordo com os níveis definidos em `criterios-julgamento.md`.
+Fonte dos dados: resultados observados durante a execução dos testes funcionais do sistema, registrados pela equipe.
+
+Resultado obtido: todas as 25 execuções foram bem-sucedidas, produzindo os resultados esperados. Portanto:
+
+```text
+C_c = (25 / 25) * 100 = 100%
+```
+
+| ID | Requisito | Evidência |
+| :---: | :--- | :--- |
+| T1 | Criar grade horária | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Gerar%20grades%20validas.png) |
+| T2 | Adicionar matéria selecionada | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Materia%20selecionada.png) |
+| T3 | Fazer registro e login via Google | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Cadastro%20atrav%C3%A9s%20do%20google.png) |
+| T4 | Salvar grade localmente | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grade%20localmente.png) |
+| T5 | Salvar grade na nuvem | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
+| T6 | Apagar grade horária na nuvem | [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
+
+**Interpretação:** Assim, o sistema apresentou um percentual de correção funcional de 100% nas execuções realizadas. Esse resultado se limita às funcionalidades testadas e às condições em que os testes foram executados, não garantindo a ausência de erros em outras situações.
 
 ### M3 — Adequação às tarefas dos usuários
 
@@ -106,43 +136,67 @@ Em que:
 4. Classificar cada tarefa conforme os critérios previamente estabelecidos.
 5. Calcular a proporção de tarefas adequadamente atendidas.
 
-# espaço para resultado obtido, atualizar interpretação com o resultado tambem
+Descrição da coleta: foram identificadas as tarefas disponíveis no sistema e analisada a relação de cada uma delas com o objetivo principal do serviço: gerar grades horárias e salvá-las na nuvem.
 
-**Interpretação:** valores mais elevados indicam que uma parcela maior das tarefas avaliadas é adequadamente atendida. Essa métrica avalia a adequação das funcionalidades às tarefas, enquanto a completude funcional verifica se as funcionalidades planejadas estão implementadas e a correção funcional verifica se as execuções produzem os resultados esperados.
 
-## 2. Confiabilidade
+Fonte dos dados: funcionalidades disponíveis no sistema e objetivo proposto para o serviço.
 
-### M4 — Execuções sem falhas
-
-**Questão relacionada:** Qual é a proporção das execuções avaliadas que ocorre sem falhas observáveis?
-
-**Definição:** Mede a proporção de execuções de cenários de teste que são concluídas sem falhas observáveis que impeçam ou comprometam o comportamento esperado.
+Resultado obtido: foram identificadas cinco tarefas: realizar login com Google para permitir o salvamento de grades na nuvem, buscar matérias, selecionar turmas, gerar grades horárias e gerenciar grades (salvar e excluir). Todas essas tarefas contribuem para o funcionamento do serviço e estão relacionadas ao seu objetivo principal.
 
 **Fórmula:**
 
 ```text
-R_e = (E_s / E_t) * 100
+A_f = (5 / 5) * 100 = 100%
+```
+
+**Interpretação:** considerando as tarefas identificadas, todas estão alinhadas ao objetivo proposto para o sistema. Portanto, as tarefas avaliadas apresentam adequação funcional em relação à finalidade do serviço.
+
+## 2. Confiabilidade
+
+### M4 — Maturidade
+
+**Questão relacionada:** Qual é a proporção dos cenários de teste de confiabilidade avaliados que são concluídos sem falhas observáveis?
+
+**Definição:** Mede a proporção de cenários de teste de confiabilidade concluídos sem falhas observáveis, considerando a repetição das operações principais, a persistência das grades salvas, o uso contínuo do sistema e o acesso aos dados em diferentes sessões.
+
+**Fórmula:**
+
+```text
+M_c = (C_s / C_t) * 100
 ```
 
 Em que:
 
-- `R_e`: proporção de execuções sem falhas;
-- `E_s`: número de execuções concluídas sem falhas observáveis;
-- `E_t`: número total de execuções avaliadas.
+- `M_c`: proporção de cenários de confiabilidade concluídos sem falhas;
+- `C_s`: número de cenários concluídos sem falhas observáveis;
+- `C_t`: número total de cenários de confiabilidade avaliados.
 
-**Fonte dos dados:** registros de execução dos testes, resultados observados e evidências de falhas.
+**Fonte dos dados:** Resultados observados e evidências de falhas durante a utilização do Sua Grade UnB.
 
 **Procedimento de coleta:**
 
-1. Definir os cenários de teste e as condições de execução.
-2. Executar cada cenário conforme o procedimento estabelecido.
-3. Registrar falhas observadas, incluindo as condições em que ocorreram.
-4. Classificar as execuções como concluídas sem falhas ou com falhas.
-5. Calcular a proporção de execuções sem falhas.
+1. Definir os cenários de teste de confiabilidade e suas condições de execução.
+2. Executar testes de repetição das operações principais, persistência das grades salvas, uso contínuo e acesso em diferentes sessões.
+3. Registrar os resultados observados em cada cenário, incluindo eventuais falhas.
+4. Classificar cada cenário como concluído sem falhas ou concluído com falhas.
+5. Calcular a proporção de cenários concluídos sem falhas em relação ao total avaliado.
 
-# espaço para resultado obtido, atualizar interpretação com o resultado tambem 
+Descrição da coleta: Foram executados quatro cenários de teste:
 
-**Interpretação:** valores mais elevados indicam maior proporção de execuções sem falhas observáveis nas condições testadas. A métrica não demonstra, isoladamente, a ausência de defeitos nem a confiabilidade do produto em todas as condições de uso.
+| Cenário de teste | Descrição | Resultado |
+| :--- | :--- | :--- |
+| Repetição das operações principais | Realizar buscas de disciplinas, selecionar turmas, gerar grades e salvá-las na nuvem repetidamente, verificando a ocorrência de falhas. | Sem falhas observáveis |
+| Persistência das grades salvas | Salvar grades e verificar se continuam disponíveis após navegar pelo sistema e recarregar a página. | Sem falhas observáveis |
+| Uso contínuo | Utilizar o sistema durante um período contínuo, observando possíveis interrupções ou falhas inesperadas. | Sem falhas observáveis |
+| Acesso em diferentes sessões | Realizar login com uma conta Google, salvar uma grade, encerrar a sessão, autenticar-se novamente e verificar se a grade continua acessível. | Sem falhas observáveis |
+
+**Resultado obtido:** Os quatro cenários de teste foram concluídos sem falhas observáveis. Portanto, considerando os quatro cenários avaliados, o resultado foi:
+
+```text
+M_c = (4 / 4) * 100 = 100%
+```
+
+**Interpretação:** O resultado de 100% indica que todos os cenários de confiabilidade avaliados foram concluídos sem falhas observáveis. Esse resultado é favorável à confiabilidade do Sua Grade UnB nas condições testadas. Entretanto, a métrica considera a proporção de cenários aprovados, e não a frequência de falhas em todas as possíveis execuções do sistema. Portanto, o resultado não garante que o software esteja livre de falhas em situações não avaliadas.
 
 ### M5 — Disponibilidade observada
 
@@ -167,48 +221,73 @@ Em que:
 **Procedimento de coleta proposto:**
 
 1. Realizar verificações em horários predefinidos durante cinco dias consecutivos, distribuindo-as entre manhã, tarde e noite, totalizando 15 verificações.
-2. Em cada verificação, testar o acesso ao produto e executar a operação funcional selecionada.
+2. Em cada verificação, testar o acesso ao produto e criar uma serie grade.
 3. Registrar data, horário, resultado e evidência.
 4. Investigar problemas de conexão ou outras condições externas que possam comprometer a interpretação do resultado.
 5. Calcular a proporção de verificações bem-sucedidas.
 
+| Dia | Manhã | Tarde | Noite | Evidências |
+| :---: | :---: | :---: | :---: | :--- |
+| Dia 1 | Ativo | Ativo | Ativo | [E1](), [E2](), [E3]() |
+| Dia 2 | Ativo | Ativo | Ativo | [E4](), [E5](), [E6]() |
+| Dia 3 | Ativo | Ativo | Ativo | [E7](), [E8](), [E9]() |
+| Dia 4 | Ativo | Ativo | Ativo | [E10](), [E11](), [E12]() |
+| Dia 5 | Ativo | Ativo | Ativo | [E13](), [E14](), [E15]() |
+
 Uma verificação será considerada bem-sucedida quando o produto puder ser acessado, a página principal carregar sem erro impeditivo e a operação selecionada produzir o resultado esperado.
 
-# espaço para resultado obtido, atualizar interpretação com o resultado tambem 
+Resultado obtido: As verificações foram realizadas durante cinco dias consecutivos, com três verificações por dia, totalizando 15 verificações. Em todas elas, o produto esteve disponível e permitiu o acesso e a execução da operação funcional selecionada. Portanto, o resultado foi:
 
-**Interpretação:** a métrica descreve a proporção de verificações bem-sucedidas durante a janela observada. Ela não deve ser interpretada como uma estimativa de disponibilidade contínua ao longo do tempo, pois a coleta é amostral. A janela e a quantidade de verificações são propostas de avaliação e deverão ser confirmadas antes da coleta.
+D = (15 / 15) * 100 = 100%
+
+Interpretação: O resultado de 100% indica que o Sua Grade UnB esteve acessível em todas as verificações realizadas durante o período avaliado, sem indisponibilidade observada. Esse resultado demonstra disponibilidade observada satisfatória nas condições e nos horários testados. Entretanto, como as verificações ocorreram em momentos específicos do dia, não é possível concluir que o sistema permaneceu disponível ininterruptamente durante os cinco dias.
 
 ### M6 — Tolerância a falhas
 
-**Questão relacionada:** Qual é a proporção das situações de falha avaliadas em que o produto mantém ou recupera o comportamento esperado sem perda inaceitável?
+**Questão relacionada:** Qual é a proporção das situações de falha avaliadas em que o sistema identifica o problema e fornece um aviso adequado ao usuário?
 
-**Definição:** Mede a proporção das situações de falha selecionadas para avaliação em que o produto mantém ou recupera o comportamento esperado, conforme critérios definidos previamente.
+**Definição:** Mede a proporção das situações de falha previstas nos testes em que o Sua Grade UnB reconhece uma condição que impede a operação solicitada e informa o usuário adequadamente, permitindo compreender por que a operação não pôde ser concluída.
 
 **Fórmula:**
 
 ```text
-T_f = (F_r / F_a) * 100
+T_f = (F_i / F_t) * 100
 ```
 
 Em que:
 
 - `T_f`: proporção de situações de falha tratadas adequadamente;
-- `F_r`: número de situações de falha em que o comportamento esperado foi mantido ou recuperado;
-- `F_a`: número total de situações de falha avaliadas.
+- `F_i`: número de situações de falha identificadas e comunicadas adequadamente pelo sistema;
+- `F_t`: número total de situações de falha avaliadas.
 
-**Fonte dos dados:** cenários de teste de falhas, comportamento esperado e evidências das execuções.
+**Fonte dos dados:** Resultados dos testes realizados no Sua Grade UnB e mensagens de aviso exibidas pelo sistema diante de condições que impedem a execução das operações solicitadas.
 
 **Procedimento de coleta:**
 
-1. Identificar situações de falha relevantes e reproduzíveis para o produto.
-2. Definir o comportamento esperado em cada situação.
-3. Executar os cenários em ambiente controlado, quando viável.
-4. Registrar se o produto manteve ou recuperou o comportamento esperado.
-5. Calcular a proporção de situações tratadas adequadamente.
+1. Tentar buscar uma disciplina sem informar o período letivo.
+2. Tentar selecionar mais de quatro turmas de uma mesma disciplina.
+3. Realizar uma busca de disciplinas utilizando parâmetros que não retornem resultados.
+4. Tentar inserir uma disciplina em uma grade quando não houver possibilidade de adicioná-la sem conflito de horários.
+5. Registrar se o sistema identifica cada situação e apresenta um aviso que explique adequadamente o motivo pelo qual a operação não pode ser concluída.
+6. Classificar cada situação como tratada adequadamente ou não tratada adequadamente.
+7. Calcular a proporção de situações tratadas adequadamente em relação ao total avaliado.
 
-# espaço para resultado obtido, atualizar interpretação com o resultado tambem 
+**Resultado obtido:** Nas quatro situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de quatro turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados e quando não era possível inserir uma disciplina sem gerar conflito de horários.
 
-**Interpretação:** valores mais elevados indicam maior proporção de situações de falha tratadas adequadamente entre as avaliadas. Se não for possível definir e executar situações de falha pertinentes, a métrica deverá ser registrada como não avaliada, em vez de receber um resultado presumido.
+Considerando que as quatro situações foram identificadas e comunicadas adequadamente pelo sistema, o resultado foi:
+
+```text
+T_f = (4 / 4) * 100 = 100%
+```
+| Teste | Descrição | Aviso | Evidência |
+| :---: | :--- | :---: | :--- |
+| T1 | Buscar uma disciplina sem informar o período letivo. | Sim | [E1]() |
+| T2 | Tentar selecionar mais de quatro turmas de uma mesma disciplina. | Sim | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Selecionando%20mais%20de%204%20turmas%20da%20mesma%20materia.png) |
+| T3 | Buscar disciplinas com parâmetros que não retornam resultados. | Sim | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Busca%20por%20materia%20e%20professor%20(falha).png) |
+| T4 | Tentar inserir uma disciplina que não pode ser encaixado em uma grade válida por conflito. | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Impedir%20conflitos%20de%20horarios.png) |
+| T5 | Tentar buscar sem parametros. | Sim | [E4]() |
+
+**Interpretação:** O resultado de 100% indica que todas as situações de falha avaliadas foram acompanhadas de avisos do sistema. Isso demonstra que, nos cenários testados, o Sua Grade UnB fornece respostas informativas quando determinadas condições impedem a realização das operações solicitadas. Entretanto, a métrica avalia especificamente a identificação e a comunicação dessas situações, não abrangendo a recuperação automática de falhas, a continuidade do serviço após erros ou a prevenção de perda de dados.
 
 ## 3. Portabilidade
 
@@ -248,10 +327,11 @@ Em que:
 
 Os dados brutos, as evidências e os registros de cálculo deverão ser mantidos no repositório do projeto, permitindo relacionar cada resultado à respectiva fonte.
 
-Os critérios de julgamento e os níveis de pontuação de cada métrica deverão ser documentados em `criterios-julgamento.md`. Quando uma métrica depender de testes ainda não realizados, seu resultado será registrado como pendente até a coleta das evidências necessárias.
+Os critérios de julgamento e os níveis de pontuação de cada métrica deverão ser documentados em `criterios-julgamento.md`. 
 
 A métrica de completude funcional utiliza o planejamento do *story map* como referência. As demais métricas dependem de cenários, condições e resultados esperados definidos antes da coleta, de modo a garantir consistência e reprodutibilidade.
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | Versão inicial das metricas | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
+| 1.1 | Adição das métricas de funcionalidades e confiabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
