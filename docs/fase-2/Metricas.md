@@ -228,10 +228,10 @@ Em que:
 
 | Dia | Manhã | Tarde | Noite | Evidências |
 | :---: | :---: | :---: | :---: | :--- |
-| Dia 1 | Ativo | Ativo | Ativo | [E1](), [E2](), [E3]() |
-| Dia 2 | Ativo | Ativo | Ativo | [E4](), [E5](), [E6]() |
-| Dia 3 | Ativo | Ativo | Ativo | [E7](), [E8](), [E9]() |
-| Dia 4 | Ativo | Ativo | Ativo | [E10](), [E11](), [E12]() |
+| Dia 1 | Ativo | Ativo | Ativo | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-19%2014h%2023m.png), [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-19%2019h%2016m.png), [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-19%209h%2022m.png) |
+| Dia 2 | Ativo | Ativo | Ativo | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-20%2010h%2017m.png), [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-20%2013h%2040m.png), [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-20%2023h%2040m.png) |
+| Dia 3 | Ativo | Ativo | Ativo | [E7](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-21%2012h%2013m.png), [E8](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-21%2013h%2020m.png), [E9](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-21%2020h%2020m.png) |
+| Dia 4 | Ativo | Ativo | Ativo | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-22%2010h%2020m.png), [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-22%2014h%2024m.png), [E12](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-22%2019h%2009m.png) |
 | Dia 5 | Ativo | Ativo | Ativo | [E13](), [E14](), [E15]() |
 
 Uma verificação será considerada bem-sucedida quando o produto puder ser acessado, a página principal carregar sem erro impeditivo e a operação selecionada produzir o resultado esperado.
@@ -281,11 +281,11 @@ T_f = (4 / 4) * 100 = 100%
 ```
 | Teste | Descrição | Aviso | Evidência |
 | :---: | :--- | :---: | :--- |
-| T1 | Buscar uma disciplina sem informar o período letivo. | Sim | [E1]() |
+| T1 | Buscar uma disciplina sem informar o período letivo. | Sim | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Buscar%20sem%20escolher%20periodo%20(falha).png) |
 | T2 | Tentar selecionar mais de quatro turmas de uma mesma disciplina. | Sim | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Selecionando%20mais%20de%204%20turmas%20da%20mesma%20materia.png) |
 | T3 | Buscar disciplinas com parâmetros que não retornam resultados. | Sim | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Busca%20por%20materia%20e%20professor%20(falha).png) |
 | T4 | Tentar inserir uma disciplina que não pode ser encaixado em uma grade válida por conflito. | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Impedir%20conflitos%20de%20horarios.png) |
-| T5 | Tentar buscar sem parametros. | Sim | [E4]() |
+| T5 | Tentar buscar sem parametros. | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Buscar%20sem%20parametros.png) |
 
 **Interpretação:** O resultado de 100% indica que todas as situações de falha avaliadas foram acompanhadas de avisos do sistema. Isso demonstra que, nos cenários testados, o Sua Grade UnB fornece respostas informativas quando determinadas condições impedem a realização das operações solicitadas. Entretanto, a métrica avalia especificamente a identificação e a comunicação dessas situações, não abrangendo a recuperação automática de falhas, a continuidade do serviço após erros ou a prevenção de perda de dados.
 
@@ -313,15 +313,26 @@ Em que:
 
 **Procedimento de coleta:**
 
-1. Selecionar e documentar os ambientes pertinentes ao uso do produto, como navegadores e sistemas operacionais.
-2. Definir as condições necessárias para considerar o produto utilizável em cada ambiente.
-3. Executar os mesmos cenários funcionais nos ambientes selecionados.
-4. Registrar os resultados e as evidências por ambiente.
-5. Calcular a proporção de ambientes compatíveis.
+- Acessar o Sua Grade UnB nos navegadores Mozilla Firefox, Opera GX, Brave e Microsoft Edge.
+- Acessar o sistema em um dispositivo móvel utilizando os navegadores DuckDuckGo e Google Chrome.
+- Verificar se o sistema pode ser acessado e se suas funcionalidades podem ser utilizadas conforme o comportamento esperado.
+- Registrar o resultado de cada teste, identificando eventuais problemas de funcionamento.
+- Calcular a proporção de ambientes nos quais o sistema funcionou corretamente.
 
-# espaço para resultado obtido, atualizar interpretação com o resultado tambem 
+Resultado obtido: Foram avaliados seis ambientes de navegação: Mozilla Firefox, Opera GX, Brave, Microsoft Edge, DuckDuckGo para dispositivos móveis e Google Chrome para dispositivos móveis. Em todos os ambientes testados, o sistema funcionou corretamente, sem problemas observados que impedissem sua utilização.
 
-**Interpretação:** valores mais elevados indicam compatibilidade com uma parcela maior dos ambientes avaliados. A conclusão deve se restringir aos ambientes efetivamente testados.
+P = (6 / 6) * 100 = 100%
+
+| Teste | Ambiente | Funcionou  | Evidência |
+| :---: | :--- | :---: | :--- |
+| T1 | Mozilla firefox (Windows) | Sim | [E1]() |
+| T2 | Opera gx (Windows) | Sim | [E2]() |
+| T3 | Brave (Windows) | Sim | [E3]() |
+| T4 | Microsoft Edge (Windows) | Sim | [E4]() |
+| T5 | DuckDuckGo (Android) | Sim | [E4]() |
+| T6 | Chrome (Android) | Sim | [E5]() |
+
+Interpretação: O resultado de 100% indica que o Sua Grade UnB funcionou corretamente em todos os ambientes de navegação avaliados, incluindo navegadores utilizados em computadores e dispositivos móveis. Esse resultado demonstra compatibilidade nos ambientes testados, mas não garante o funcionamento adequado em todos os navegadores, dispositivos, sistemas operacionais ou versões existentes.
 
 ## 4. Rastreabilidade e julgamento
 
@@ -335,3 +346,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | Versão inicial das metricas | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.1 | Adição das métricas de funcionalidades e confiabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
+| 1.2 | Adição das evidencias em confiabilidade e resultado de portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
