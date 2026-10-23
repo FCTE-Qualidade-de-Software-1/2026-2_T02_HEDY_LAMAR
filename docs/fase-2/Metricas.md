@@ -325,12 +325,12 @@ P = (6 / 6) * 100 = 100%
 
 | Teste | Ambiente | Funcionou  | Evidência |
 | :---: | :--- | :---: | :--- |
-| T1 | Mozilla firefox (Windows) | Sim | [E1]() |
-| T2 | Opera gx (Windows) | Sim | [E2]() |
-| T3 | Brave (Windows) | Sim | [E3]() |
-| T4 | Microsoft Edge (Windows) | Sim | [E4]() |
-| T5 | DuckDuckGo (Android) | Sim | [E4]() |
-| T6 | Chrome (Android) | Sim | [E5]() |
+| T1 | Mozilla firefox (Windows) | Sim | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-19%209h%2022m.png) |
+| T2 | Opera gx (Windows) | Sim | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20no%20opera.png) |
+| T3 | Brave (Windows) | Sim | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20no%20brave.png) |
+| T4 | Microsoft Edge (Windows) | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20no%20microsoft%20edge.png) |
+| T5 | DuckDuckGo (Android) | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20duckduckgo%20(celular).jpeg) |
+| T6 | Chrome (Android) | Sim | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20chrome%20(celular).jpeg) |
 
 Interpretação: O resultado de 100% indica que o Sua Grade UnB funcionou corretamente em todos os ambientes de navegação avaliados, incluindo navegadores utilizados em computadores e dispositivos móveis. Esse resultado demonstra compatibilidade nos ambientes testados, mas não garante o funcionamento adequado em todos os navegadores, dispositivos, sistemas operacionais ou versões existentes.
 
@@ -347,3 +347,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.0 | Versão inicial das metricas | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.1 | Adição das métricas de funcionalidades e confiabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em confiabilidade e resultado de portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
+| 1.2 | Adição das evidencias em portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
