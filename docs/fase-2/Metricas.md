@@ -95,11 +95,11 @@ C_c = (15 / 15) * 100 = 100%
 
 | Disciplina | Professor | Local | Horário | Resultado | Evidência |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| Física 1 | Lindomar | I3 | 35M12 | Correto | [E1]() |
-| Banco de Dados 2 | Vandor | I10 | 35T34 | Correto | [E2]() |
-| Qualidade de Software | Cristiane | S6 | 24M34 | Correto | [E3]() |
-| Arquitetura e Desenho de Software | Milene | S4 | 26M12 | Correto | [E4]() |
-| Ciências Aeroespaciais | Gabriela | S5 | 35M34 | Correto | [E5]() |
+| Física 1 | Lindomar | I3 | 35M12 | Correto | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disicplinas/Fisica%201.png) |
+| Banco de Dados 2 | Vandor | I10 | 35T34 | Correto | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disicplinas/BD%202.png) |
+| Qualidade de Software | Cristiane | S6 | 24M34 | Correto | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disicplinas/Qualidade.png) |
+| Arquitetura e Desenho de Software | Milene | S4 | 26M12 | Correto | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disicplinas/AqDsSo.png) |
+| Ciências Aeroespaciais | Gabriela | S5 | 35M34 | Correto | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disicplinas/CA.png) |
 
 **Interpretação:** o resultado de 100% indica que os 15 atributos verificados — professor, local e horário para cada uma das cinco disciplinas — corresponderam aos dados consultados no SIGAA. A conclusão limita-se à amostra e ao momento da verificação; não garante que todas as informações do sistema estejam corretas ou que permaneçam atualizadas após alterações no SIGAA.
 
@@ -227,7 +227,7 @@ Em que:
 | Dia 2 | Ativo | Ativo | Ativo | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-20%2010h%2017m.png), [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-20%2013h%2040m.png), [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-20%2023h%2040m.png) |
 | Dia 3 | Ativo | Ativo | Ativo | [E7](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-21%2012h%2013m.png), [E8](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-21%2013h%2020m.png), [E9](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-21%2020h%2020m.png) |
 | Dia 4 | Ativo | Ativo | Ativo | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-22%2010h%2020m.png), [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-22%2014h%2024m.png), [E12](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-22%2019h%2009m.png) |
-| Dia 5 | Ativo | Ativo | Ativo | [E13](), [E14](), [E15]() |
+| Dia 5 | Ativo | Ativo | Ativo | [E13](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-23%2009h%2048m.png), [E14](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-23%2014h%2034m.png), [E15](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/disponibilidade/Captura%20de%20tela%202026-10-23%2022h%2056m.png) |
 
 Uma verificação será considerada bem-sucedida quando o produto puder ser acessado, a página principal carregar sem erro impeditivo e a operação selecionada produzir o resultado esperado.
 
@@ -343,4 +343,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.1 | Adição das métricas de funcionalidades e confiabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em confiabilidade e resultado de portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
-| 1.3 | Correção do M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |
+| 1.3 | Correção do M6 e M2| [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |
