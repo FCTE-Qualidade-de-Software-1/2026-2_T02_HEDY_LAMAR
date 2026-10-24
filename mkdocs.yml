@@ -1,0 +1,48 @@
+site_name: Sua Grade UnB — Grupo Hedy Lamarr
+site_url: https://fcte-qualidade-de-software-1.github.io/2026-2_T02_HEDY_LAMAR/
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR
+
+theme:
+  name: material
+  language: pt-BR
+  font:
+    text: Source Sans 3
+    code: Source Code Pro
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Mudar para o modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para o modo claro
+  features:
+    # sem navigation.sections nem navigation.indexes: cada fase do menu é um dropdown com suas opções
+    - navigation.top
+    - toc.follow
+
+extra_css:
+  - stylesheets/mkdocs.css
+
+nav:
+  - Introdução: index.md
+  - Fase 1:
+      - 2.1 Propósito da Avaliação: fase-1/proposito.md
+      - 2.2 Requisitantes e Partes Interessadas: fase-1/requisitantes.md
+      - 2.3 Descrição do Produto: fase-1/produto.md
+      - 2.4 Justificativas: fase-1/justificativas.md
+      - 2.5 Modelo de Qualidade e Escopo: fase-1/modelo.md
+      - 2.6 Tabela de Contribuição: fase-1/contribuicao.md
+      - 2.7 Uso de Inteligência Artificial: fase-1/uso-da-ia.md
+  - Fase 2:
+      - Em breve: fase-2/index.md
+  - Extras:
+      - Heatmap de disponibilidade: extras/heatmap.md
+      - Modelo de ata de reunião: atas/padrao-ata.md
