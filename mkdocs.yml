@@ -24,7 +24,6 @@ theme:
         icon: material/weather-sunny
         name: Mudar para o modo claro
   features:
-    # sem navigation.sections nem navigation.indexes: cada fase do menu é um dropdown com suas opções
     - navigation.top
     - toc.follow
 
@@ -41,8 +40,12 @@ nav:
       - 2.5 Modelo de Qualidade e Escopo: fase-1/modelo.md
       - 2.6 Tabela de Contribuição: fase-1/contribuicao.md
       - 2.7 Uso de Inteligência Artificial: fase-1/uso-da-ia.md
+
   - Fase 2:
-      - Em breve: fase-2/index.md
+      - Critérios: fase-2/criterios.md
+      - Métricas: fase-2/Metricas.md
+      - Objetivos: fase-2/objetivos.md
+
   - Extras:
       - Heatmap de disponibilidade: extras/heatmap.md
       - Modelo de ata de reunião: atas/padrao-ata.md
