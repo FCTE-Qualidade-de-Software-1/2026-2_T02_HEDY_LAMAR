@@ -41,7 +41,7 @@ Na contagem, cada funcionalidade considerada deve corresponder a uma unidade ide
 Foram identificadas 11 funcionalidades planejadas, das quais 10 estão implementadas. A funcionalidade ausente identificada foi a possibilidade de apagar uma grade horária salva localmente diretamente pelo produto. Excluir manualmente um arquivo pelo sistema operacional não foi considerado equivalente, pois essa ação não é oferecida pelo produto como funcionalidade própria.
 
 ```text
-C_f = (10 / 11) * 100 ≈ 90,90%
+C_f = (10 / 11) * 100 ≈ 90,91%
 ```
 | ID | Requisito | Evidência |
 | :---: | :--- | :--- |
@@ -57,56 +57,51 @@ C_f = (10 / 11) * 100 ≈ 90,90%
 | R10 | Salvar grade na nuvem | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 | R11 | Apagar grade horária na nuvem | [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 
-**Interpretação:** o resultado indica que 90,90% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em `criterios-julgamento.md`.
+**Interpretação:** o resultado indica que 90,91% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em `criterios-julgamento.md`.
 
 ### M2 — Correção funcional
 
-**Questão relacionada:** Qual é a proporção das execuções de tarefas avaliadas que produzem os resultados esperados?
+**Questão relacionada:** Qual é a proporção das informações acadêmicas exibidas pelo Sua Grade UnB que corresponde às informações registradas no SIGAA?
 
-**Definição:** Mede a proporção de execuções de tarefas em que o produto produz o resultado esperado, conforme os requisitos e as condições definidos para cada teste.
+**Definição:** Mede a proporção dos atributos acadêmicos verificados no Sua Grade UnB que correspondem aos dados registrados no SIGAA. Nesta avaliação, foram comparados o nome do professor, a localização da turma e o horário de cinco disciplinas. A disciplina e sua turma devem ser identificadas de forma correspondente nos dois sistemas para que a comparação seja válida.
 
 **Fórmula:**
 
 ```text
-C_c = (T_c / T_e) * 100
+C_c = (A_c / A_v) * 100
 ```
 
 Em que:
 
-- `C_c`: proporção de execuções corretas;
-- `T_c`: número de execuções que produziram o resultado esperado;
-- `T_e`: número total de execuções avaliadas.
+- `C_c`: proporção de atributos acadêmicos corretos, em porcentagem;
+- `A_c`: número de atributos verificados que correspondem aos dados do SIGAA;
+- `A_v`: número total de atributos verificados.
 
-**Fonte dos dados:** requisitos do produto, cenários de teste, resultados esperados.
+**Fonte dos dados:** informações exibidas pelo Sua Grade UnB e registros correspondentes no SIGAA, considerando a mesma disciplina, turma e período letivo.
 
 **Procedimento de coleta:**
 
-1. Selecionar tarefas funcionais previstas no planejamento.
-2. Definir previamente o resultado esperado para cada tarefa.
-3. Executar os cenários de teste nas condições estabelecidas.
-4. Registrar o resultado observado.
-5. Contabilizar as execuções que produziram o resultado esperado e calcular a proporção.
+1. Selecionar disciplinas e turmas exibidas pelo Sua Grade UnB.
+2. Consultar no SIGAA os dados correspondentes de cada turma.
+3. Comparar individualmente o professor, a localização e o horário exibidos pelos dois sistemas.
+4. Registrar cada comparação como correta ou incorreta e associar a evidência que permita verificar os dados em ambos os sistemas.
+5. Contabilizar os atributos corretos e o total de atributos verificados e aplicar a fórmula.
 
-Procedimento de coleta: Escolhemos cinco funcionalidades pricipais para testes, já que a execução delas implica a execução das restantes. Selecionamos: Logar, buscar matérias, adicionar materias, criar grades e salvar grades. Cada uma foi testada cinco vezes, totalizando 25 execuções. Em cada execução, verificou-se se a funcionalidade apresentava o comportamento esperado.
-
-Fonte dos dados: resultados observados durante a execução dos testes funcionais do sistema, registrados pela equipe.
-
-Resultado obtido: todas as 25 execuções foram bem-sucedidas, produzindo os resultados esperados. Portanto:
+**Resultado obtido:** foram verificadas cinco disciplinas, comparando três atributos de cada uma — professor, localização e horário —, totalizando 15 atributos. Todos correspondiam às informações consultadas no SIGAA.
 
 ```text
-C_c = (25 / 25) * 100 = 100%
+C_c = (15 / 15) * 100 = 100%
 ```
 
-| ID | Requisito | Evidência |
-| :---: | :--- | :--- |
-| T1 | Criar grade horária | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Gerar%20grades%20validas.png) |
-| T2 | Adicionar matéria selecionada | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Materia%20selecionada.png) |
-| T3 | Fazer registro e login via Google | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Cadastro%20atrav%C3%A9s%20do%20google.png) |
-| T4 | Salvar grade localmente | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grade%20localmente.png) |
-| T5 | Salvar grade na nuvem | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
-| T6 | Apagar grade horária na nuvem | [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
+| Disciplina | Professor | Local | Horário | Resultado | Evidência |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| Física 1 | Lindomar | I3 | 35M12 | Correto | [E1]() |
+| Banco de Dados 2 | Vandor | I10 | 35T34 | Correto | [E2]() |
+| Qualidade de Software | Cristiane | S6 | 24M34 | Correto | [E3]() |
+| Arquitetura e Desenho de Software | Milene | S4 | 26M12 | Correto | [E4]() |
+| Ciências Aeroespaciais | Gabriela | S5 | 35M34 | Correto | [E5]() |
 
-**Interpretação:** Assim, o sistema apresentou um percentual de correção funcional de 100% nas execuções realizadas. Esse resultado se limita às funcionalidades testadas e às condições em que os testes foram executados, não garantindo a ausência de erros em outras situações.
+**Interpretação:** o resultado de 100% indica que os 15 atributos verificados — professor, local e horário para cada uma das cinco disciplinas — corresponderam aos dados consultados no SIGAA. A conclusão limita-se à amostra e ao momento da verificação; não garante que todas as informações do sistema estejam corretas ou que permaneçam atualizadas após alterações no SIGAA.
 
 ### M3 — Adequação às tarefas dos usuários
 
@@ -265,16 +260,16 @@ Em que:
 **Procedimento de coleta:**
 
 1. Tentar buscar uma disciplina sem informar o período letivo.
-2. Tentar selecionar mais de quatro turmas de uma mesma disciplina.
+2. Tentar selecionar mais de cinco turmas de uma mesma disciplina.
 3. Realizar uma busca de disciplinas utilizando parâmetros que não retornem resultados.
 4. Tentar inserir uma disciplina em uma grade quando não houver possibilidade de adicioná-la sem conflito de horários.
 5. Registrar se o sistema identifica cada situação e apresenta um aviso que explique adequadamente o motivo pelo qual a operação não pode ser concluída.
 6. Classificar cada situação como tratada adequadamente ou não tratada adequadamente.
 7. Calcular a proporção de situações tratadas adequadamente em relação ao total avaliado.
 
-**Resultado obtido:** Nas quatro situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de quatro turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados e quando não era possível inserir uma disciplina sem gerar conflito de horários.
+**Resultado obtido:** Nas cinco situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de cinco turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados e quando não era possível inserir uma disciplina sem gerar conflito de horários.
 
-Considerando que as quatro situações foram identificadas e comunicadas adequadamente pelo sistema, o resultado foi:
+Considerando que as cinco situações foram identificadas e comunicadas adequadamente pelo sistema, o resultado foi:
 
 ```text
 T_f = (4 / 4) * 100 = 100%
@@ -348,3 +343,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.1 | Adição das métricas de funcionalidades e confiabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em confiabilidade e resultado de portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
+| 1.3 | Correção do M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |

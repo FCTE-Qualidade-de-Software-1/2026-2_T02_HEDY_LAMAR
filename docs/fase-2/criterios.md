@@ -35,12 +35,12 @@ A métrica é calculada pela proporção entre as funcionalidades implementadas 
 | :--- | :--- | :--- |
 | Insuficiente | Menor que 63,64% | Menos de 7 das 11 funcionalidades planejadas estão implementadas. |
 | Satisfatório | De 63,64% a 81,81% | Entre 7 e 8 funcionalidades estão implementadas, indicando lacunas relevantes em relação ao planejamento. |
-| Bom | De 81,82% a 90,90% | 9 das 11 funcionalidades estão implementadas, com poucas funcionalidades ausentes. |
-| Excelente | De 90,91% a 100% | Pelo menos 10 das 11 funcionalidades estão implementadas. |
+| Bom | De 81,82% a 89,99% | 9 das 11 funcionalidades estão implementadas, com poucas funcionalidades ausentes. |
+| Excelente | De 90% a 100% | Pelo menos 10 das 11 funcionalidades estão implementadas. |
 
-**Resultado obtido:** 90,90%.
+**Resultado obtido:** 90,91%.
 
-**Julgamento:** Bom. O produto apresenta 10 das 11 funcionalidades planejadas implementadas. A ausência da operação de exclusão de uma grade salva localmente impede que o resultado alcance o nível Excelente conforme os limites estabelecidos.
+**Julgamento:** Excelente. O produto apresenta 10 das 11 funcionalidades planejadas implementadas. A ausência da operação de exclusão de uma grade salva localmente não chega a impedir que o resultado alcance o nível Excelente conforme os limites estabelecidos.
 
 ### 3.2. M2 — Correção funcional
 
