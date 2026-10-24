@@ -44,20 +44,20 @@ A métrica é calculada pela proporção entre as funcionalidades implementadas 
 
 ### 3.2. M2 — Correção funcional
 
-**Objetivo do julgamento:** avaliar a proporção das execuções de tarefas funcionais que produzem os resultados esperados.
+**Objetivo do julgamento:** avaliar a proporção dos atributos das informações acadêmicas exibidas pelo Sua Grade UnB que correspondem às informações registradas no SIGAA, considerando professor, local e horário das disciplinas verificadas.
 
-A classificação considera o número de execuções bem-sucedidas em relação ao total de execuções realizadas.
+A classificação considera o número de atributos corretos em relação ao total de atributos verificados. Para as cinco disciplinas avaliadas, foram verificados 15 atributos (três por disciplina).
 
 | Nível | Resultado | Critério de julgamento |
 | :--- | :--- | :--- |
-| Insuficiente | Menor que 70% | Menos de 18 das 25 execuções produzem o resultado esperado. |
-| Satisfatório | De 70% a 84,99% | Entre 18 e 21 execuções são bem-sucedidas. |
-| Bom | De 85% a 94,99% | Entre 22 e 23 execuções são bem-sucedidas. |
-| Excelente | De 95% a 100% | Pelo menos 24 das 25 execuções produzem o resultado esperado. |
+| Insuficiente | Menor que 70% | Menos de 11 dos 15 atributos correspondem às informações do SIGAA. |
+| Satisfatório | De 70% a 84,99% | Entre 11 e 12 atributos correspondem às informações do SIGAA. |
+| Bom | De 85% a 94,99% | Entre 13 e 14 atributos correspondem às informações do SIGAA. |
+| Excelente | De 95% a 100% | Os 15 atributos correspondem às informações do SIGAA. |
 
 **Resultado obtido:** 100%.
 
-**Julgamento:** Excelente. Todas as 25 execuções registradas produziram os resultados esperados. Esse julgamento se limita às funcionalidades e às condições efetivamente testadas, não representando garantia de ausência de erros em outras situações.
+**Julgamento:** Excelente. Todos os 15 atributos verificados — professor, local e horário das cinco disciplinas — corresponderam às informações registradas no SIGAA. Esse julgamento se limita às disciplinas e aos atributos efetivamente avaliados, não representando garantia de que absolutamente todas as informações acadêmicas exibidas pelo sistema estejam corretas.
 
 ### 3.3. M3 — Adequação às tarefas dos usuários
 
@@ -171,3 +171,4 @@ Antes da consolidação dos resultados, devem ser conferidas eventuais divergên
 | Versão | Descrição | Autor | Data |
 | :---: | :--- | :--- | :--- |
 | 1.0 | Versão inicial dos critérios de julgamento e dos níveis de pontuação das métricas. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |
+| 1.1 | Atualização de correção funcional. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 24/10/2026 |
