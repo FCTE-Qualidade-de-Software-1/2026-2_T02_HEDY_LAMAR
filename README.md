@@ -47,12 +47,10 @@ Os diagramas e as imagens usados no trabalho estão na pasta [`docs/assets/`](do
 
 A imagem original do modelo está em [`modelo-qualidade-iso-original.png`](docs/assets/modelo-qualidade-iso-original.png). O heatmap pode ser consultado em [`heatmap.png`](docs/assets/heatmap.png), com a explicação em [Heatmap de disponibilidade](docs/extras/heatmap.md).
 
-## Integrantes
+## Colaboradores
 
-| Integrante | GitHub |
-|---|---|
-| João Vitor Santos | [@Jauzimm](https://github.com/Jauzimm) |
-| Caua Clemente | [@CauaoClemente](https://github.com/CauaoClemente) |
-| Pablo Rodrigues | [@Pablo-R-L](https://github.com/Pablo-R-L) |
-| Leonardo Rodrigues | [@Antedeguemon21](https://github.com/Antedeguemon21) |
-| Joao Victor | [@jmarquees](https://github.com/jmarquees) |
+<font size="3"><p style="text-align: left">**Tabela 1** - Colaboradores.</p></font>
+
+| <img src="https://github.com/Jauzimm.png" width="150px" > | <img src="https://github.com/CauaoClemente.png" width="150px"> | <img src="https://github.com/Pablo-R-L.png" width="150px"> | <img src="https://github.com/Antedeguemon21.png" width="150px"> | <img src="https://github.com/jmarquees.png" width="150px"> |
+| :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------------------------------: |
+|      [João Vitor Santos](https://github.com/Jauzimm)      |       [Caua Clemente](https://github.com/CauaoClemente)        |      [Pablo Rodrigues](https://github.com/Pablo-R-L)      |       [Leonardo Rodrigues](https://github.com/LeonardoRodriguesMarrtinns99)       |       [Joao Victor](https://github.com/jmarquees)
