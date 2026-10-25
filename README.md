@@ -51,6 +51,6 @@ A imagem original do modelo está em [`modelo-qualidade-iso-original.png`](docs/
 
 <font size="3"><p style="text-align: left">**Tabela 1** - Colaboradores.</p></font>
 
-| <img src="https://github.com/Jauzimm.png" width="150px" > | <img src="https://github.com/CauaoClemente.png" width="150px"> | <img src="https://github.com/Pablo-R-L.png" width="150px"> | <img src="https://github.com/Antedeguemon21.png" width="150px"> | <img src="https://github.com/jmarquees.png" width="150px"> |
+| <img src="https://github.com/Jauzimm.png" width="150px" > | <img src="https://github.com/CauaoClemente.png" width="150px"> | <img src="https://github.com/Pablo-R-L.png" width="150px"> | <img src="https://github.com/LeonardoRodriguesMarrtinns99.png" width="150px"> | <img src="https://github.com/jmarquees.png" width="150px"> |
 | :-------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------------------------------: |
 |      [João Vitor Santos](https://github.com/Jauzimm)      |       [Caua Clemente](https://github.com/CauaoClemente)        |      [Pablo Rodrigues](https://github.com/Pablo-R-L)      |       [Leonardo Rodrigues](https://github.com/LeonardoRodriguesMarrtinns99)       |       [Joao Victor](https://github.com/jmarquees)
