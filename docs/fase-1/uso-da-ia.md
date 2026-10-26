@@ -50,4 +50,4 @@ A ferramenta pode produzir texto plausível e impreciso. Por isso, a conferênci
 
 | Versão |          Descrição          |                       Autor                       |    Data    |                       Revisor                       | Data de revisão |
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
-|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 24/10/2026 |                                                     |                 |
+|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 24/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 26/10/2026  |
