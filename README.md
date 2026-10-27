@@ -12,7 +12,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que auxili
 - **Instituição:** Universidade de Brasília (UnB)
 - **Disciplina:** Qualidade de Software
 - **Equipe:** Hedy Lamarr
-- **Etapa documentada:** Fase 1
+- **Etapa documentada:** Fase 1 e Fase 2
 
 ## Navegação da documentação
 
@@ -28,6 +28,15 @@ Os documentos estão organizados por assunto para que leitores, docentes e integ
 | [Justificativas](docs/fase-1/justificativas.md) | Fundamentação das escolhas realizadas no trabalho. |
 | [Modelo de qualidade e escopo](docs/fase-1/modelo.md) | Modelo de qualidade adotado, características selecionadas e delimitação do escopo. |
 | [Tabela de contribuição](docs/fase-1/contribuicao.md) | Registro das contribuições dos integrantes. |
+
+### Documentos da Fase 2
+
+| Documento | Conteúdo |
+|---|---|
+| [Critérios de Julgamento](docs/fase-2/criterios.md) | Níveis de pontuação e critérios de avaliação. |
+| [Métricas](docs/fase-2/Metricas.md) | Definição e procedimentos de coleta das métricas. |
+| [Objetivos GQM](docs/fase-2/objetivos.md) | Objetivos, questões e hipóteses de medição. |
+| [Diagrama GQM](docs/fase-2/diagrama-gqm.md) | Representação gráfica da hierarquia de medição. |
 
 ### Materiais complementares
 
