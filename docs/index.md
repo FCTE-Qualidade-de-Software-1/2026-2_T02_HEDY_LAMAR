@@ -12,7 +12,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que auxili
 - **Instituição:** Universidade de Brasília (UnB)
 - **Disciplina:** Qualidade de Software
 - **Equipe:** Hedy Lamarr
-- **Etapa documentada:** Fase 1
+- **Etapa documentada:** Fase 1 e Fase 2
 
 ## Como navegar
 
@@ -33,6 +33,10 @@ Use o menu à esquerda para percorrer o projeto. A **Fase 1** reúne os document
 ![Modelo de qualidade utilizado na avaliação](assets/modelo-qualidade-iso.png)
 
 Para consultar a imagem original do modelo, acesse [modelo-qualidade-iso-original.png](assets/modelo-qualidade-iso-original.png). A metodologia do heatmap está descrita em [Heatmap de disponibilidade](extras/heatmap.md).
+
+### Diagrama GQM (Fase 2)
+
+O diagrama com a hierarquia de Objetivos, Questões e Métricas está disponível na página [Diagrama GQM](fase-2/diagrama-gqm.md).
 
 ## Equipe
 
