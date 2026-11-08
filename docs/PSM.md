@@ -244,7 +244,12 @@ integrado e, se útil, uma linha de referência para o tempo médio.*
 
 ### 5.7. Evidências da coleta
 
-*PREENCHER*
+PullRequests tempo (dias) evidencia
+PR1 0 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/6
+PR2 0 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/4
+PR3 2 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/3
+PR4 1 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/2
+PR5 1 [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/1)
 
 ### 5.8. Análise
 
