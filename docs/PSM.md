@@ -242,16 +242,7 @@ O resultado será apresentado em dias.
 *Inserir gráfico mostrando o tempo de resolução de cada Pull Request
 integrado e, se útil, uma linha de referência para o tempo médio.*
 
-### 5.7. Evidências da coleta
-
-PullRequests tempo (dias) evidencia
-PR1 0 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/6
-PR2 0 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/4
-PR3 2 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/3
-PR4 1 https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/2
-PR5 1 [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/pull/1)
-
-### 5.8. Análise
+### 5.7. Análise
 
 *PREENCHER MAS DO QUE EU VI ERA 0,8*
 
@@ -274,4 +265,5 @@ interpretado isoladamente como medida de produtividade ou qualidade.
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | Criação da documentação das métricas PSM/CID. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
+| 1.0 | Criação da documentação das métricas PSM/CID. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 05/10/2026 |   |  |
+| 1.1 | Remoção do tópico de evidencias. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 08/10/2026 |   |  |
