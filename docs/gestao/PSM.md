@@ -7,10 +7,12 @@ desenvolvimento do projeto, com foco no cumprimento dos prazos, na
 distribuição das contribuições registradas no repositório e no tempo
 necessário para integrar Pull Requests à branch `main`.
 
-A coleta e a consolidação dos dados serão realizadas por meio de
-automatizações que consultam o histórico e os registros do GitHub. Os
-resultados poderão ser atualizados periodicamente, mantendo a
-rastreabilidade entre os indicadores apresentados e os dados de origem.
+A coleta e a consolidação dos dados usam arquivos versionados em
+`dados/psm/` e scripts em `scripts/`, que consultam o histórico e os
+registros do GitHub. Os resultados são atualizados a cada coleta,
+mantendo a rastreabilidade entre os indicadores apresentados e os dados
+de origem. As medições, suas interpretações e as decisões de gestão
+decorrentes estão registradas nas seções 3 a 6.
 
 ## 2. Escopo e coleta dos dados
 
@@ -33,9 +35,10 @@ exigidas para o acompanhamento do projeto:
 | Recursos e Custos | Métrica 2: Distribuição de esforço por commits | Os commits são o indicador disponível do esforço da equipe, que é o principal recurso do projeto. |
 | Desempenho dos Processos | Métrica 3: Tempo médio de resolução de Pull Requests | Mede a rapidez com que o fluxo de revisão e integração do repositório conclui as alterações. |
 
-A coleta será automatizada a partir dos dados disponíveis no repositório
-GitHub. Os resultados numéricos e os gráficos serão inseridos após a
-execução da rotina de coleta.
+Os dados de cada métrica ficam em `dados/psm/` e os gráficos são
+gerados por scripts em `scripts/` a partir desses arquivos. Os
+resultados numéricos e os gráficos de cada métrica estão nas seções 3 a
+5.
 
 > **Nota sobre interpretação:** a quantidade de commits é utilizada como
 > um indicador indireto da distribuição das contribuições registradas.
@@ -378,7 +381,37 @@ recalculada na próxima coleta para acompanhar a Entrega 2.
 
 ------------------------------------------------------------------------
 
-## 6. Considerações finais
+## 6. Registro de decisões de gestão
+
+Esta seção reúne as decisões tomadas a partir das medições, relacionando
+cada uma ao resultado e à interpretação que a motivou, e indicando como
+o efeito da decisão será verificado na próxima coleta.
+
+### 6.1. Decisões registradas
+
+Tabela 1: Decisões de gestão decorrentes das medições.
+
+| ID | Categoria PSM/CID | Resultado da medição | Interpretação | Decisão | Verificação na próxima coleta |
+|:---:|:---|:---|:---|:---|:---|
+| D1 | Calendário e Progresso | Métrica 1: Entrega 1 concluída com 0 dia de antecedência (**Aceitável**), conforme a seção 3.5. | Entrega no próprio dia do prazo, sem margem para imprevistos (seção 3.7). | Definir, para a Entrega 2, um prazo interno 2 dias antes do prazo oficial e acompanhar as tarefas pendentes para redistribuí-las se o prazo interno estiver em risco. | Antecedência da Entrega 2 de 2 dias ou mais (faixa Ideal). |
+| D2 | Recursos e Custos | Métrica 2: 40,0% / 40,0% / 15,0% / 5,0% / 0,0% dos 40 commits; quatro de cinco integrantes em **Ruim** (seção 4.5). | A distribuição reflete também o trabalho fora do Git: o código LaTeX do artigo não está versionado no repositório (seção 4.7). | Versionar o código-fonte LaTeX do artigo no repositório e usar a Tabela de contribuição como referência complementar na interpretação da métrica. | Código LaTeX presente no repositório e participação de todos os integrantes registrada nos commits. |
+| D3 | Desempenho dos Processos | Métrica 3: tempo médio de resolução de 1,14 dia (**Ideal**), mediana de 0,80 dia, 6 Pull Requests integrados (seção 5.5). | Fluxo de integração rápido; amostra pequena e dependente da disponibilidade para revisão (seção 5.7). | Manter o fluxo atual de integração por Pull Requests. | Tempo médio de resolução de até 3 dias (faixa Ideal) na nova coleta. |
+
+### 6.2. Procedimento de atualização
+
+A cada nova coleta, o grupo deve:
+
+1.  Atualizar os dados em `dados/psm/` (`prs.csv`, `entregas.csv` e, para
+    os commits, executar `python scripts/coletar_commits.py` após
+    `git fetch origin`).
+2.  Gerar os gráficos com os scripts `gerar_grafico_*.py` em `scripts/`.
+3.  Atualizar os resultados e a análise nas seções 3 a 5.
+4.  Registrar, na Tabela 1, o resultado das decisões anteriores e as
+    novas decisões, com a data da coleta.
+
+------------------------------------------------------------------------
+
+## 7. Considerações finais
 
 As três métricas permitem acompanhar dimensões distintas do
 desenvolvimento: cumprimento dos prazos combinados, distribuição das
@@ -391,7 +424,7 @@ particular, a quantidade de commits não deve ser tratada como medida
 direta de esforço, e o tempo de integração de Pull Requests não deve ser
 interpretado isoladamente como medida de produtividade ou qualidade.
 
-## 7. Histórico de atualização  
+## 8. Histórico de atualização  
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :---: | :--- | :--- | :--- | :--- | :--- |
