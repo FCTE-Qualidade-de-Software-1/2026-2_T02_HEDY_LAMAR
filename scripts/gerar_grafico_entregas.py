@@ -28,7 +28,7 @@ ENTRADA = RAIZ / "dados" / "psm" / "entregas.csv"
 SAIDA = RAIZ / "docs" / "assets" / "psm-entregas-antecedencia.png"
 
 BRASILIA = timezone(timedelta(hours=-3))
-LIMITE_IDEAL = 2  # dias (seção 3.2 de docs/gestao/PSM.md)
+LIMITE_IDEAL = 2  # dias (seção 3.2 de docs/gestao/metrica-1-metodo.md)
 
 COR = {"Ideal": "#2e7d32", "Aceitável": "#f9a825", "Ruim": "#c62828"}
 

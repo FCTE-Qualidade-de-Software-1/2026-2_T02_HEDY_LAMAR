@@ -24,7 +24,7 @@ COMMITS = RAIZ / "dados" / "psm" / "commits.csv"
 INTEGRANTES = RAIZ / "dados" / "psm" / "integrantes.csv"
 SAIDA = RAIZ / "docs" / "assets" / "psm-commits-distribuicao.png"
 
-# Faixas da Métrica 2 (seção 4.2 de docs/gestao/PSM.md), em % do total
+# Faixas da Métrica 2 (seção 4.2 de docs/gestao/metrica-2-metodo.md), em % do total
 IDEAL = (12, 28)
 ACEITAVEL_INF = (8, 12)
 ACEITAVEL_SUP = (28, 35)

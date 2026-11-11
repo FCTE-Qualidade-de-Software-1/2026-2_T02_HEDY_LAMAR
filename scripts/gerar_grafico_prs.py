@@ -4,7 +4,7 @@ Entrada : dados/psm/prs.csv
 Saída   : docs/assets/psm-prs-tempo-resolucao.png
 
 Somente os Pull Requests integrados à `main` entram no gráfico e no
-cálculo da média e da mediana (ver seção 5 de docs/gestao/PSM.md).
+cálculo da média e da mediana (ver docs/gestao/metrica-3-metodo.md).
 
 Uso (a partir da raiz do repositório):
     python scripts/gerar_grafico_prs.py

@@ -4,7 +4,7 @@ Entradas : histórico Git local (referência `origin/main` por padrão) e
            dados/psm/integrantes.csv (e-mail do autor -> integrante)
 Saída    : dados/psm/commits.csv (um commit por linha)
 
-Critérios (ver seção 4 de docs/gestao/PSM.md):
+Critérios (ver docs/gestao/metrica-2-metodo.md):
   * somente commits da referência indicada (por padrão, `origin/main`);
   * commits de merge são excluídos;
   * identidades diferentes da mesma pessoa são consolidadas pelo
