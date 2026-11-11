@@ -24,6 +24,15 @@ As métricas deste documento são:
     Pull Requests permanecem abertos até serem integrados à branch
     `main`.
 
+Cada métrica está associada a uma das categorias do modelo PSM/CID
+exigidas para o acompanhamento do projeto:
+
+| Categoria PSM/CID | Métrica | Justificativa |
+|---|---|---|
+| Calendário e Progresso | Métrica 1: Antecedência de conclusão | Compara a data combinada com a data efetiva de conclusão de cada entrega. |
+| Recursos e Custos | Métrica 2: Distribuição de esforço por commits | Os commits são o indicador disponível do esforço da equipe, que é o principal recurso do projeto. |
+| Desempenho dos Processos | Métrica 3: Tempo médio de resolução de Pull Requests | Mede a rapidez com que o fluxo de revisão e integração do repositório conclui as alterações. |
+
 A coleta será automatizada a partir dos dados disponíveis no repositório
 GitHub. Os resultados numéricos e os gráficos serão inseridos após a
 execução da rotina de coleta.
@@ -36,7 +45,9 @@ execução da rotina de coleta.
 
 ------------------------------------------------------------------------
 
-## 3. Métrica 1 --- Antecedência de conclusão
+## 3. Métrica 1 - Antecedência de conclusão
+
+**Categoria PSM/CID:** Calendário e Progresso.
 
 ### 3.1. Objetivo
 
@@ -52,11 +63,11 @@ Um resultado positivo indica que a entrega foi concluída antes do prazo;
 um resultado igual a zero indica conclusão no prazo; e um resultado
 negativo indica atraso.
 
-| Classificação | Critério |
+| Classificação | Critério (antecedência em dias) |
 |---|---|
 | Ideal | 2 dias ou mais |
-| Aceitável | Até 1 dia |
-| Ruim | Menor que 0 |
+| Aceitável | De 0 (no prazo) até menos de 2 dias |
+| Ruim | Menor que 0 (entrega com atraso) |
 
 ### 3.3. Forma de cálculo
 
@@ -103,7 +114,9 @@ acabei deixando isso passar mas n entendi, é todas as entregas do grupo? achei 
 
 ------------------------------------------------------------------------
 
-## 4. Métrica 2 --- Distribuição de esforço por commits
+## 4. Métrica 2 - Distribuição de esforço por commits
+
+**Categoria PSM/CID:** Recursos e Custos.
 
 ### 4.1. Objetivo
 
@@ -175,7 +188,9 @@ complexidade.\]
 
 ------------------------------------------------------------------------
 
-## 5. Métrica 3 --- Tempo médio de resolução de Pull Requests
+## 5. Métrica 3 - Tempo médio de resolução de Pull Requests
+
+**Categoria PSM/CID:** Desempenho dos Processos.
 
 ### 5.1. Objetivo
 
@@ -265,5 +280,5 @@ interpretado isoladamente como medida de produtividade ou qualidade.
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | Criação da documentação das métricas PSM/CID. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 05/10/2026 |   |  |
-| 1.1 | Remoção do tópico de evidencias. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 08/10/2026 |   |  |
+| 1.0 | Criação da documentação das métricas PSM/CID. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 05/10/2026 | [João Vitor](https://github.com/Jauzimm) | 10/11/2026 |
+| 1.1 | Remoção do tópico de evidencias. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 08/10/2026 | [João Vitor](https://github.com/Jauzimm) | 10/11/2026 |

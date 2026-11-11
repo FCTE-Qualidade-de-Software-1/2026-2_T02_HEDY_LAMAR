@@ -47,6 +47,9 @@ nav:
       - Objetivos: fase-2/objetivos.md
       - Diagrama GQM: fase-2/diagrama-gqm.md
 
+  - Gestão:
+      - PSM: gestao/PSM.md
+
   - Extras:
       - Heatmap de disponibilidade: extras/heatmap.md
       - Modelo de ata de reunião: atas/padrao-ata.md
