@@ -38,9 +38,12 @@ exigidas para o acompanhamento do projeto:
 | Desempenho dos Processos | Métrica 3: Tempo médio de resolução de Pull Requests | Mede a rapidez com que o fluxo de revisão e integração do repositório conclui as alterações. |
 
 Os dados de cada métrica ficam em `dados/psm/` e os gráficos são
-gerados por scripts em `scripts/` a partir desses arquivos. Os
-resultados numéricos e os gráficos de cada métrica estão nas páginas de
-resultados, listadas abaixo.
+gerados por scripts em `scripts/` a partir desses arquivos. A coleta dos
+Pull Requests e dos commits e a geração dos gráficos são executadas
+automaticamente por um workflow do GitHub Actions, descrito no
+[procedimento de atualização](decisoes.md#62-procedimento-de-atualizacao).
+Os resultados numéricos e os gráficos de cada métrica estão nas páginas
+de resultados, listadas abaixo.
 
 !!! note "Nota sobre interpretação"
     A quantidade de commits é utilizada como um indicador indireto da

@@ -1,0 +1,73 @@
+name: Atualizar dados do PSM
+
+# Coleta os dados das métricas do PSM/CID, regenera os gráficos e publica o
+# site. Ver docs/gestao/decisoes.md (seção 6.2) para o que é automático e o
+# que continua manual.
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # todos os dias, às 09:00 UTC (06:00 em Brasília)
+  workflow_dispatch:      # botão "Run workflow" na aba Actions
+
+# Quando "permissions" é declarado, o que não é citado fica sem acesso.
+permissions:
+  contents: write         # push dos arquivos atualizados e do site
+  pull-requests: read     # leitura dos Pull Requests (gh pr list)
+
+# Impede duas execuções ao mesmo tempo.
+concurrency:
+  group: psm-coleta
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0   # histórico completo, necessário para contar os commits
+
+      - name: Configurar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r scripts/requirements.txt mkdocs-material==9.8.0
+
+      - name: Coletar os dados
+        run: |
+          python scripts/coletar_prs.py
+          python scripts/coletar_commits.py
+
+      - name: Gerar os gráficos
+        run: |
+          python scripts/gerar_grafico_prs.py
+          python scripts/gerar_grafico_commits.py
+          python scripts/gerar_grafico_entregas.py
+
+      - name: Commitar somente se houve mudança
+        id: publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/psm docs/assets/psm-*.png
+          if git diff --cached --quiet; then
+            echo "Sem alterações nos dados nem nos gráficos."
+            echo "alterado=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: atualiza dados e gráficos do PSM (automático)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "alterado=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Um push feito com o token do Actions não aciona outros workflows;
+      # por isso o site é republicado aqui, e não pelo docs.yml.
+      - name: Republicar o site
+        if: steps.publicar.outputs.alterado == 'true'
+        run: mkdocs gh-deploy --force

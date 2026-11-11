@@ -53,4 +53,7 @@ concluídas antes do prazo / quantidade total de entregas avaliadas) ×
     [`dados/psm/entregas.csv`](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/dados/psm/entregas.csv).
     O script `scripts/gerar_grafico_entregas.py` calcula a antecedência
     e gera a Figura 1. A cada nova entrega, basta incluir o prazo e a
-    data de publicação da Release no arquivo.
+    data de publicação da Release no arquivo, que é preenchido
+    manualmente. O gráfico é regenerado na próxima execução do workflow
+    descrito no [procedimento de
+    atualização](decisoes.md#62-procedimento-de-atualizacao).

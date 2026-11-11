@@ -63,7 +63,11 @@ classificada pela tabela de critérios.
     e hora de criação e a data e hora de integração à branch `main`,
     registrando a data e hora da coleta no próprio arquivo. O arquivo
     guarda todos os Pull Requests como dado bruto; o cálculo e o gráfico
-    usam somente os integrados.
+    usam somente os integrados. O script é executado automaticamente
+    pelo workflow descrito no [procedimento de
+    atualização](decisoes.md#62-procedimento-de-atualizacao), e o arquivo
+    só é regravado quando os dados dos Pull Requests mudam; portanto, a
+    data registrada é a da última atualização que alterou os dados.
 -   **Critério de inclusão:** considerar Pull Requests efetivamente
     integrados à branch `main` dentro do período definido para a
     análise. O período analisado vai de 19/10/2026 (criação do primeiro

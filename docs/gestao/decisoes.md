@@ -16,17 +16,53 @@ Tabela 1: Decisões de gestão decorrentes das medições.
 
 ## 6.2. Procedimento de atualização
 
-A cada nova coleta, o grupo deve:
+A atualização combina uma parte automática e uma parte manual.
 
-1.  Atualizar os dados em `dados/psm/`: executar
-    `python scripts/coletar_prs.py` (Pull Requests) e
-    `python scripts/coletar_commits.py` (commits, após
-    `git fetch origin`) e registrar prazo e conclusão de cada entrega em
-    `entregas.csv`.
-2.  Gerar os gráficos com os scripts `gerar_grafico_*.py` em `scripts/`.
-3.  Atualizar os resultados e a análise nas páginas de resultados das métricas ([Métrica 1](metrica-1-resultados.md), [Métrica 2](metrica-2-resultados.md) e [Métrica 3](metrica-3-resultados.md)).
+**Parte automática.** O workflow `.github/workflows/psm-coleta.yml`
+(GitHub Actions) é executado todos os dias, às 06:00 (horário de
+Brasília), e pode ser executado a qualquer momento pela aba *Actions* do
+repositório (botão *Run workflow*). A cada execução, ele:
+
+1.  Coleta os Pull Requests (`scripts/coletar_prs.py`) e os commits
+    (`scripts/coletar_commits.py`), atualizando `prs.csv` e `commits.csv`
+    em `dados/psm/`.
+2.  Gera os três gráficos (`scripts/gerar_grafico_*.py`), atualizando as
+    imagens `docs/assets/psm-*.png`.
+3.  Se houve alteração, registra os arquivos em um commit do
+    `github-actions[bot]` na branch `main` e republica o site. Sem
+    alteração, nada é commitado.
+
+Os arquivos de dados só são regravados quando os dados mudam. Por isso, a
+coluna `coletado_em_utc` indica a última atualização que alterou os
+dados, e não a última execução do workflow. Os commits do
+`github-actions[bot]` são excluídos da Métrica 2, pois não representam
+esforço de um integrante.
+
+**Parte manual.** O workflow atualiza os dados e as imagens, mas não os
+textos. A cada atualização, o grupo deve:
+
+1.  Registrar o prazo e a data de conclusão de cada entrega em
+    `dados/psm/entregas.csv` e executar o workflow para regenerar a
+    Figura 1.
+2.  Conferir se os números escritos nas páginas de resultados ainda
+    correspondem aos gráficos e aos arquivos de dados ([Métrica 1](metrica-1-resultados.md), [Métrica 2](metrica-2-resultados.md) e [Métrica 3](metrica-3-resultados.md)), e corrigir o texto, o resumo da [visão geral](PSM.md#21-resumo-dos-resultados) e as classificações quando mudarem.
+3.  Revisar a análise de cada métrica.
 4.  Registrar, na Tabela 1, o resultado das decisões anteriores e as
     novas decisões, com a data da coleta.
+
+**Execução local.** O mesmo processo pode ser executado na máquina de um
+integrante, com o GitHub CLI autenticado e o `matplotlib` instalado
+(`pip install -r scripts/requirements.txt`), a partir da raiz do
+repositório:
+
+```bash
+git fetch origin
+python scripts/coletar_prs.py
+python scripts/coletar_commits.py
+python scripts/gerar_grafico_prs.py
+python scripts/gerar_grafico_commits.py
+python scripts/gerar_grafico_entregas.py
+```
 
 
 ## 7. Considerações finais

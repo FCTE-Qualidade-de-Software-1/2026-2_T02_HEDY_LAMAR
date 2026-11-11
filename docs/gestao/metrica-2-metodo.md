@@ -46,12 +46,16 @@ critérios de inclusão para todos os integrantes.
 -   **Coleta:** o script `scripts/coletar_commits.py` lista os commits
     com `git log`, identifica o autor de cada um e o associa a um
     integrante. O script `scripts/gerar_grafico_commits.py` calcula as
-    participações e gera a Figura 2.
+    participações e gera a Figura 2. Os dois scripts são executados
+    automaticamente pelo workflow descrito no [procedimento de
+    atualização](decisoes.md#62-procedimento-de-atualizacao).
 -   **Critérios de inclusão:** são considerados os commits da branch
     `main`, de 07/10/2026 (primeiro commit do repositório) até a data da
     coleta. Commits de *merge*, gerados pelo GitHub ao integrar Pull
-    Requests e sem alteração autoral, são excluídos. Commits ainda não
-    integrados à `main` não são contados.
+    Requests e sem alteração autoral, são excluídos. Commits de
+    automações, como os do `github-actions[bot]` que atualizam os dados
+    do PSM, também são excluídos, pois não representam esforço de um
+    integrante. Commits ainda não integrados à `main` não são contados.
 -   **Tratamento:** cada commit é identificado por seu *hash*, o que
     evita contagem duplicada. As identidades da mesma pessoa foram
     consolidadas em `integrantes.csv`: João Vitor S. (e-mail pessoal e
