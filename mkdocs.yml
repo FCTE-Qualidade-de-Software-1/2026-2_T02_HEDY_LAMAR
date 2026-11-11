@@ -25,7 +25,11 @@ theme:
         name: Mudar para o modo claro
   features:
     - navigation.top
+    - navigation.footer
     - toc.follow
+
+markdown_extensions:
+  - admonition
 
 extra_css:
   - stylesheets/mkdocs.css
@@ -46,6 +50,19 @@ nav:
       - Métricas: fase-2/Metricas.md
       - Objetivos: fase-2/objetivos.md
       - Diagrama GQM: fase-2/diagrama-gqm.md
+
+  - Gestão:
+      - Visão geral do PSM/CID: gestao/PSM.md
+      - Métrica 1 - Antecedência:
+          - Método: gestao/metrica-1-metodo.md
+          - Resultados e análise: gestao/metrica-1-resultados.md
+      - Métrica 2 - Commits:
+          - Método: gestao/metrica-2-metodo.md
+          - Resultados e análise: gestao/metrica-2-resultados.md
+      - Métrica 3 - Pull Requests:
+          - Método: gestao/metrica-3-metodo.md
+          - Resultados e análise: gestao/metrica-3-resultados.md
+      - Decisões de gestão: gestao/decisoes.md
 
   - Extras:
       - Heatmap de disponibilidade: extras/heatmap.md
