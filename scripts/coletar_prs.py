@@ -10,16 +10,22 @@ Colunas de dias (ver docs/gestao/metrica-3-metodo.md):
 O arquivo guarda todos os Pull Requests (dado bruto); o cálculo da média e o
 gráfico consideram somente os integrados.
 
+O arquivo só é regravado quando os dados dos Pull Requests mudam (número,
+título, situação ou datas). Por isso `coletado_em_utc` registra o momento da
+última atualização que alterou os dados, e o tempo decorrido dos Pull
+Requests abertos refere-se a esse momento.
+
 Uso (a partir da raiz do repositório):
     python scripts/coletar_prs.py [--saida caminho.csv]
 """
 
 import argparse
-import csv
 import json
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+
+from utilidades import gravar_csv_se_mudou
 
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA_PADRAO = RAIZ / "dados" / "psm" / "prs.csv"
@@ -64,14 +70,13 @@ def main():
             pr["mergedAt"] or "", pr["closedAt"] or "", f"{dias:.2f}", coletado_em,
         ])
 
-    args.saida.parent.mkdir(parents=True, exist_ok=True)
-    with args.saida.open("w", encoding="utf-8", newline="") as arquivo:
-        escritor = csv.writer(arquivo)
-        escritor.writerow(CAMPOS)
-        escritor.writerows(linhas)
-
+    # "dias" e "coletado_em_utc" não entram na comparação: o primeiro cresce a
+    # cada dia nos PRs abertos e o segundo muda a cada execução.
+    gravou = gravar_csv_se_mudou(args.saida, CAMPOS, linhas,
+                                 ignorar=("dias", "coletado_em_utc"))
     por_situacao = {s: sum(1 for l in linhas if l[2] == s) for s in SITUACAO.values()}
-    print(f"{len(linhas)} Pull Requests -> {args.saida}  {por_situacao}")
+    situacao = "atualizado" if gravou else "sem mudanças"
+    print(f"{len(linhas)} Pull Requests -> {args.saida} {por_situacao} [{situacao}]")
 
 
 if __name__ == "__main__":
