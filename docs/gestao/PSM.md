@@ -69,13 +69,17 @@ negativo indica atraso.
 | Aceitável | De 0 (no prazo) até menos de 2 dias |
 | Ruim | Menor que 0 (entrega com atraso) |
 
+A antecedência é medida em dias corridos entre datas de calendário, e as
+datas são consideradas no horário de Brasília (UTC−3), fuso em que os
+prazos da disciplina são definidos.
+
 ### 3.3. Forma de cálculo
 
 Para cada entrega:
 
 **Antecedência (em dias) = data do prazo combinado − data de conclusão**
 
-No futuro, também poderá ser calculada a proporção de entregas concluídas
+Também é calculada a proporção de entregas concluídas
 antecipadamente:
 
 **Percentual de entregas antecipadas = (quantidade de entregas
@@ -84,33 +88,60 @@ concluídas antes do prazo / quantidade total de entregas avaliadas) ×
 
 ### 3.4. Fonte dos dados e coleta
 
-*INSERIR AQUI FONTE APÓS AUTOMATIZAÇÂO, CASO ESSA PARTE NÂO SEJA AUTOMATIZADA, PODEMOS CITAR A ENTREGA NO APRENDER OU SO APAGAR MESMO*
+-   **Fonte do prazo:** especificação do trabalho final da disciplina
+    (Entrega 1: 26/10/2026; a data da Entrega 2 segue o cronograma da
+    disciplina).
+-   **Fonte da conclusão:** data e hora de publicação da Release da
+    entrega no GitHub (Release v1.0.0, "Entrega 1"), que é o produto de
+    trabalho exigido para cada entrega.
+-   **Registro:** os prazos e as conclusões estão em
+    [`dados/psm/entregas.csv`](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/dados/psm/entregas.csv).
+    O script `scripts/gerar_grafico_entregas.py` calcula a antecedência
+    e gera a Figura 1. A cada nova entrega, basta incluir o prazo e a
+    data de publicação da Release no arquivo.
 
 ### 3.5. Resultado
 
--   Quantidade de entregas avaliadas: @
--   Quantidade de entregas concluídas antes do prazo: @
--   Quantidade de entregas concluídas no prazo: @
--   Quantidade de entregas concluídas após o prazo: @
--   Percentual de entregas antecipadas: @
--   Antecedência média das entregas concluídas antes do prazo: @ dias
+-   Quantidade de entregas avaliadas: 1 (Entrega 1; a Entrega 2 está
+    pendente)
+-   Quantidade de entregas concluídas antes do prazo: 0
+-   Quantidade de entregas concluídas no prazo: 1
+-   Quantidade de entregas concluídas após o prazo: 0
+-   Percentual de entregas antecipadas: 0%
+-   Antecedência média das entregas concluídas antes do prazo: não se
+    aplica (nenhuma entrega antecipada)
+
+Entrega 1: prazo em 26/10/2026; Release v1.0.0 publicada em 26/10/2026,
+às 21:55 (horário de Brasília). Antecedência = 26/10 − 26/10 = 0 dia
+(classificação: **Aceitável**).
 
 ### 3.6. Visualização dos resultados
 
-**\[ESPAÇO RESERVADO PARA GRÁFICO\]**
+![Gráfico com a antecedência de conclusão de cada entrega sobre faixas coloridas que indicam os critérios Ideal, Aceitável e Ruim](../assets/psm-entregas-antecedencia.png)
 
-*Não sei se vai ter grafico considerando que ate agora foi so uma entrega, mas aqui é pra inserir 
-gráfico comparando, para cada entrega, a data combinada e a
-data efetiva de conclusão. Se pertinente, incluir também a distribuição
-das entregas antecipadas, concluídas no prazo e atrasadas.*
+*Figura 1: Antecedência de conclusão das entregas (dias antes do prazo).
+Fonte: `dados/psm/entregas.csv`, gerado por
+`scripts/gerar_grafico_entregas.py`.*
 
 ### 3.7. Análise
 
-Até agora a única entrega foi realizada no mesmo dia do prazo, tendo um resultado aceitável.
-Deveríamos tentar fazer a próxima entrega com dias de sobra.
+A Entrega 1 foi concluída no próprio dia do prazo, o que a coloca na
+faixa Aceitável, mas sem margem de segurança: qualquer imprevisto no
+mesmo dia teria resultado em atraso. A Release foi publicada às 21:55,
+com poucas horas de folga antes do fim do dia. Também por isso a
+conversão para o horário de Brasília é necessária, pois a mesma
+publicação aparece com data de 27/10 em UTC.
 
-*o slide ta falando "Duas entregas seguidas fora do verde: adiantar o prazo interno em 2 dias e redistribuir tarefas."
-acabei deixando isso passar mas n entendi, é todas as entregas do grupo? achei que era so a entrega 1 e 2 do projeto final*
+Com apenas uma entrega concluída, a métrica não permite identificar
+tendência. O horário limite de entrega no Moodle não está registrado
+neste documento, e a data de conclusão considera a publicação da
+Release; a data de envio no Moodle poderá ser acrescentada se o grupo
+quiser usá-la como referência.
+
+**Decisão de gestão decorrente:** como a Entrega 1 ficou fora da faixa
+Ideal, a equipe define para a Entrega 2 um prazo interno 2 dias antes do
+prazo oficial, para buscar a faixa Ideal, e acompanha as tarefas
+pendentes para redistribuí-las caso o prazo interno esteja em risco.
 
 ------------------------------------------------------------------------
 
@@ -317,14 +348,14 @@ classificada pela tabela de critérios.
 Cálculo do tempo médio: (0,34 + 0,81 + 2,02 + 0,79 + 0,76 + 2,14) / 6 =
 6,86 / 6 ≈ 1,14 dia.
 
-Os tempos individuais de cada Pull Request estão na Figura 1 e, com as
+Os tempos individuais de cada Pull Request estão na Figura 3 e, com as
 datas completas, no arquivo `dados/psm/prs.csv`.
 
 ### 5.6. Visualização dos resultados
 
 ![Gráfico de barras com o tempo de resolução de cada Pull Request integrado, com linhas de referência para a média e para o limite de 3 dias](../assets/psm-prs-tempo-resolucao.png)
 
-*Figura 1: Tempo de resolução dos Pull Requests integrados à `main`
+*Figura 3: Tempo de resolução dos Pull Requests integrados à `main`
 (dias). Fonte: `dados/psm/prs.csv`, gerado por
 `scripts/gerar_grafico_prs.py`.*
 
