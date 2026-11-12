@@ -1,4 +1,4 @@
-site_name: Sua Grade UnB — Grupo Hedy Lamarr
+site_name: Sua Grade UnB - Grupo Hedy Lamarr
 site_url: https://fcte-qualidade-de-software-1.github.io/2026-2_T02_HEDY_LAMAR/
 repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR
 
@@ -34,6 +34,19 @@ markdown_extensions:
 extra_css:
   - stylesheets/mkdocs.css
 
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+
 nav:
   - Introdução: index.md
   - Fase 1:
@@ -63,6 +76,9 @@ nav:
           - Método: gestao/metrica-3-metodo.md
           - Resultados e análise: gestao/metrica-3-resultados.md
       - Decisões de gestão: gestao/decisoes.md
+
+  - Fase 3:
+      - 3.1 Plano de Avaliação: fase-3/plano-avaliacao.md
 
   - Extras:
       - Heatmap de disponibilidade: extras/heatmap.md
