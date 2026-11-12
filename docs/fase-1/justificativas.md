@@ -54,4 +54,4 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 
 | Versão |          Descrição          |                       Autor                       |    Data    |                       Revisor                       | Data de revisão |
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
-|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Caua Clemente](https://github.com/CauaoClemente) |   |
+|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 26/10/2026  |
