@@ -207,11 +207,11 @@ As disciplinas e turmas selecionadas pertencem ao catálogo oficial da Faculdade
 
 | ID Amostra | Código | Nome da Disciplina | Turma | Docente Oficial (SIGAA) | Local / Sala | Horário Oficial | Evidencias |
 | :---: | :---: | :--- | :---: | :--- | :---: | :---: | :---: |
-| **D1** | FGA0003 | Física 1 | 01 | Lindomar | I3 | 35M12 | :---: |
-| **D2** | FGA0137 | Banco de Dados 2 | 01 | Vandor | I10 | 35T34 | :---: | 
-| **D3** | FGA0158 | Qualidade de Software 1 | 01 | Cristiane Ramos | S6 | 24M34 | :---: |
-| **D4** | FGA0208 | Arquitetura e Desenho de Software | 01 | Milene | S4 | 26M12 | :---: |
-| **D5** | FGA0250 | Ciências Aeroespaciais | 01 | Gabriela | S5 | 35M34 | :---: |
+| **D1** | IFD071 | Física 1 | 13 | Lindomar | I3 | 35M12 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/fisica%201.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Fisica.png) |
+| **D2** | FGA0060 | Banco de Dados 2 | 01 | Vandor | I10 | 35T34 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/Arquitetura%20e%20desenho.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Arqitetura.png) | 
+| **D3** | FGA0315 | Qualidade de Software 1 | 01 | Cristiane Ramos | S6 | 24M34 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/Qualidade%20de%20software.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Qualidade.png) |
+| **D4** | FGA0208 | Arquitetura e Desenho de Software | 01 | Milene | S4 | 26M12 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/Arquitetura%20e%20desenho.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Arqitetura.png) |
+| **D5** | FGA0254 | Ciências Aeroespaciais | 01 | Gabriela | S5 | 35M34 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/Ciencias%20aeroespaciasi.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Ciencias.png) |
 
 ### 4.2. Massa de Dados para Testes de Conflito de Horário (Tolerância a Falhas - M6)
 
