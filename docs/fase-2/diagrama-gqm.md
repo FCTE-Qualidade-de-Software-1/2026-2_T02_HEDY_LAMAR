@@ -14,7 +14,7 @@ graph TD
     G1 --> Q1["Q1: Completude funcional<br>(Funções previstas disponíveis?)"]:::question
     G1 --> Q2["Q2: Corretude funcional<br>(Dados correspondem ao SIGAA?)"]:::question
     G1 --> Q3["Q3: Adequação funcional<br>(Permite concluir a tarefa?)"]:::question
-    
+
     Q1 --> M1["M1: Completude funcional<br>(10/11 funcionais = 90,91%)"]:::metric
     Q2 --> M2["M2: Correção funcional<br>(15/15 atributos = 100%)"]:::metric
     Q3 --> M3["M3: Adequação às tarefas<br>(5/5 tarefas = 100%)"]:::metric
@@ -24,7 +24,7 @@ graph TD
     G2 --> Q4["Q4: Maturidade<br>(Frequência de falhas)"]:::question
     G2 --> Q5["Q5: Disponibilidade<br>(Proporção de acessos)"]:::question
     G2 --> Q6["Q6: Tolerância a falhas<br>(Comportamento em erros)"]:::question
-    
+
     Q4 --> M4["M4: Maturidade<br>(4/4 cenários = 100%)"]:::metric
     Q5 --> M5["M5: Disponibilidade<br>(15/15 verificações = 100%)"]:::metric
     Q6 --> M6["M6: Tolerância a falhas<br>(5/5 avisos = 100%)"]:::metric
@@ -32,8 +32,16 @@ graph TD
     %% Objetivo 3
     G3["G3: Portabilidade<br>(Identificar limitações de ambiente)"]:::goal
     G3 --> Q7["Q7: Adaptabilidade<br>(Funciona nos ambientes?)"]:::question
-    
+
     Q7 --> M7["M7: Adaptabilidade<br>(6/6 ambientes = 100%)"]:::metric
+```
 
- 
+Figura 1: Hierarquia GQM da avaliação do Sua Grade UnB (objetivos G1 a G3, questões Q1 a Q7 e métricas M1 a M7).
 
+## Resumo em texto
+
+| Objetivo | Questões | Métricas |
+| :--- | :--- | :--- |
+| G1 Adequação Funcional | Q1, Q2, Q3 | M1, M2, M3 (uma por questão) |
+| G2 Confiabilidade | Q4, Q5, Q6 | M4, M5, M6 (uma por questão) |
+| G3 Portabilidade | Q7 | M7 |
