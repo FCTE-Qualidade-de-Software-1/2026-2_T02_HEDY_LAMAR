@@ -30,10 +30,10 @@ Abaixo estão detalhados os procedimentos operacionais padronizados (POP) para a
   * `C_f`: completude funcional, em porcentagem;
   * `F_i`: número de funcionalidades planejadas que estão implementadas;
   * `F_p`: número total de funcionalidades planejadas (total: 11).
-* **Objetivo:** Verificar a disponibilidade prática das funcionalidades previstas no story map.
+* **Objetivo:** Verificar a disponibilidade prática das funcionalidades previstas no [story map](https://miro.com/app/board/uXjVNYnku7s=/?share_link_id=596015837126).
 * **Instruções passo a passo:**
   1. Acessar a aplicação no endereço oficial utilizando o navegador de referência (Google Chrome em modo padrão, sem extensões de bloqueio de script).
-  2. Para cada funcionalidade listada na especificação da Fase 2 (R1 a R11), verificar se os elementos visuais de controle (botões, campos, menus suspensos) estão presentes na interface.
+  2. Para cada funcionalidade listada no [story map](https://miro.com/app/board/uXjVNYnku7s=/?share_link_id=596015837126) do projeto, verificar se os elementos visuais de controle (botões, campos, menus suspensos) estão presentes na interface.
   3. Executar o acionamento direto do elemento e checar se o sistema executa a ação correspondente:
      * R1 (Criar grade): Iniciar com grade vazia e verificar a renderização do grid semanal.
      * R2 (Filtrar matéria): Digitar o código da disciplina na barra de busca e checar se a lista filtra em tempo real.
@@ -205,13 +205,13 @@ As disciplinas e turmas selecionadas pertencem ao catálogo oficial da Faculdade
 
 ### 4.1. Conjunto Principal de Disciplinas para Verificação de Corretude (M2)
 
-| ID Amostra | Código | Nome da Disciplina | Turma | Docente Oficial (SIGAA) | Local / Sala | Horário Oficial |
-| :---: | :---: | :--- | :---: | :--- | :---: | :---: |
-| **D1** | FGA0003 | Física 1 | 01 | Lindomar | I3 | 35M12 |
-| **D2** | FGA0137 | Banco de Dados 2 | 01 | Vandor | I10 | 35T34 |
-| **D3** | FGA0158 | Qualidade de Software 1 | 01 | Cristiane Ramos | S6 | 24M34 |
-| **D4** | FGA0208 | Arquitetura e Desenho de Software | 01 | Milene | S4 | 26M12 |
-| **D5** | FGA0250 | Ciências Aeroespaciais | 01 | Gabriela | S5 | 35M34 |
+| ID Amostra | Código | Nome da Disciplina | Turma | Docente Oficial (SIGAA) | Local / Sala | Horário Oficial | Evidencias |
+| :---: | :---: | :--- | :---: | :--- | :---: | :---: | :---: |
+| **D1** | FGA0003 | Física 1 | 01 | Lindomar | I3 | 35M12 | :---: |
+| **D2** | FGA0137 | Banco de Dados 2 | 01 | Vandor | I10 | 35T34 | :---: | 
+| **D3** | FGA0158 | Qualidade de Software 1 | 01 | Cristiane Ramos | S6 | 24M34 | :---: |
+| **D4** | FGA0208 | Arquitetura e Desenho de Software | 01 | Milene | S4 | 26M12 | :---: |
+| **D5** | FGA0250 | Ciências Aeroespaciais | 01 | Gabriela | S5 | 35M34 | :---: |
 
 ### 4.2. Massa de Dados para Testes de Conflito de Horário (Tolerância a Falhas - M6)
 
@@ -225,19 +225,25 @@ Para a execução controlada da métrica de tolerância a falhas e verificação
 
 ---
 
-## 5. Cronograma e Alinhamento com a Fase 4
+## 5. Cronograma Executivo de Coleta e Avaliação
 
-O cronograma de execução das atividades da Fase 3 e Fase 4 foi estruturado para assegurar antecedência mínima em relação ao prazo final da Entrega 2:
+A tabela a seguir consolida a distribuição temporal das atividades, indicando as métricas associadas, fontes de dados, responsáveis e entregáveis produzidos:
 
-| Etapa | Atividade Operacional | Responsável Principal | Início | Término | Produto Gerado |
-| :---: | :--- | :--- | :---: | :---: | :--- |
-| **1** | Elaboração do Plano de Avaliação e Massa de Dados | Cauã Clemente | 04/11/2026 | 06/11/2026 | Artefato plano-avaliacao.md |
-| **2** | Revisão por Pares do Plano de Testes | Pablo Rodrigues | 07/11/2026 | 08/11/2026 | Ata de aprovação e ajustes |
-| **3** | Execução dos testes funcionais e registro de evidências (M1, M2, M3) | Equipe de Avaliação | 09/11/2026 | 11/11/2026 | Repositório de evidências brutas |
-| **4** | Execução dos testes de confiabilidade e portabilidade (M4, M5, M6, M7) | Equipe de Avaliação | 11/11/2026 | 15/11/2026 | Prints, logs e planilhas preenchidas |
-| **5** | Consolidação dos resultados, cálculo de métricas e respostas GQM | Cauã / Pablo / João Vitor | 16/11/2026 | 18/11/2026 | Relatório de Resultados (Fase 4) |
-| **6** | Desenvolvimento da Ação de Melhoria Obrigatória (Protótipo/Código) | Equipe de Desenvolvimento | 18/11/2026 | 21/11/2026 | Protótipo Figma / PR Técnico |
-| **7** | Atualização do Artigo em LaTeX e Revisão Final | João Victor Marques / Todos | 22/11/2026 | 24/11/2026 | Artigo PDF final para submissão |
+<font size="3"><p style="text-align: left">Tabela 1: Cronograma executivo de avaliação</p></font>
+
+| Etapa / Atividade | Métricas Envolvidas | Período de Execução | Fonte de Dados / Ambiente | Entregável / Evidência |
+| :--- | :--- | :--- | :--- | :--- |
+| **E1.1** Consulta dos requisitos no *Story Map* | M1 | 18/10/2026 | Board no GitHub do Sua Grade UnB | Lista de 11 funcionalidades planejadas ([2.1 em plano-de-avaliacao](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/fase-3/plano-avaliacao.md)) |
+| **E1.2** Seleção da Amostra Acadêmica no SIGAA | M2 | 23/10/2026 | SIGAA UnB (Turmas 2026/2) | Tabela de 5 disciplinas e 15 atributos de referência ([Seção 4.1 em plano-avaliacao](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/fase-3/plano-avaliacao.md)) |
+| **E1.3** Especificação dos Cenários de Teste e Ambientes | M3, M4, M6, M7 | 20/10/2026 | Documentação de teste | Matriz de 6 ambientes e 4 cenários de confiabilidade ([Seção 2.7, 3.2 e 3.1  em plano-avaliacao](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/fase-3/plano-avaliacao.md)) |
+| **E2.1** Verificação Contínua de Disponibilidade (Dia 1 ao Dia 5) | M5 | 19/10/2026 a 23/10/2026 | Produção (Manhã, Tarde e Noite) | 15 capturas de tela rotuladas (E1 a E15) ([M5  em metricas](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/Metricas.md)) |
+| **E2.2** Execução dos Testes de Completude e Adequação às Tarefas | M1, M3 | 20/10/2026 | Interface Web do produto | Matriz de 10/11 requisitos e 5/5 tarefas atendidas ([M1 e M3  em metricas](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/Metricas.md)) |
+| **E2.3** Inspeção de Correção Funcional (Comparativo SIGAA) | M2 | 23/10/2026 | Sua Grade UnB vs. SIGAA | Tabela comparativa de 15 atributos e 5 evidências visualizadas [M2 em metricas](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/Metricas.md) |
+| **E2.4** Execução dos Cenários de Confiabilidade e Tolerância a Falhas | M4, M6 | 20/10/2026 a 21/10/2026 | Interface Web e tratamentos de erro | Registros de 4 cenários de maturidade e 5 testes de avisos ([M4 e M6  em metricas](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/Metricas.md)) |
+| **E2.5** Testes de Adaptabilidade em Multiambientes | M7 | 22/10/2026 | 4 Navegadores PC + 2 Mobile | 6 capturas de tela comprovando execução em Windows e Android ([M7 em metricas](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/Metricas.md)) |
+| **E3.1** Consolidação dos Dados e Cálculos de Porcentagem | M1 a M7 | 22/10/2026 a 24/10/2026 | `Metricas.md` | Resultados percentuais ($90,91\%$ a $100\%$) ([metricas](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/Metricas.md)) |
+| **E3.2** Enquadramento e Julgamento de Qualidade | M1 a M7 | 22/10/2026 a 24/10/2026 | `criterios.md` | Julgamento final (Nível *Excelente* para todas as métricas) ([criterios](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/fase-4/criterios.md)) |
+| **E4.1** Elaboração e Execução da Ação de Melhoria | Ação Técnica F4-C5 | 13/11/2026 a 16/11/2026 | Repositório do Projeto / Protótipo | Relatório de justificativa e artefato de melhoria incorporado |
 
 ---
 
@@ -261,5 +267,6 @@ Para atender ao critério F3-C8 em nível Excelente, a tabela abaixo demonstra q
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :----: | :-----------------------------------------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
-| 1.0 | Criação inicial do Plano de Avaliação (Fase 3), detalhamento de métodos, instruções dos avaliadores, ambiente, massa de dados e rastreabilidade com a Fase 2 | [Cauã Clemente](https://github.com/CauaoClemente) | 06/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | |
+| 1.0 | Criação inicial do Plano de Avaliação (Fase 3), detalhamento de métodos, instruções dos avaliadores, ambiente, massa de dados e rastreabilidade com a Fase 2 | [Cauã Clemente](https://github.com/CauaoClemente) | 06/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 12/11/2026 |
+| 1.1 | Adaptação da tabela de cronograma e adição do link do story map e evidencia das materias usadas na metrica M2 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 13/11/2026 | | |
 
