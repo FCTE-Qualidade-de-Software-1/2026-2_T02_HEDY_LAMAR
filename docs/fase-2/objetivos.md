@@ -107,21 +107,69 @@ As hipóteses expressam os comportamentos esperados para cada questão e deverã
 **H7 — Adaptabilidade (Q7):** Espera-se que as funções principais permaneçam operacionais nos ambientes selecionados para a avaliação. Diferenças de comportamento que impeçam a execução dos fluxos previstos em algum dos ambientes fornecerão evidências contrárias à hipótese.
 
 
-## 3.1.4 Rastreabilidade entre objetivos, questões e hipóteses
+## 3.1.4 Seleção de Métricas de Medição — Nível Quantitativo
 
-A tabela a seguir resume a relação entre os elementos GQM definidos neste artefato.
+Neste nível do GQM associa-se métricas objetivas a cada uma das questões operacionais (Q1 a Q7), permitindo coletar dados para averiguar as hipóteses formuladas (H1 a H7) e avaliar os objetivos (G1 a G3).
 
-| Objetivo | Característica de qualidade | Questão | Hipótese |
-| :--- | :--- | :--- | :--- |
-| G1 | Adequação Funcional | Q1 — Completude funcional | H1 |
-| G1 | Adequação Funcional | Q2 — Corretude funcional | H2 |
-| G1 | Adequação Funcional | Q3 — Adequação funcional | H3 |
-| G2 | Confiabilidade | Q4 — Maturidade | H4 |
-| G2 | Confiabilidade | Q5 — Disponibilidade | H5 |
-| G2 | Confiabilidade | Q6 — Tolerância a falhas | H6 |
-| G3 | Portabilidade | Q7 — Adaptabilidade | H7 |
+### Requisitos de Qualidade das Métricas Selecionadas
 
-Essa hierarquia estabelece a base para a próxima etapa do GQM: a seleção das métricas que permitirão responder às questões. Para cada métrica, deverão ser especificados sua definição, o procedimento de cálculo, a fonte dos dados, o procedimento de coleta e os critérios de interpretação. Os níveis de pontuação e os critérios de julgamento deverão ser definidos antes da análise dos resultados.
+Para assegurar a eficácia da medição, todas as métricas selecionadas atendem aos seguintes atributos desejáveis de qualidade de medição em engenharia de software:
+*   **Simplicidade:** Utilização de formulações matemáticas percentuais e razões diretas, facilitando a coleta, o cálculo e a interpretação por parte dos membros da equipe e partes interessadas.
+*   **Objetividade:** Definição de regras de contagem e verificação (sem ambiguidade ou opnião pessoal do avaliador), garantindo a reprodutibilidade dos resultados.
+*   **Validade:** Mapeamento unívoco entre o indicador numérico e o atributo de qualidade investigado na questão correspondente, medindo com precisão a propriedade desejada do software.
+
+### Especificação das Métricas por Questão de Medição
+
+#### Grupo G1 — Adequação Funcional
+
+*   **M1 — Completude Funcional (associada à Q1):**
+    *   **Fórmula:** $C_f = \left(\frac{F_i}{F_p}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Quantifica a proporção de funcionalidades planejadas no *story map* ($F_p$) que estão efetivamente implementadas e funcionais no produto ($F_i$).
+*   **M2 — Correção Funcional (associada à Q2):**
+    *   **Fórmula:** $C_c = \left(\frac{A_c}{A_v}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Compara a exatidão dos atributos acadêmicos exibidos ($A_c$: docente, sala e horário) contra a base de dados de referência oficial do SIGAA ($A_v$).
+*   **M3 — Adequação às Tarefas dos Usuários (associada à Q3):**
+    *   **Fórmula:** $A_f = \left(\frac{T_a}{T_p}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Avalia a proporção de tarefas-chave do fluxo do estudante ($T_a$) que são concluídas com sucesso sem erros impeditivos de interface em relação ao total ($T_p$).
+
+#### Grupo G2 — Confiabilidade
+
+*   **M4 — Maturidade (associada à Q4):**
+    *   **Fórmula:** $M_c = \left(\frac{C_s}{C_t}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Mede a taxa de cenários de teste operacionais ($C_s$) executados sem a ocorrência de falhas observáveis sob uso contínuo em relação ao total avaliado ($C_t$).
+*   **M5 — Disponibilidade Observada (associada à Q5):**
+    *   **Fórmula:** $D = \left(\frac{V_s}{V_t}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Determina a proporção de acessos bem-sucedidos ($V_s$) ao sistema em verificações amostradas ($V_t$) distribuídas temporalmente ao longo de janelas diárias.
+*   **M6 — Tolerância a Falhas (associada à Q6):**
+    *   **Fórmula:** $T_f = \left(\frac{F_i}{F_t}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Mede a capacidade do produto em identificar condições anômalas ou entradas inválidas ($F_t$) e apresentar avisos claros e instrucionais ($F_i$) ao usuário.
+
+#### Grupo G3 — Portabilidade
+
+*   **M7 — Adaptabilidade em Ambientes Avaliados (associada à Q7):**
+    *   **Fórmula:** $A_p = \left(\frac{A_c}{A_t}\right) \times 100$
+    *   **Escala e Unidade:** Porcentagem (%) — Escala de razão ($0\%$ a $100\%$).
+    *   **Propriedade de Medição:** Quantifica a proporção de ambientes homologados ($A_c$: navegadores desktop e móveis) nos quais o sistema executa seus fluxos sem quebras visuais ou comportamentais sobre o total ($A_t$).
+
+## 3.2 Rastreabilidade Completa da Hierarquia GQM (Nível Conceitual ao Quantitativo)
+
+A tabela a seguir consolida a rastreabilidade hierárquica completa do GQM, conectando cada Objetivo (G) às suas respectivas Questões (Q), Hipóteses (H), Métricas (M) e fórmulas correspondentes:
+
+| Objetivo (G) | Questão Operacional (Q) | Hipótese (H) | Métrica Selecionada (M) | Indicador / Fórmula |
+| :--- | :--- | :--- | :--- | :--- |
+| **G1 — Adequação Funcional** | Q1 — Completude funcional | H1 | **M1** — Completude funcional | $C_f = (F_i / F_p) \times 100$ |
+| **G1 — Adequação Funcional** | Q2 — Corretude funcional | H2 | **M2** — Correção funcional | $C_c = (A_c / A_v) \times 100$ |
+| **G1 — Adequação Funcional** | Q3 — Adequação funcional | H3 | **M3** — Adequação às tarefas | $A_f = (T_a / T_p) \times 100$ |
+| **G2 — Confiabilidade** | Q4 — Maturidade | H4 | **M4** — Maturidade | $M_c = (C_s / C_t) \times 100$ |
+| **G2 — Confiabilidade** | Q5 — Disponibilidade | H5 | **M5** — Disponibilidade observada | $D = (V_s / V_t) \times 100$ |
+| **G2 — Confiabilidade** | Q6 — Tolerância a falhas | H6 | **M6** — Tolerância a falhas | $T_f = (F_i / F_t) \times 100$ |
+| **G3 — Portabilidade** | Q7 — Adaptabilidade | H7 | **M7** — Adaptabilidade | $A_p = (A_c / A_t) \times 100$ |
 
 ## Bibliografia
 
@@ -135,3 +183,4 @@ Essa hierarquia estabelece a base para a próxima etapa do GQM: a seleção das 
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1.0 | Versão inicial dos objetivos, questões e hipóteses de medição | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 |   |  |
 | 1.1 | Remoção de instalabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 |   |  |
+| 1.2 | Adição da Seção 3.1.5 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 12/11/2026 |  |  |

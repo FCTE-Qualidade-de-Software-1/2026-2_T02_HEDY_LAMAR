@@ -261,4 +261,5 @@ Para atender ao critério F3-C8 em nível Excelente, a tabela abaixo demonstra q
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :----: | :-----------------------------------------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
-| 1.0 | Criação inicial do Plano de Avaliação (Fase 3), detalhamento de métodos, instruções dos avaliadores, ambiente, massa de dados e rastreabilidade com a Fase 2 | [Cauã Clemente](https://github.com/CauaoClemente) | 06/11/2026 | | |
+| 1.0 | Criação inicial do Plano de Avaliação (Fase 3), detalhamento de métodos, instruções dos avaliadores, ambiente, massa de dados e rastreabilidade com a Fase 2 | [Cauã Clemente](https://github.com/CauaoClemente) | 06/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | |
+

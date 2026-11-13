@@ -27,7 +27,7 @@ Esta página consolida as contribuições dos integrantes da equipe **Hedy Lamar
 | Integrante | Atividade Realizada | Status |
 | :--- | :--- | :---: |
 | [Cauã Clemente](https://github.com/CauaoClemente) | Elaboração integral do [Plano de Avaliação de Produto (Fase 3)](../fase-3/plano-avaliacao.md) (POP dos avaliadores para M1 a M7, especificação de hardware/software, massa de dados padronizada do SIGAA e matriz de coerência com a Fase 2); atualização do menu e arquitetura de navegação do MkDocs. | Concluído |
-| [Pablo Rodrigues](https://github.com/Pablo-R-L) | Apoio na execução das medições funcionais e auditoria das evidências de disponibilidade. | Em andamento |
+| [Pablo Rodrigues](https://github.com/Pablo-R-L) | Reorganização do conteúdo da fase 2 e fase 4, adição das metricas selecionadas em objetivos.md. Criação da versao inicial do arquivo referente ao PSM. Revisao e apoio ao plano de verificação da fase 3. Organização do cronograma. | Em andamento |
 | [João Vitor](https://github.com/Jauzimm) | Condução dos testes de tarefas de usuário e persistência de dados. | Em andamento |
 | [Leonardo Rodrigues](https://github.com/Antedeguemon21) | Apoio na execução dos testes de portabilidade mobile e revisão editorial. | Em andamento |
 | [João Victor Marques](https://github.com/jmarquees) | Incorporação dos novos resultados e seções no artigo formal em LaTeX. | Em andamento |
