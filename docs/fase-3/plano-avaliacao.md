@@ -27,133 +27,133 @@ Abaixo estão detalhados os procedimentos operacionais padronizados (POP) para a
 ### 2.1. Procedimento para M1 - Completude Funcional
 
 * **Métrica associada:** M1: `C_f = (F_i / F_p) * 100`
-  * `C_f`: completude funcional, em porcentagem;
-  * `F_i`: número de funcionalidades planejadas que estão implementadas;
-  * `F_p`: número total de funcionalidades planejadas (total: 11).
+    * `C_f`: completude funcional, em porcentagem;
+    * `F_i`: número de funcionalidades planejadas que estão implementadas;
+    * `F_p`: número total de funcionalidades planejadas (total: 11).
 * **Objetivo:** Verificar a disponibilidade prática das funcionalidades previstas no [story map](https://miro.com/app/board/uXjVNYnku7s=/?share_link_id=596015837126).
 * **Instruções passo a passo:**
-  1. Acessar a aplicação no endereço oficial utilizando o navegador de referência (Google Chrome em modo padrão, sem extensões de bloqueio de script).
-  2. Para cada funcionalidade listada no [story map](https://miro.com/app/board/uXjVNYnku7s=/?share_link_id=596015837126) do projeto, verificar se os elementos visuais de controle (botões, campos, menus suspensos) estão presentes na interface.
-  3. Executar o acionamento direto do elemento e checar se o sistema executa a ação correspondente:
-     * R1 (Criar grade): Iniciar com grade vazia e verificar a renderização do grid semanal.
-     * R2 (Filtrar matéria): Digitar o código da disciplina na barra de busca e checar se a lista filtra em tempo real.
-     * R3 (Selecionar turma): Clicar sobre a disciplina filtrada e selecionar uma turma específica.
-     * R4 (Adicionar matéria): Clicar no botão de inclusão e verificar se a matéria é alocada no grid.
-     * R5 (Preferência de turno): Testar os filtros de turno matutino, vespertino ou noturno.
-     * R6 (Login via Google): Acionar o botão "Entrar com Google" e validar o redirecionamento OAuth.
-     * R7 (Visualizar grade): Observar a disposição visual das células com horários e salas.
-     * R8 (Salvar localmente): Clicar na opção de persistência local / download de grade.
-     * R9 (Apagar grade local): Tentar encontrar e executar a exclusão de uma grade salva localmente.
-     * R10 (Salvar na nuvem): Com usuário autenticado, salvar a grade no perfil remoto.
-     * R11 (Apagar grade na nuvem): Com usuário autenticado, excluir a grade remota da lista.
-  4. Para cada requisito, registrar no formulário de coleta: Status (Implementado ou Não Implementado), Data/Hora e link da captura de tela (evidência).
+    1. Acessar a aplicação no endereço oficial utilizando o navegador de referência (Google Chrome em modo padrão, sem extensões de bloqueio de script).
+    2. Para cada funcionalidade listada no [story map](https://miro.com/app/board/uXjVNYnku7s=/?share_link_id=596015837126) do projeto, verificar se os elementos visuais de controle (botões, campos, menus suspensos) estão presentes na interface.
+    3. Executar o acionamento direto do elemento e checar se o sistema executa a ação correspondente:
+        * R1 (Criar grade): Iniciar com grade vazia e verificar a renderização do grid semanal.
+        * R2 (Filtrar matéria): Digitar o código da disciplina na barra de busca e checar se a lista filtra em tempo real.
+        * R3 (Selecionar turma): Clicar sobre a disciplina filtrada e selecionar uma turma específica.
+        * R4 (Adicionar matéria): Clicar no botão de inclusão e verificar se a matéria é alocada no grid.
+        * R5 (Preferência de turno): Testar os filtros de turno matutino, vespertino ou noturno.
+        * R6 (Login via Google): Acionar o botão "Entrar com Google" e validar o redirecionamento OAuth.
+        * R7 (Visualizar grade): Observar a disposição visual das células com horários e salas.
+        * R8 (Salvar localmente): Clicar na opção de persistência local / download de grade.
+        * R9 (Apagar grade local): Tentar encontrar e executar a exclusão de uma grade salva localmente.
+        * R10 (Salvar na nuvem): Com usuário autenticado, salvar a grade no perfil remoto.
+        * R11 (Apagar grade na nuvem): Com usuário autenticado, excluir a grade remota da lista.
+    4. Para cada requisito, registrar no formulário de coleta: Status (Implementado ou Não Implementado), Data/Hora e link da captura de tela (evidência).
 
 ### 2.2. Procedimento para M2 - Correção Funcional
 
 * **Métrica associada:** M2: `C_c = (A_c / A_v) * 100`
-  * `C_c`: proporção de atributos acadêmicos corretos, em porcentagem;
-  * `A_c`: número de atributos verificados que correspondem aos dados do SIGAA;
-  * `A_v`: número total de atributos verificados (total: 15 atributos, sendo 3 para cada uma das 5 disciplinas).
+    * `C_c`: proporção de atributos acadêmicos corretos, em porcentagem;
+    * `A_c`: número de atributos verificados que correspondem aos dados do SIGAA;
+    * `A_v`: número total de atributos verificados (total: 15 atributos, sendo 3 para cada uma das 5 disciplinas).
 * **Objetivo:** Comparar os dados acadêmicos exibidos pelo Sua Grade UnB com os dados oficiais do SIGAA/UnB.
 * **Instruções passo a passo:**
-  1. Acessar simultaneamente duas abas no navegador:
-     * Aba A: Sua Grade UnB (https://suagradeunb.com.br/);
-     * Aba B: SIGAA UnB - Consulta Pública de Turmas (https://sigaa.unb.br/).
-  2. Consultar as cinco disciplinas definidas na Massa de Dados Oficial (Seção 4 deste plano).
-  3. Para cada disciplina e turma especificada, coletar e comparar lado a lado 3 atributos:
-     * Atributo 1 - Nome do Docente: Confrontar o docente cadastrado no Sua Grade com o docente principal no SIGAA.
-     * Atributo 2 - Local / Sala: Verificar se o pavilhão e sala (ex.: "I3", "S6") coincidem.
-     * Atributo 3 - Horário Oficial: Verificar a codificação do horário (ex.: "35M12", "24M34").
-  4. Caso o dado seja estritamente coincidente, registrar como Correto. Caso haja divergência ou campo em branco no produto avaliado, registrar como Incorreto.
-  5. Salvar captura de tela com as duas janelas visíveis como evidência comprobatória.
+    1. Acessar simultaneamente duas abas no navegador:
+        * Aba A: Sua Grade UnB (https://suagradeunb.com.br/);
+        * Aba B: SIGAA UnB - Consulta Pública de Turmas (https://sigaa.unb.br/).
+    2. Consultar as cinco disciplinas definidas na Massa de Dados Oficial (Seção 4 deste plano).
+    3. Para cada disciplina e turma especificada, coletar e comparar lado a lado 3 atributos:
+        * Atributo 1 - Nome do Docente: Confrontar o docente cadastrado no Sua Grade com o docente principal no SIGAA.
+        * Atributo 2 - Local / Sala: Verificar se o pavilhão e sala (ex.: "I3", "S6") coincidem.
+        * Atributo 3 - Horário Oficial: Verificar a codificação do horário (ex.: "35M12", "24M34").
+    4. Caso o dado seja estritamente coincidente, registrar como Correto. Caso haja divergência ou campo em branco no produto avaliado, registrar como Incorreto.
+    5. Salvar captura de tela com as duas janelas visíveis como evidência comprobatória.
 
 ### 2.3. Procedimento para M3 - Adequação às Tarefas dos Usuários
 
 * **Métrica associada:** M3: `A_f = (T_a / T_p) * 100`
-  * `A_f`: adequação funcional às tarefas avaliadas, em porcentagem;
-  * `T_a`: número de tarefas consideradas adequadamente atendidas;
-  * `T_p`: número total de tarefas avaliadas (total: 5 tarefas).
+    * `A_f`: adequação funcional às tarefas avaliadas, em porcentagem;
+    * `T_a`: número de tarefas consideradas adequadamente atendidas;
+    * `T_p`: número total de tarefas avaliadas (total: 5 tarefas).
 * **Objetivo:** Avaliar se as tarefas-chave do fluxo do estudante são atendidas de ponta a ponta.
 * **Instruções passo a passo:**
-  1. O avaliador deve desempenhar o papel de estudante universitário no período de matrícula.
-  2. Executar em sequência as cinco tarefas padronizadas:
-     * Tarefa T1 (Autenticação): Fazer login com conta institucional Google (@aluno.unb.br). Critério de sucesso: perfil logado exibido no topo.
-     * Tarefa T2 (Pesquisa de disciplinas): Buscar disciplinas por nome ou código sem erros de busca.
-     * Tarefa T3 (Composição de grade): Montar uma grade de 20 a 24 créditos sem choques de horário.
-     * Tarefa T4 (Geração visual e exportação): Visualizar o quadro completo de horários e exportar em imagem ou salvar.
-     * Tarefa T5 (Gestão de persistência): Desconectar, reconectar e recuperar a grade previamente salva.
-  3. Cada tarefa é julgada como Atendida se permitiu atingir o objetivo sem bloqueios de interface.
+    1. O avaliador deve desempenhar o papel de estudante universitário no período de matrícula.
+    2. Executar em sequência as cinco tarefas padronizadas:
+        * Tarefa T1 (Autenticação): Fazer login com conta institucional Google (@aluno.unb.br). Critério de sucesso: perfil logado exibido no topo.
+        * Tarefa T2 (Pesquisa de disciplinas): Buscar disciplinas por nome ou código sem erros de busca.
+        * Tarefa T3 (Composição de grade): Montar uma grade de 20 a 24 créditos sem choques de horário.
+        * Tarefa T4 (Geração visual e exportação): Visualizar o quadro completo de horários e exportar em imagem ou salvar.
+        * Tarefa T5 (Gestão de persistência): Desconectar, reconectar e recuperar a grade previamente salva.
+    3. Cada tarefa é julgada como Atendida se permitiu atingir o objetivo sem bloqueios de interface.
 
 ### 2.4. Procedimento para M4 - Maturidade (Confiabilidade)
 
 * **Métrica associada:** M4: `M_c = (C_s / C_t) * 100`
-  * `M_c`: proporção de cenários de confiabilidade concluídos sem falhas, em porcentagem;
-  * `C_s`: número de cenários concluídos sem falhas observáveis;
-  * `C_t`: número total de cenários de confiabilidade avaliados (total: 4 cenários).
+    * `M_c`: proporção de cenários de confiabilidade concluídos sem falhas, em porcentagem;
+    * `C_s`: número de cenários concluídos sem falhas observáveis;
+    * `C_t`: número total de cenários de confiabilidade avaliados (total: 4 cenários).
 * **Objetivo:** Avaliar a ausência de travamentos e falhas operacionais sob uso contínuo e repetido.
 * **Instruções passo a passo:**
-  1. Cenário de Repetição: Realizar 10 buscas e seleções sucessivas de disciplinas na mesma sessão sem recarregar o navegador. Observar se ocorre lentidão progressiva ou falhas de renderização.
-  2. Cenário de Persistência: Montar uma grade com 4 disciplinas. Pressionar F5 (recarregar página). Observar se as disciplinas selecionadas são restauradas ou se a grade é zerada.
-  3. Cenário de Uso Contínuo: Manter a aplicação aberta em segundo plano por 30 minutos com grade montada; após o período, tentar adicionar uma nova disciplina e validar a resposta do sistema.
-  4. Cenário de Múltiplas Sessões: Efetuar logout da conta Google, fechar o navegador, reabrir em modo anônimo, logar novamente e verificar se os dados remotos foram mantidos íntegros.
-  5. Registrar qualquer exceção no console do navegador (tecla F12 -> Console) ou falha visual.
+    1. Cenário de Repetição: Realizar 10 buscas e seleções sucessivas de disciplinas na mesma sessão sem recarregar o navegador. Observar se ocorre lentidão progressiva ou falhas de renderização.
+    2. Cenário de Persistência: Montar uma grade com 4 disciplinas. Pressionar F5 (recarregar página). Observar se as disciplinas selecionadas são restauradas ou se a grade é zerada.
+    3. Cenário de Uso Contínuo: Manter a aplicação aberta em segundo plano por 30 minutos com grade montada; após o período, tentar adicionar uma nova disciplina e validar a resposta do sistema.
+    4. Cenário de Múltiplas Sessões: Efetuar logout da conta Google, fechar o navegador, reabrir em modo anônimo, logar novamente e verificar se os dados remotos foram mantidos íntegros.
+    5. Registrar qualquer exceção no console do navegador (tecla F12 -> Console) ou falha visual.
 
 ### 2.5. Procedimento para M5 - Disponibilidade Observada
 
 * **Métrica associada:** M5: `D = (V_s / V_t) * 100`
-  * `D`: disponibilidade observada nas verificações, em porcentagem;
-  * `V_s`: número de verificações bem-sucedidas;
-  * `V_t`: número total de verificações realizadas (total: 15 verificações ao longo de 5 dias).
+    * `D`: disponibilidade observada nas verificações, em porcentagem;
+    * `V_s`: número de verificações bem-sucedidas;
+    * `V_t`: número total de verificações realizadas (total: 15 verificações ao longo de 5 dias).
 * **Objetivo:** Medir a taxa de sucesso no acesso ao serviço durante uma janela temporal de 5 dias corridos.
 * **Instruções passo a passo:**
-  1. Definir 3 janelas diárias de verificação:
-     * Manhã: entre 09:00 e 10:30;
-     * Tarde: entre 14:00 e 15:30;
-     * Noite: entre 20:00 e 21:30.
-  2. No instante da verificação:
-     * Acessar a URL raiz https://suagradeunb.com.br/.
-     * Aguardar o carregamento da tela inicial (limite aceitável: até 5 segundos).
-     * Executar uma busca simples pela disciplina "Cálculo 1".
-  3. Se a página carregar com código HTTP 200 e a busca retornar turmas, marcar como Ativo (Sucesso).
-  4. Caso ocorra erro HTTP (ex.: 502, 503, 504, 404), travamento de tela ou timeout, registrar como Inativo (Falha).
-  5. Tirar print com o relógio do sistema operacional visível e catalogar na planilha de medição.
+    1. Definir 3 janelas diárias de verificação:
+        * Manhã: entre 09:00 e 10:30;
+        * Tarde: entre 14:00 e 15:30;
+        * Noite: entre 20:00 e 21:30.
+    2. No instante da verificação:
+        * Acessar a URL raiz https://suagradeunb.com.br/.
+        * Aguardar o carregamento da tela inicial (limite aceitável: até 5 segundos).
+        * Executar uma busca simples pela disciplina "Cálculo 1".
+    3. Se a página carregar com código HTTP 200 e a busca retornar turmas, marcar como Ativo (Sucesso).
+    4. Caso ocorra erro HTTP (ex.: 502, 503, 504, 404), travamento de tela ou timeout, registrar como Inativo (Falha).
+    5. Tirar print com o relógio do sistema operacional visível e catalogar na planilha de medição.
 
 ### 2.6. Procedimento para M6 - Tolerância a Falhas
 
 * **Métrica associada:** M6: `T_f = (F_i / F_t) * 100`
-  * `T_f`: proporção de situações de falha tratadas adequadamente, em porcentagem;
-  * `F_i`: número de situações de falha identificadas e comunicadas adequadamente pelo sistema;
-  * `F_t`: número total de situações de falha avaliadas (total: 5 testes).
+    * `T_f`: proporção de situações de falha tratadas adequadamente, em porcentagem;
+    * `F_i`: número de situações de falha identificadas e comunicadas adequadamente pelo sistema;
+    * `F_t`: número total de situações de falha avaliadas (total: 5 testes).
 * **Objetivo:** Avaliar se o sistema identifica condições anômalas ou inválidas e emite alertas compreensíveis ao usuário.
 * **Instruções passo a passo:**
-  1. Teste T1 (Busca sem período letivo): Limpar o filtro de semestre letivo e tentar submeter a consulta de disciplinas. Verificar se o sistema impede a busca vazia e orienta o usuário.
-  2. Teste T2 (Seleção excessiva de turmas): Tentar marcar mais de quatro turmas da mesma disciplina simultaneamente. Verificar se o sistema limita a seleção ou exibe aviso explicativo.
-  3. Teste T3 (Busca com termo inexistente): Inserir texto sem correspondência (ex.: "XZY9999_INEXISTENTE") no campo de busca. Verificar se a interface apresenta mensagem de "Nenhuma matéria encontrada" em vez de tela em branco ou erro de script.
-  4. Teste T4 (Injeção de choque de horário): Selecionar intencionalmente duas turmas que compartilhem o mesmo dia e bloco de horário (ex.: Terça 10h-12h). Tentar alocar ambas na mesma grade e verificar se o sistema emite alerta explícito de conflito de horários.
-  5. Teste T5 (Submissão sem parâmetros): Clicar no botão de filtrar sem digitar texto ou selecionar categoria. Verificar o feedback visual emitido pelo sistema.
-  6. Para cada teste, registrar se o aviso foi claro, instrutivo e preveniu a inconsistência.
+    1. Teste T1 (Busca sem período letivo): Limpar o filtro de semestre letivo e tentar submeter a consulta de disciplinas. Verificar se o sistema impede a busca vazia e orienta o usuário.
+    2. Teste T2 (Seleção excessiva de turmas): Tentar marcar mais de quatro turmas da mesma disciplina simultaneamente. Verificar se o sistema limita a seleção ou exibe aviso explicativo.
+    3. Teste T3 (Busca com termo inexistente): Inserir texto sem correspondência (ex.: "XZY9999_INEXISTENTE") no campo de busca. Verificar se a interface apresenta mensagem de "Nenhuma matéria encontrada" em vez de tela em branco ou erro de script.
+    4. Teste T4 (Injeção de choque de horário): Selecionar intencionalmente duas turmas que compartilhem o mesmo dia e bloco de horário (ex.: Terça 10h-12h). Tentar alocar ambas na mesma grade e verificar se o sistema emite alerta explícito de conflito de horários.
+    5. Teste T5 (Submissão sem parâmetros): Clicar no botão de filtrar sem digitar texto ou selecionar categoria. Verificar o feedback visual emitido pelo sistema.
+    6. Para cada teste, registrar se o aviso foi claro, instrutivo e preveniu a inconsistência.
 
 ### 2.7. Procedimento para M7 - Adaptabilidade em Ambientes Avaliados (Portabilidade)
 
 * **Métrica associada:** M7: `A_p = (A_c / A_t) * 100`
-  * `A_p`: proporção de ambientes compatíveis, em porcentagem;
-  * `A_c`: número de ambientes em que o produto atende às condições definidas;
-  * `A_t`: número total de ambientes avaliados (total: 6 ambientes).
+    * `A_p`: proporção de ambientes compatíveis, em porcentagem;
+    * `A_c`: número de ambientes em que o produto atende às condições definidas;
+    * `A_t`: número total de ambientes avaliados (total: 6 ambientes).
 * **Objetivo:** Avaliar a operacionalidade do sistema em múltiplos navegadores e fatores de forma (Desktop e Mobile).
 * **Instruções passo a passo:**
-  1. Acessar o sistema nos 6 ambientes homologados:
-     * Ambiente 1 (Desktop): Mozilla Firefox (Windows 11)
-     * Ambiente 2 (Desktop): Opera GX (Windows 11)
-     * Ambiente 3 (Desktop): Brave Browser (Windows 11)
-     * Ambiente 4 (Desktop): Microsoft Edge (Windows 11)
-     * Ambiente 5 (Mobile): Google Chrome (Android 14)
-     * Ambiente 6 (Mobile): DuckDuckGo Privacy Browser (Android 14)
-  2. Em cada ambiente, executar o fluxo básico:
-     * Carregamento da página inicial;
-     * Renderização responsiva do grid de horários sem quebras ou sobreposições de texto;
-     * Busca de disciplina e adição de turma ao quadro;
-     * Abertura do menu de configurações/salvamento.
-  3. Classificar cada ambiente como Compatível (sem falhas impeditivas de layout ou script) ou Incompatível.
+    1. Acessar o sistema nos 6 ambientes homologados:
+        * Ambiente 1 (Desktop): Mozilla Firefox (Windows 11)
+        * Ambiente 2 (Desktop): Opera GX (Windows 11)
+        * Ambiente 3 (Desktop): Brave Browser (Windows 11)
+        * Ambiente 4 (Desktop): Microsoft Edge (Windows 11)
+        * Ambiente 5 (Mobile): Google Chrome (Android 14)
+        * Ambiente 6 (Mobile): DuckDuckGo Privacy Browser (Android 14)
+    2. Em cada ambiente, executar o fluxo básico:
+        * Carregamento da página inicial;
+        * Renderização responsiva do grid de horários sem quebras ou sobreposições de texto;
+        * Busca de disciplina e adição de turma ao quadro;
+        * Abertura do menu de configurações/salvamento.
+    3. Classificar cada ambiente como Compatível (sem falhas impeditivas de layout ou script) ou Incompatível.
 
 ---
 
@@ -174,26 +174,32 @@ Para garantir que a avaliação seja rigorosa e reprodutível por auditores exte
 ### 3.2. Requisitos de Software
 
 * **Sistemas Operacionais:**
-  * Windows 11 Pro / Home (versão 23H2 ou superior);
-  * Android 14 (OneUI / Pixel UI).
+    * Windows 11 Pro / Home (versão 23H2 ou superior);
+    * Android 14 (OneUI / Pixel UI).
 * **Navegadores Homologados:**
-  * Google Chrome Desktop: Versão 129.0 ou superior;
-  * Mozilla Firefox Desktop: Versão 131.0 ou superior;
-  * Microsoft Edge Desktop: Versão 129.0 ou superior;
-  * Brave Browser Desktop: Versão 1.70 ou superior;
-  * Opera GX Desktop: Versão 114.0 ou superior;
-  * Google Chrome Mobile: Versão 129.0 ou superior;
-  * DuckDuckGo Browser Mobile: Versão 5.210 ou superior.
+    * Google Chrome Desktop: Versão 129.0 ou superior;
+    * Mozilla Firefox Desktop: Versão 131.0 ou superior;
+    * Microsoft Edge Desktop: Versão 129.0 ou superior;
+    * Brave Browser Desktop: Versão 1.70 ou superior;
+    * Opera GX Desktop: Versão 114.0 ou superior;
+    * Google Chrome Mobile: Versão 129.0 ou superior;
+    * DuckDuckGo Browser Mobile: Versão 5.210 ou superior.
 * **Ferramentas de Captura e Registro:**
-  * Ferramenta de Captura nativa do Windows (atalho Win + Shift + S) para capturas de tela com carimbo visual;
-  * Gravador de tela nativo (Xbox Game Bar no Windows e gravador nativo do Android) em resolução 1080p a 30fps;
-  * Planilha eletrônica padronizada para registro de data, hora, código de teste e resultado.
+    * Ferramenta de Captura nativa do Windows (atalho Win + Shift + S) para capturas de tela com carimbo visual;
+    * Gravador de tela nativo (Xbox Game Bar no Windows e gravador nativo do Android) em resolução 1080p a 30fps;
+    * Planilha eletrônica padronizada para registro de data, hora, código de teste e resultado.
 
 ### 3.3. Perfil e Conhecimento Exigido dos Avaliadores
 
 * Conhecimento prévio básico da estrutura acadêmica da Universidade de Brasília (código de turmas, notação de horários como 24M12, 35T34 e divisão departamental).
 * Habilidade básica de operação de navegadores web e ferramentas de inspeção do navegador (DevTools para verificação de erros no console).
 * Não é exigido conhecimento de linguagens de programação do produto ou acesso privilegiado ao servidor.
+
+### 3.4. Participantes e Dados Pessoais
+
+* A avaliação é executada apenas pelos integrantes da equipe, sem participantes externos, entrevistas ou questionários.
+* As evidências são capturas de tela da interface pública do Sua Grade UnB e da consulta pública de turmas do SIGAA. Os únicos nomes registrados são os dos docentes, já exibidos publicamente nessas páginas.
+* Nas capturas que envolvem login com conta Google (M1, R6 e R10; M4, acesso em diferentes sessões), dados da conta do avaliador não devem ficar legíveis.
 
 ---
 
@@ -213,6 +219,8 @@ As disciplinas e turmas selecionadas pertencem ao catálogo oficial da Faculdade
 | **D4** | FGA0208 | Arquitetura e Desenho de Software | 01 | Milene | S4 | 26M12 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/Arquitetura%20e%20desenho.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Arqitetura.png) |
 | **D5** | FGA0254 | Ciências Aeroespaciais | 01 | Gabriela | S5 | 35M34 | [Sala e horario](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/Ciencias%20aeroespaciasi.png), [Professor e código](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/reorganizacao/docs/evidencias/sigaa/prf%20Ciencias.png) |
 
+**Justificativa:** as cinco disciplinas combinam unidades diferentes (FGA e Instituto de Física), turnos de manhã e de tarde e salas de prédios distintos, o que cobre a variação de docente, local e horário que M2 precisa comparar com o SIGAA.
+
 ### 4.2. Massa de Dados para Testes de Conflito de Horário (Tolerância a Falhas - M6)
 
 Para a execução controlada da métrica de tolerância a falhas e verificação do algoritmo de choque de horários, os pares abaixo devem ser utilizados:
@@ -222,6 +230,18 @@ Para a execução controlada da métrica de tolerância a falhas e verificação
 | **C1** | Física 1 (T01) | 35M12 (Ter/Qui 08h-10h) | Cálculo 1 (T02) | 35M12 (Ter/Qui 08h-10h) | **Sim (Conflito direto)** |
 | **C2** | Qualidade de Software (T01) | 24M34 (Seg/Qua 10h-12h) | Banco de Dados 1 (T01) | 24M34 (Seg/Qua 10h-12h) | **Sim (Conflito direto)** |
 | **C3** | Arq. e Desenho de Software (T01) | 26M12 (Seg/Sex 08h-10h) | Banco de Dados 2 (T01) | 35T34 (Ter/Qui 16h-18h) | **Não (Horários distintos)** |
+
+**Justificativa:** C1 e C2 têm horários idênticos, em que o aviso de conflito é esperado (teste T4 de M6). C3 serve de controle: com horários distintos, o sistema não deve acusar conflito.
+
+### 4.3. Massa de Dados das Demais Métricas
+
+| Métrica | Massa de dados | Fonte | Justificativa |
+| :---: | :--- | :--- | :--- |
+| **M1** | 11 funcionalidades planejadas (R1 a R11) | *Story map* do Sua Grade UnB | É a lista oficial do que o produto deveria oferecer; serve de referência para a completude. |
+| **M3** | 5 tarefas do usuário: login com Google, buscar matérias, selecionar turmas, gerar grades e gerenciar grades (salvar e excluir) | Tarefas identificadas no planejamento do produto (seção 2.3) | São as tarefas que compõem o objetivo principal do produto: montar a grade do semestre. |
+| **M4** | 4 cenários: repetição das operações principais, persistência das grades salvas, uso contínuo e acesso em diferentes sessões | Roteiro da seção 2.4 | Exercitam os fluxos em que uma falha faria o estudante perder a grade ou o trabalho feito. |
+| **M5** | 15 verificações: 5 dias consecutivos, manhã, tarde e noite | Acesso ao produto em produção | Distribuir as verificações ao longo do dia e da semana reduz o viés de um único horário de acesso. |
+| **M7** | 6 ambientes: 4 navegadores no Windows e 2 no Android | Matriz da seção 2.7 | Combinam desktop e celular, os dispositivos que os estudantes usam para montar a grade. |
 
 ---
 
@@ -269,4 +289,5 @@ Para atender ao critério F3-C8 em nível Excelente, a tabela abaixo demonstra q
 | :----: | :-----------------------------------------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
 | 1.0 | Criação inicial do Plano de Avaliação (Fase 3), detalhamento de métodos, instruções dos avaliadores, ambiente, massa de dados e rastreabilidade com a Fase 2 | [Cauã Clemente](https://github.com/CauaoClemente) | 06/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 12/11/2026 |
 | 1.1 | Adaptação da tabela de cronograma e adição do link do story map e evidencia das materias usadas na metrica M2 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 13/11/2026 | | |
+| 1.2 | Seção de participantes e dados pessoais, justificativa da massa de dados por métrica e correção do recuo das sub-listas | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 | | |
 
