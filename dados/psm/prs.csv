@@ -1,13 +1,14 @@
 numero,titulo,situacao,criado_em_utc,integrado_em_utc,fechado_em_utc,dias,coletado_em_utc
-1,Fase 1 revisado pronto pra merge,integrado,2026-10-19T02:15:51Z,2026-10-19T10:22:59Z,2026-10-19T10:22:59Z,0.34,2026-11-13T17:07:26Z
-2,Revise README for clarity and additional details,integrado,2026-10-24T00:49:40Z,2026-10-24T20:19:10Z,2026-10-24T20:19:10Z,0.81,2026-11-13T17:07:26Z
-3,Fase 1,integrado,2026-10-25T00:18:13Z,2026-10-27T00:41:01Z,2026-10-27T00:41:01Z,2.02,2026-11-13T17:07:26Z
-4,Diagrama GQM (Fase 2),integrado,2026-10-26T05:51:31Z,2026-10-27T00:43:24Z,2026-10-27T00:43:24Z,0.79,2026-11-13T17:07:26Z
-5,docs: atualiza README com etapas e links da Fase 2,aberto,2026-10-26T06:26:28Z,,,18.45,2026-11-13T17:07:26Z
-6,docs: atualiza pagina inicial e adiciona link do Diagrama GQM,integrado,2026-10-26T06:27:05Z,2026-10-27T00:45:18Z,2026-10-27T00:45:18Z,0.76,2026-11-13T17:07:26Z
-7,docs: adiciona contribuicao do Caua e apendice do artigo,integrado,2026-10-26T06:28:13Z,2026-11-12T19:46:12Z,2026-11-12T19:46:12Z,17.55,2026-11-13T17:07:26Z
-8,docs: elabora sugestão de plano de avaliação da Fase 3 e atualiza navegação,integrado,2026-11-07T04:14:40Z,2026-11-12T19:46:10Z,2026-11-12T19:46:10Z,5.65,2026-11-13T17:07:26Z
-9,PSM,integrado,2026-11-08T20:51:36Z,2026-11-11T00:11:21Z,2026-11-11T00:11:21Z,2.14,2026-11-13T17:07:26Z
-40,"docs: PSM/CID com resultados, gráficos, decisões de gestão e scripts de coleta",integrado,2026-11-11T10:03:57Z,2026-11-11T10:04:12Z,2026-11-11T10:04:12Z,0.00,2026-11-13T17:07:26Z
-41,feat: automatiza a atualização dos dados e gráficos do PSM com GitHub Actions,integrado,2026-11-11T10:19:05Z,2026-11-11T10:19:20Z,2026-11-11T10:19:21Z,0.00,2026-11-13T17:07:26Z
-42,docs: corrige bloco mermaid do diagrama GQM,aberto,2026-11-11T11:34:57Z,,,2.23,2026-11-13T17:07:26Z
+1,Fase 1 revisado pronto pra merge,integrado,2026-10-19T02:15:51Z,2026-10-19T10:22:59Z,2026-10-19T10:22:59Z,0.34,2026-11-14T15:42:56Z
+2,Revise README for clarity and additional details,integrado,2026-10-24T00:49:40Z,2026-10-24T20:19:10Z,2026-10-24T20:19:10Z,0.81,2026-11-14T15:42:56Z
+3,Fase 1,integrado,2026-10-25T00:18:13Z,2026-10-27T00:41:01Z,2026-10-27T00:41:01Z,2.02,2026-11-14T15:42:56Z
+4,Diagrama GQM (Fase 2),integrado,2026-10-26T05:51:31Z,2026-10-27T00:43:24Z,2026-10-27T00:43:24Z,0.79,2026-11-14T15:42:56Z
+5,docs: atualiza README com etapas e links da Fase 2,aberto,2026-10-26T06:26:28Z,,,19.39,2026-11-14T15:42:56Z
+6,docs: atualiza pagina inicial e adiciona link do Diagrama GQM,integrado,2026-10-26T06:27:05Z,2026-10-27T00:45:18Z,2026-10-27T00:45:18Z,0.76,2026-11-14T15:42:56Z
+7,docs: adiciona contribuicao do Caua e apendice do artigo,integrado,2026-10-26T06:28:13Z,2026-11-12T19:46:12Z,2026-11-12T19:46:12Z,17.55,2026-11-14T15:42:56Z
+8,docs: elabora sugestão de plano de avaliação da Fase 3 e atualiza navegação,integrado,2026-11-07T04:14:40Z,2026-11-12T19:46:10Z,2026-11-12T19:46:10Z,5.65,2026-11-14T15:42:56Z
+9,PSM,integrado,2026-11-08T20:51:36Z,2026-11-11T00:11:21Z,2026-11-11T00:11:21Z,2.14,2026-11-14T15:42:56Z
+40,"docs: PSM/CID com resultados, gráficos, decisões de gestão e scripts de coleta",integrado,2026-11-11T10:03:57Z,2026-11-11T10:04:12Z,2026-11-11T10:04:12Z,0.00,2026-11-14T15:42:56Z
+41,feat: automatiza a atualização dos dados e gráficos do PSM com GitHub Actions,integrado,2026-11-11T10:19:05Z,2026-11-11T10:19:20Z,2026-11-11T10:19:21Z,0.00,2026-11-14T15:42:56Z
+42,docs: corrige bloco mermaid do diagrama GQM,integrado,2026-11-11T11:34:57Z,2026-11-13T19:20:47Z,2026-11-13T19:20:47Z,2.32,2026-11-14T15:42:56Z
+43,"Reorganização das fases, e ajustes do cronograma",integrado,2026-11-13T19:17:24Z,2026-11-13T19:36:19Z,2026-11-13T19:36:19Z,0.01,2026-11-14T15:42:56Z
