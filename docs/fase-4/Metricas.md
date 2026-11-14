@@ -2,7 +2,7 @@
 
 Este documento descreve as métricas selecionadas para avaliar a qualidade do **Sua Grade UnB**, relacionando cada métrica às questões de medição definidas pelo método Goal–Question–Metric (GQM). Para cada métrica, são apresentados sua definição, seu procedimento de cálculo, a fonte dos dados e o procedimento de coleta.
 
-As métricas estão organizadas de acordo com as questões de medição. Os critérios detalhados de julgamento são apresentados em `criterios-julgamento.md`.
+As métricas estão organizadas de acordo com as questões de medição. Os critérios detalhados de julgamento são apresentados em [Critérios de julgamento](criterios.md).
 
 ## 1. Adequação funcional
 
@@ -57,7 +57,7 @@ C_f = (10 / 11) * 100 ≈ 90,91%
 | R10 | Salvar grade na nuvem | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 | R11 | Apagar grade horária na nuvem | [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 
-**Interpretação:** o resultado indica que 90,91% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em `criterios-julgamento.md`.
+**Interpretação:** o resultado indica que 90,91% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em [Critérios de julgamento](criterios.md).
 
 ### M2 — Correção funcional
 
@@ -216,7 +216,7 @@ Em que:
 **Procedimento de coleta proposto:**
 
 1. Realizar verificações em horários predefinidos durante cinco dias consecutivos, distribuindo-as entre manhã, tarde e noite, totalizando 15 verificações.
-2. Em cada verificação, testar o acesso ao produto e criar uma serie grade.
+2. Em cada verificação, testar o acesso ao produto e criar uma grade.
 3. Registrar data, horário, resultado e evidência.
 4. Investigar problemas de conexão ou outras condições externas que possam comprometer a interpretação do resultado.
 5. Calcular a proporção de verificações bem-sucedidas.
@@ -280,7 +280,7 @@ T_f = (4 / 4) * 100 = 100%
 | T2 | Tentar selecionar mais de quatro turmas de uma mesma disciplina. | Sim | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Selecionando%20mais%20de%204%20turmas%20da%20mesma%20materia.png) |
 | T3 | Buscar disciplinas com parâmetros que não retornam resultados. | Sim | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Busca%20por%20materia%20e%20professor%20(falha).png) |
 | T4 | Tentar inserir uma disciplina que não pode ser encaixado em uma grade válida por conflito. | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Impedir%20conflitos%20de%20horarios.png) |
-| T5 | Tentar buscar sem parametros. | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Buscar%20sem%20parametros.png) |
+| T5 | Tentar buscar sem parametros. | Sim | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Buscar%20sem%20parametros.png) |
 
 **Interpretação:** O resultado de 100% indica que todas as situações de falha avaliadas foram acompanhadas de avisos do sistema. Isso demonstra que, nos cenários testados, o Sua Grade UnB fornece respostas informativas quando determinadas condições impedem a realização das operações solicitadas. Entretanto, a métrica avalia especificamente a identificação e a comunicação dessas situações, não abrangendo a recuperação automática de falhas, a continuidade do serviço após erros ou a prevenção de perda de dados.
 
@@ -316,7 +316,9 @@ Em que:
 
 Resultado obtido: Foram avaliados seis ambientes de navegação: Mozilla Firefox, Opera GX, Brave, Microsoft Edge, DuckDuckGo para dispositivos móveis e Google Chrome para dispositivos móveis. Em todos os ambientes testados, o sistema funcionou corretamente, sem problemas observados que impedissem sua utilização.
 
-P = (6 / 6) * 100 = 100%
+```text
+A_p = (6 / 6) * 100 = 100%
+```
 
 | Teste | Ambiente | Funcionou  | Evidência |
 | :---: | :--- | :---: | :--- |
@@ -324,8 +326,8 @@ P = (6 / 6) * 100 = 100%
 | T2 | Opera gx (Windows) | Sim | [E2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20no%20opera.png) |
 | T3 | Brave (Windows) | Sim | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20no%20brave.png) |
 | T4 | Microsoft Edge (Windows) | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20no%20microsoft%20edge.png) |
-| T5 | DuckDuckGo (Android) | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20duckduckgo%20(celular).jpeg) |
-| T6 | Chrome (Android) | Sim | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20chrome%20(celular).jpeg) |
+| T5 | DuckDuckGo (Android) | Sim | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20duckduckgo%20(celular).jpeg) |
+| T6 | Chrome (Android) | Sim | [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/portabilidade/Funcionando%20chrome%20(celular).jpeg) |
 
 Interpretação: O resultado de 100% indica que o Sua Grade UnB funcionou corretamente em todos os ambientes de navegação avaliados, incluindo navegadores utilizados em computadores e dispositivos móveis. Esse resultado demonstra compatibilidade nos ambientes testados, mas não garante o funcionamento adequado em todos os navegadores, dispositivos, sistemas operacionais ou versões existentes.
 
@@ -333,7 +335,7 @@ Interpretação: O resultado de 100% indica que o Sua Grade UnB funcionou corret
 
 Os dados brutos, as evidências e os registros de cálculo deverão ser mantidos no repositório do projeto, permitindo relacionar cada resultado à respectiva fonte.
 
-Os critérios de julgamento e os níveis de pontuação de cada métrica deverão ser documentados em `criterios-julgamento.md`. 
+Os critérios de julgamento e os níveis de pontuação de cada métrica estão documentados em [Critérios de julgamento](criterios.md). 
 
 A métrica de completude funcional utiliza o planejamento do *story map* como referência. As demais métricas dependem de cenários, condições e resultados esperados definidos antes da coleta, de modo a garantir consistência e reprodutibilidade.
 
@@ -344,3 +346,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.2 | Adição das evidencias em confiabilidade e resultado de portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.3 | Correção do M6 e M2| [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |
+| 1.4 | Correção das referências aos critérios de julgamento, do símbolo da fórmula de M7, dos rótulos de evidência repetidos em M6 e M7 e de erro de digitação em M5 | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 |   |  |
