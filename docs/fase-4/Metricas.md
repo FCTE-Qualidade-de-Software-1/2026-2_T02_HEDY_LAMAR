@@ -260,19 +260,19 @@ Em que:
 **Procedimento de coleta:**
 
 1. Tentar buscar uma disciplina sem informar o período letivo.
-2. Tentar selecionar mais de cinco turmas de uma mesma disciplina.
+2. Tentar selecionar mais de quatro turmas de uma mesma disciplina.
 3. Realizar uma busca de disciplinas utilizando parâmetros que não retornem resultados.
 4. Tentar inserir uma disciplina em uma grade quando não houver possibilidade de adicioná-la sem conflito de horários.
 5. Registrar se o sistema identifica cada situação e apresenta um aviso que explique adequadamente o motivo pelo qual a operação não pode ser concluída.
 6. Classificar cada situação como tratada adequadamente ou não tratada adequadamente.
 7. Calcular a proporção de situações tratadas adequadamente em relação ao total avaliado.
 
-**Resultado obtido:** Nas cinco situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de cinco turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados e quando não era possível inserir uma disciplina sem gerar conflito de horários.
+**Resultado obtido:** Nas cinco situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de quatro turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados e quando não era possível inserir uma disciplina sem gerar conflito de horários.
 
 Considerando que as cinco situações foram identificadas e comunicadas adequadamente pelo sistema, o resultado foi:
 
 ```text
-T_f = (4 / 4) * 100 = 100%
+T_f = (5 / 5) * 100 = 100%
 ```
 | Teste | Descrição | Aviso | Evidência |
 | :---: | :--- | :---: | :--- |
@@ -346,4 +346,5 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.2 | Adição das evidencias em confiabilidade e resultado de portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.2 | Adição das evidencias em portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.3 | Correção do M6 e M2| [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |
-| 1.4 | Correção das referências aos critérios de julgamento, do símbolo da fórmula de M7, dos rótulos de evidência repetidos em M6 e M7 e de erro de digitação em M5 | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 |   |  |
+| 1.4 | Correção das referências aos critérios de julgamento, do símbolo da fórmula de M7, dos rótulos de evidência repetidos em M6 e M7 e de erro de digitação em M5 | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |
+| 1.5 | Correção de inconsistencia da M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |  |  |
