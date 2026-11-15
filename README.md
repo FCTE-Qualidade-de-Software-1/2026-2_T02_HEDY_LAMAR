@@ -6,6 +6,9 @@ Somos o grupo **Hedy Lamarr**, da disciplina **Qualidade de Software** da Univer
 
 Este repositório é dedicado ao trabalho acadêmico da disciplina; ele não contém o código-fonte oficial do Sua Grade UnB.
 
+- **Site da documentação (GitPage):** https://fcte-qualidade-de-software-1.github.io/2026-2_T02_HEDY_LAMAR/
+- **Releases:** [versões entregues](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases)
+
 ## Sobre o produto
 
 O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda estudantes da Universidade de Brasília a organizar as disciplinas e os horários do semestre em uma grade.
@@ -20,6 +23,34 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 | [Justificativas](docs/fase-1/justificativas.md) | Motivos das escolhas feitas para a avaliação. |
 | [Modelo de qualidade e escopo](docs/fase-1/modelo.md) | Modelo adotado, características selecionadas e limites da avaliação. |
 | [Tabela de contribuição](docs/fase-1/contribuicao.md) | Participação dos integrantes nas atividades. |
+| [Uso de Inteligência Artificial](docs/fase-1/uso-da-ia.md) | Declaração de como a IA foi usada na Fase 1. |
+
+## Documentos da Fase 2
+
+| Documento | Conteúdo |
+|---|---|
+| [Objetivos, questões e hipóteses](docs/fase-2/objetivos.md) | Objetivos de medição, questões e hipóteses definidos pelo método GQM. |
+| [Diagrama GQM](docs/fase-2/diagrama-gqm.md) | Relação entre objetivos, questões e métricas. |
+
+## Documentos da Fase 3
+
+| Documento | Conteúdo |
+|---|---|
+| [Plano de avaliação](docs/fase-3/plano-avaliacao.md) | Roteiro do avaliador, recursos e ambiente, massa de dados e cronograma. |
+
+## Documentos da Fase 4
+
+| Documento | Conteúdo |
+|---|---|
+| [Métricas de avaliação](docs/fase-4/Metricas.md) | Aplicação das métricas M1 a M7, com coleta e resultados. |
+| [Critérios de julgamento](docs/fase-4/criterios.md) | Níveis de pontuação e julgamento de cada métrica. |
+
+## Gestão do projeto (PSM/CID)
+
+| Documento | Conteúdo |
+|---|---|
+| [Visão geral do PSM/CID](docs/gestao/PSM.md) | Métricas de acompanhamento do projeto e resumo dos resultados. |
+| [Decisões de gestão](docs/gestao/decisoes.md) | Decisões tomadas a partir das medições e procedimento de atualização. |
 
 ## Materiais complementares
 
@@ -27,7 +58,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 |---|---|
 | [Heatmap de disponibilidade](docs/extras/heatmap.md) | Consulta dos horários indicados para reuniões. |
 | [Modelo de ata](docs/atas/padrao-ata.md) | Registro de participantes, decisões e encaminhamentos das reuniões. |
-| [Relatório de revisão da Fase 1](docs/RELATORIO_REVISAO_FASE1.md) | Registro das correções e dos pontos que ainda precisam ser conferidos. |
+| [Ata da reunião de 15/11/2026](docs/atas/2026-11-15.md) | Orientações do Ponto de Controle 2, decisões e encaminhamentos da equipe. |
 
 ## Diagramas e evidências
 
