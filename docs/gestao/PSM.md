@@ -60,7 +60,7 @@ Quadro 1: Resumo dos resultados por métrica (dados de 11/11/2026).
 |---|---|---|---|---|
 | 1. Antecedência de conclusão | Calendário e Progresso | Entrega 1: 0 dia de antecedência (Entrega 2 pendente) | **Aceitável** | [Método](metrica-1-metodo.md) · [Resultados](metrica-1-resultados.md) |
 | 2. Distribuição de commits | Recursos e Custos | 40,0% / 40,0% / 15,0% / 5,0% / 0,0% dos 40 commits, por integrante | 1 integrante **Ideal**; 4 **Ruim** | [Método](metrica-2-metodo.md) · [Resultados](metrica-2-resultados.md) |
-| 3. Tempo médio de resolução de PRs | Desempenho dos Processos | 1,14 dia (média) e 0,80 dia (mediana), 6 Pull Requests | **Ideal** | [Método](metrica-3-metodo.md) · [Resultados](metrica-3-resultados.md) |
+| 3. Tempo médio de resolução de PRs | Desempenho dos Processos | 2,70 dias (média) e 0,80 dia (mediana), 12 Pull Requests | **Ideal** | [Método](metrica-3-metodo.md) · [Resultados](metrica-3-resultados.md) |
 
 ### 2.2. Como navegar
 
