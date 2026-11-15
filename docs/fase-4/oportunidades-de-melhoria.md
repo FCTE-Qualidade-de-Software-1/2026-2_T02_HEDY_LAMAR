@@ -26,7 +26,7 @@ As oportunidades foram priorizadas conforme a relevância dos resultados, a exis
 
 **Métrica relacionada:** Métrica 3 do PSM/CID — Tempo médio de resolução de Pull Requests.
 
-**Evidência:** A coleta mais recente considerou dez Pull Requests integrados, com tempo médio de resolução de 3,01 dias e mediana de 0,80 dia. A média ultrapassou o limite de três dias estabelecido para a classificação Ideal, sendo influenciada principalmente pelo PR #7, que levou 17,55 dias para ser integrado.
+**Evidência:** A coleta mais recente considerou doze Pull Requests integrados, com tempo médio de resolução de 2,70 dias e mediana de 0,80 dia. A média permaneceu dentro do limite de três dias da classificação Ideal, mas subiu em relação à coleta anterior (1,14 dia), principalmente por causa dos PRs #7 e #8, que levaram 17,55 e 5,65 dias para ser integrados.
 
 **Oportunidade:** Melhorar o acompanhamento dos Pull Requests pendentes, estabelecendo responsáveis pela revisão e prazos internos para análise e integração.
 
