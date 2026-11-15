@@ -4,7 +4,7 @@
 
 Este artefato define os objetivos de medição, as questões e as hipóteses da avaliação de qualidade do **Sua Grade UnB**, utilizando o método Goal–Question–Metric (GQM). O objetivo é estabelecer uma relação rastreável entre as necessidades identificadas na Fase 1 e as informações que deverão ser obtidas durante a avaliação.
 
-A definição dos objetivos considera o propósito da avaliação, as necessidades das partes interessadas e as características de qualidade priorizadas na página [2.5 Modelo de Qualidade](modelo.md): Adequação Funcional, Confiabilidade e Portabilidade, conforme a ISO/IEC 25010:2011.
+A definição dos objetivos considera o propósito da avaliação, as necessidades das partes interessadas e as características de qualidade priorizadas na página [2.5 Modelo de Qualidade](../fase-1/modelo.md): Adequação Funcional, Confiabilidade e Portabilidade, conforme a ISO/IEC 25010:2011.
 
 A avaliação será realizada externamente, por meio da interface do produto em produção, caracterizando uma abordagem de caixa-preta. As hipóteses apresentadas representam expectativas a serem verificadas durante a coleta de dados, não resultados já obtidos.
 
