@@ -1,7 +1,6 @@
-## Métrica 3 - Tempo médio de resolução de Pull Requests: resultados e análise
+# Métrica 3 - Tempo médio de resolução de Pull Requests: resultados e análise
 
-Esta página apresenta o resultado, o gráfico e a análise da Métrica 3. O método está em Método.
-
+Esta página apresenta o resultado, o gráfico e a análise da Métrica 3. O método está em [Método](metrica-3-metodo.md).
 
 ## 5.5. Resultado
 
@@ -21,6 +20,14 @@ Cálculo do tempo médio:
 = 32,39 / 12 ≈ **2,70 dias**.
 
 O resultado permanece dentro do critério Ideal, estabelecido em até 3 dias. Os tempos individuais estão apresentados na Figura 3 e registrados no arquivo `dados/psm/prs.csv`.
+
+## 5.6. Visualização dos resultados
+
+![Gráfico de barras com o tempo de resolução de cada Pull Request integrado, com linhas de referência para a média e para o limite de 3 dias](../assets/psm-prs-tempo-resolucao.png)
+
+*Figura 3: Tempo de resolução dos Pull Requests integrados à `main`
+(dias). Fonte: `dados/psm/prs.csv`, gerado por
+`scripts/gerar_grafico_prs.py`.*
 
 ## 5.7. Análise
 
