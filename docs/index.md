@@ -78,7 +78,7 @@ Para consultar a imagem original do modelo, acesse [modelo-qualidade-iso-origina
 | João Vitor Santos de Oliveira | 221022337 | [@Jauzimm](https://github.com/Jauzimm) |
 | Cauã Clemente Oliveira | 222006623 | [@CauaoClemente](https://github.com/CauaoClemente) |
 | Pablo Rodrigues Lima | 231029841 | [@Pablo-R-L](https://github.com/Pablo-R-L) |
-| Leonardo Rodrigues Martins | 211062105 | [@Antedeguemon21](https://github.com/Antedeguemon21) |
+| Leonardo Rodrigues Martins | 211062105 | [@LeonardoRodriguesMarrtinns99](https://github.com/LeonardoRodriguesMarrtinns99) |
 | João Victor Marques Reis de Miranda | 200058576 | [@jmarquees](https://github.com/jmarquees) |
 
 As contribuições detalhadas por atividade estão registradas na [Tabela de Contribuição](fase-1/contribuicao.md).
