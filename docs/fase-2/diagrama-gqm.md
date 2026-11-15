@@ -1,6 +1,6 @@
 # 3.2 Diagrama GQM
 
-O diagrama abaixo representa a hierarquia de medição (Objetivo → Questão → Métrica) definida para a avaliação do Sua Grade UnB, conforme detalhado na seção [3.1 Objetivos, Questões e Hipóteses](objetivos.md) e nas [Métricas](Metricas.md).
+O diagrama abaixo representa a hierarquia de medição (Objetivo → Questão → Métrica) definida para a avaliação do Sua Grade UnB, conforme detalhado na seção [3.1 Objetivos, Questões e Hipóteses](objetivos.md) e nas [Métricas de avaliação](../fase-4/Metricas.md).
 
 ```mermaid
 graph TD
