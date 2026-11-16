@@ -100,6 +100,25 @@ Fonte: [Propósito da avaliação](../fase-1/proposito.md), [Métricas de avalia
 - **Avaliadores:** a avaliação foi feita pela própria equipe, sem participantes externos.
 - **Níveis por característica:** a regra do menor nível é uma escolha da equipe, não uma regra dos critérios da Fase 2. Como todas as métricas ficaram em Excelente, outra regra de combinação não alteraria o nível de nenhuma característica.
 
+## 7. Conclusão
+
+<font size="3"><p style="text-align: left">Tabela 3: Julgamento final por característica</p></font>
+
+| Característica | Objetivo | Nível | Situação |
+| :--- | :---: | :--- | :--- |
+| Adequação Funcional | G1 | Excelente | Provisório (M3) |
+| Confiabilidade | G2 | Excelente | Provisório (M5 e M6) |
+| Portabilidade | G3 | Excelente | Confirmado |
+
+<font size="3"><p style="text-align: left">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
+
+Nas condições e amostras avaliadas, o Sua Grade UnB atende aos critérios da Fase 2 nas três características. A qualidade observada é adequada ao uso pretendido de apoiar a equipe mantenedora na priorização de melhorias, com a ressalva de que a avaliação não cobre a atualização dos dados, as grades geradas automaticamente e os ambientes fora da matriz.
+
+## Bibliografia
+
+> 1. RAMOS, Cristiane Soares. *Processo de Avaliação de Produto de Software*. Material da disciplina Qualidade de Software 1. Universidade de Brasília (UnB), 2026.
+
+> 2. ISO/IEC 25010:2011. *Systems and software engineering: Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. 2011.
 
 ## Histórico de Versão
 
@@ -108,3 +127,4 @@ Fonte: [Propósito da avaliação](../fase-1/proposito.md), [Métricas de avalia
 | 1.0 | Versão inicial do julgamento final da qualidade | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.1 | Adição dos tópicos 3 e 4 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.2 | Adição dos tópicos 5 e 6 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
+| 1.3 | Adição da conclusão e bibliografia | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
