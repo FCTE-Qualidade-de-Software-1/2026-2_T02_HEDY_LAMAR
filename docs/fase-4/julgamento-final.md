@@ -16,6 +16,62 @@ O julgamento também é relacionado ao propósito da avaliação, estabelecido n
 
 **Alcance.** Todos os julgamentos valem para o produto em produção, avaliado externamente (caixa-preta), no estado de 17/10/2026, para as amostras e ambientes efetivamente testados.
 
+## 3. Resultados e níveis por métrica
+
+<font size="3"><p style="text-align: left">Tabela 1: Resultado e nível de cada métrica</p></font>
+
+| Métrica | Característica | Resultado | Amostra | Nível | Situação |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| M1 — Completude funcional | Adequação Funcional | 90,91% | 10 de 11 funções | Excelente | Confirmado |
+| M2 — Correção funcional | Adequação Funcional | 100% | 15 de 15 atributos (5 disciplinas) | Excelente | Confirmado |
+| M3 — Adequação às tarefas | Adequação Funcional | 100% | 5 de 5 tarefas | Excelente | Provisório |
+| M4 — Maturidade | Confiabilidade | 100% | 4 de 4 cenários | Excelente | Confirmado |
+| M5 — Disponibilidade observada | Confiabilidade | 100% | 15 de 15 verificações | Excelente | Provisório |
+| M6 — Tolerância a falhas | Confiabilidade | 100% | 5 de 5 situações | Excelente | Provisório |
+| M7 — Adaptabilidade | Portabilidade | 100% | 6 de 6 ambientes | Excelente | Confirmado |
+
+Fonte: [Métricas de avaliação](Metricas.md) e [Critérios de julgamento](criterios.md).
+
+<font size="3"><p style="text-align: left">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
+
+Notas sobre as situações provisórias e sobre a M1:
+
+- **M1:** o nível Excelente exige pelo menos 10 das 11 funções. Com 9 funções, o nível seria Bom. A única função ausente é a exclusão de uma grade salva localmente (R9); a equipe conferiu novamente, em 15/11/2026, que o produto não oferece essa exclusão.
+- **M3:** [Critérios de julgamento](criterios.md) condiciona a classificação à confirmação de que cada tarefa foi atendida segundo condições de aceitação definidas antes da coleta. Em [Métricas de avaliação](Metricas.md), a coleta registra a relação de cada tarefa com o objetivo do produto, sem evidência por tarefa.
+- **M5:** depende da conferência dos registros das 15 verificações. Pelos nomes dos arquivos de evidência, alguns horários de captura ficaram fora das janelas definidas no Plano de Avaliação (por exemplo, 12h13 e 23h40).
+- **M6:** depende de confirmar que as cinco situações da tabela de testes são o conjunto avaliado. O texto de coleta descreve quatro situações, e a tabela registra cinco.
+
+## 4. Julgamento por característica
+
+### 4.1. Adequação Funcional (objetivo G1)
+
+**Nível: Excelente (provisório).** Menor nível entre M1, M2 e M3, todos Excelente. O julgamento é provisório por causa da M3.
+
+- **Q1 — Completude funcional (H1):** 10 das 11 funções previstas no *story map* estão implementadas. A hipótese H1 prevê que ela seria contrariada se alguma função estivesse ausente; portanto, **H1 foi contrariada em um ponto** (R9), sem que isso rebaixe o nível da métrica.
+- **Q2 — Corretude funcional (H2):** professor, local e horário das cinco disciplinas verificadas coincidiram com o SIGAA. H2 foi sustentada para essa amostra. A M2 compara atributos das turmas; a parte da Q2 sobre grades geradas sem conflito de horário ou disciplinas repetidas não tem métrica própria, de modo que H2 não foi verificada nesse aspecto.
+- **Q3 — Adequação às tarefas (H3):** as cinco tarefas avaliadas foram consideradas atendidas, de forma provisória, conforme a nota da M3.
+
+**Resposta ao objetivo G1:** nos aspectos medidos, o produto oferece as funções necessárias à tarefa principal e exibe dados coerentes com o SIGAA. O único ponto de melhoria objetivo identificado é a ausência da exclusão de grades salvas localmente. A exportação em PDF, tratada como saída do produto na Fase 1, não consta entre as 11 funções contadas na M1.
+
+### 4.2. Confiabilidade (objetivo G2)
+
+**Nível: Excelente (provisório).** Menor nível entre M4, M5 e M6, todos Excelente. O julgamento é provisório por causa da M5 e da M6.
+
+- **Q4 — Maturidade (H4):** os quatro cenários (repetição das operações, persistência das grades, uso contínuo e acesso em sessões diferentes) foram concluídos sem falhas observáveis. H4 foi sustentada nas condições testadas. [Métricas de avaliação](Metricas.md) não anexa evidências a esses cenários.
+- **Q5 — Disponibilidade (H5):** as 15 verificações, em cinco dias, foram bem-sucedidas. H5 foi sustentada para os horários observados, sem permitir concluir sobre disponibilidade contínua.
+- **Q6 — Tolerância a falhas (H6):** nas cinco situações avaliadas, o produto identificou o problema e exibiu aviso. Todas as situações são entradas inválidas ou condições impeditivas de uso. A Q6 também trata de falhas em dependências externas (login Google, dados do SIGAA), que não foram testadas; para esse aspecto, H6 não foi verificada. A M6 mede identificação e comunicação, não recuperação nem preservação de dados.
+
+**Resposta ao objetivo G2:** nas condições testadas, não foram observadas falhas operacionais nem indisponibilidade, e as entradas inválidas avaliadas foram tratadas com aviso. O resultado não cobre falhas de serviços externos nem períodos fora das janelas observadas.
+
+### 4.3. Portabilidade (objetivo G3)
+
+**Nível: Excelente.** Determinado pela M7, confirmada.
+
+- **Q7 — Adaptabilidade (H7):** o produto funcionou nos seis ambientes avaliados: Firefox, Opera GX, Brave e Edge em Windows 11, e Chrome e DuckDuckGo em Android. H7 foi sustentada para esses ambientes.
+- **Alcance:** os ambientes cobrem dois sistemas operacionais (Windows e Android) e dois formatos de tela (computador e celular). O objetivo G3 menciona sistemas operacionais e tamanhos de tela em geral; macOS, Linux, iOS e outros navegadores não foram avaliados. Instalabilidade foi retirada do escopo na Fase 2, por se tratar de aplicação web.
+
+**Resposta ao objetivo G3:** nos ambientes testados, as funções principais continuam operacionais, sem necessidade de instalação. O resultado não permite afirmar compatibilidade fora da matriz avaliada.
+
 
 
 ## Histórico de Versão
@@ -23,3 +79,4 @@ O julgamento também é relacionado ao propósito da avaliação, estabelecido n
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :----: | :--- | :--- | :---: | :--- | :---: |
 | 1.0 | Versão inicial do julgamento final da qualidade | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
+| 1.1 | Adição dos tópicos 3 e 4 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
