@@ -6,7 +6,7 @@ Esta página declara o uso de ferramentas de inteligência artificial na elabora
 
 A ferramenta utilizada foi o Claude, IA da Anthropic. Ela foi usada como apoio em três tarefas, descritas na Tabela 1.
 
-<font size="3"><p style="text-align: left">Tabela 1: Tarefas com apoio de IA na fases</p></font>
+<font size="3"><p style="text-align: left">Tabela 1: Tarefas com apoio de IA nas fases</p></font>
 
 | Tarefa | Como foi usada | Como foi conferida pela equipe |
 | :--- | :--- | :--- |
@@ -20,7 +20,7 @@ Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
 
 Todo trecho produzido com apoio da ferramenta foi lido e, quando necessário, reescrito pela equipe. As afirmações técnicas foram checadas contra as fontes citadas nos documentos: as normas da série ISO/IEC 25000 (ISO/IEC 25010, 25021 e a própria 25000), os materiais da disciplina e a página do IPEA sobre o ODS 4.
 
-Em alguns momentos, a ferramenta gero sugestões que a equipe corrigiu antes de aceitá-las, seja por imprecisão, seja por não se ajustar ao contexto do Sua Grade UnB. Por isso, a ferramenta foi tratada como fonte de rascunhos e de sugestões, e não como fonte de conteúdo técnico.
+Em alguns momentos, a ferramenta gerou sugestões que a equipe corrigiu antes de aceitá-las, seja por imprecisão, seja por não se ajustar ao contexto do Sua Grade UnB. Por isso, a ferramenta foi tratada como fonte de rascunhos e de sugestões, e não como fonte de conteúdo técnico.
 
 ## Scripts Python e automação da coleta de dados
 
@@ -45,7 +45,7 @@ Os scripts de coleta são executados diariamente pelo fluxo de trabalho `psm-col
 
 ## Decisões de conteúdo
 
-As decisões de conteúdo são julgamentos da equipe, registrados nos próprios documentos. Entre elas estão a escolha das características de qualidade, os valores da matriz de priorização (impacto, risco e viabilidade), as premissas sobre o requisitante e a definição do escopo. Essas escolhas podem ser verificadas nas seções [2.1](proposito.md), [2.2](requisitantes.md), [2.4](justificativas.md) e [2.5](modelo.md).
+As decisões de conteúdo são julgamentos da equipe, registrados nos próprios documentos. Entre elas estão a escolha das características de qualidade, os valores da matriz de priorização (impacto, risco e viabilidade), as premissas sobre o requisitante e a definição do escopo. Essas escolhas podem ser verificadas nas seções [2.1](../fase-1/proposito.md), [2.2](../fase-1/requisitantes.md), [2.4](../fase-1/justificativas.md) e [2.5](../fase-1/modelo.md).
 
 ## Ética e citações
 
@@ -70,3 +70,4 @@ Os scripts Python foram gerados pela IA e conferidos pela equipe apenas por meio
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
 |  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 24/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 26/10/2026  |
 |  1.1   |      Adição sobre scripts       |     [João Vitor](https://github.com/Jauzimm)      | 15/11/2026 |  |   |
+|  1.2   |  Correção dos links após a mudança de pasta e de erros de digitação  |  [Cauã Clemente](https://github.com/CauaoClemente)  | 15/11/2026 |  |   |

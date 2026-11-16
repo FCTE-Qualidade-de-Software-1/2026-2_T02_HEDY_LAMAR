@@ -29,7 +29,6 @@ Reúne os documentos de definição do produto, partes interessadas e escopo:
 * [2.4 Justificativas](fase-1/justificativas.md)
 * [2.5 Modelo de Qualidade e Escopo](fase-1/modelo.md)
 * [2.6 Tabela de Contribuição](fase-1/contribuicao.md)
-* [2.7 Declaração de Uso de IA](fase-1/uso-da-ia.md)
 
 ### Fase 2 - Especificar a Avaliação (GQM)
 Define a hierarquia Goal-Question-Metric (objetivos, questões e hipóteses):
@@ -53,6 +52,11 @@ Acompanhamento do projeto nas categorias Calendário e Progresso, Recursos e Cus
 
 * [Visão geral do PSM/CID](gestao/PSM.md)
 * [Decisões de gestão](gestao/decisoes.md)
+
+### Uso de Inteligência Artificial
+Declaração do uso de ferramentas de IA nos documentos e nos scripts de coleta do PSM:
+
+* [Uso de Inteligência Artificial](uso-de-ia/uso-da-ia.md)
 
 ---
 
@@ -93,6 +97,7 @@ As contribuições detalhadas por atividade estão registradas na [Tabela de Con
 | 1.1 | 26/10/2026 | Inclusão de diagramas GQM e detalhamento das métricas da Fase 2. | Cauã Clemente e Pablo Rodrigues |
 | 1.2 | 06/11/2026 | Inclusão do Plano de Avaliação da Fase 3 (métodos, massa de dados e repetibilidade) e atualização da navegação. | Cauã Clemente |
 | 1.3 | 15/11/2026 | Inclusão da Fase 4 e da Gestão (PSM/CID) na página inicial, correção dos links para Métricas e Critérios e da exibição das listas, links para o repositório e as releases, e versão e data no rodapé. | Cauã Clemente |
+| 1.4 | 15/11/2026 | Link da declaração de uso de IA atualizado para a nova seção IA. | Cauã Clemente |
 
 ---
 
