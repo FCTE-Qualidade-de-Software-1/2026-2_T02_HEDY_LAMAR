@@ -23,7 +23,6 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 | [Justificativas](docs/fase-1/justificativas.md) | Motivos das escolhas feitas para a avaliação. |
 | [Modelo de qualidade e escopo](docs/fase-1/modelo.md) | Modelo adotado, características selecionadas e limites da avaliação. |
 | [Tabela de contribuição](docs/fase-1/contribuicao.md) | Participação dos integrantes nas atividades. |
-| [Uso de Inteligência Artificial](docs/fase-1/uso-da-ia.md) | Declaração de como a IA foi usada na Fase 1. |
 
 ## Documentos da Fase 2
 
@@ -44,6 +43,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 |---|---|
 | [Métricas de avaliação](docs/fase-4/Metricas.md) | Aplicação das métricas M1 a M7, com coleta e resultados. |
 | [Critérios de julgamento](docs/fase-4/criterios.md) | Níveis de pontuação e julgamento de cada métrica. |
+| [Oportunidades de melhoria](docs/fase-4/oportunidades-de-melhoria.md) | Melhorias identificadas a partir dos resultados, priorização e ação selecionada. |
 
 ## Gestão do projeto (PSM/CID)
 
@@ -51,6 +51,12 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 |---|---|
 | [Visão geral do PSM/CID](docs/gestao/PSM.md) | Métricas de acompanhamento do projeto e resumo dos resultados. |
 | [Decisões de gestão](docs/gestao/decisoes.md) | Decisões tomadas a partir das medições e procedimento de atualização. |
+
+## Uso de Inteligência Artificial
+
+| Documento | Conteúdo |
+|---|---|
+| [Uso de Inteligência Artificial](docs/uso-de-ia/uso-da-ia.md) | Declaração do uso de IA nos documentos e nos scripts de coleta do PSM. |
 
 ## Materiais complementares
 
