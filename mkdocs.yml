@@ -55,7 +55,6 @@ nav:
       - 2.4 Justificativas: fase-1/justificativas.md
       - 2.5 Modelo de Qualidade e Escopo: fase-1/modelo.md
       - 2.6 Tabela de Contribuição: fase-1/contribuicao.md
-      - 2.7 Uso de Inteligência Artificial: fase-1/uso-da-ia.md
 
   - Fase 2:
       - Objetivos: fase-2/objetivos.md
@@ -80,6 +79,9 @@ nav:
           - Método: gestao/metrica-3-metodo.md
           - Resultados e análise: gestao/metrica-3-resultados.md
       - Decisões de gestão: gestao/decisoes.md
+  
+  - IA:
+      - Uso de Inteligência Artificial: uso-de-ia/uso-da-ia.md
 
   - Extras:
       - Heatmap de disponibilidade: extras/heatmap.md
