@@ -72,6 +72,33 @@ Notas sobre as situações provisórias e sobre a M1:
 
 **Resposta ao objetivo G3:** nos ambientes testados, as funções principais continuam operacionais, sem necessidade de instalação. O resultado não permite afirmar compatibilidade fora da matriz avaliada.
 
+## 5. Coerência com o propósito da Fase 1
+
+O propósito da Fase 1 prevê três decisões da equipe mantenedora, listadas na Tabela 1 de [Propósito da avaliação](../fase-1/proposito.md). A Tabela 2 relaciona cada decisão ao que os resultados permitem concluir.
+
+<font size="3"><p style="text-align: left">Tabela 2: Apoio dos resultados às decisões da equipe mantenedora</p></font>
+
+| Nº | Decisão a apoiar | Evidência prevista na Fase 1 | O que os resultados mostram | Apoio |
+| :---: | :--- | :--- | :--- | :---: |
+| 1 | Quais divergências de dados e conflitos de horário corrigir primeiro | Comparação dos dados com o SIGAA e verificação das grades geradas | Nenhuma divergência na amostra de 15 atributos (M2). O produto avisa o usuário ao tentar inserir turma em conflito (M6). A ausência de conflito nas grades geradas automaticamente não foi verificada | Parcial |
+| 2 | Se a atualização dos dados de turmas deve ser automatizada ou monitorada | Defasagem observada dos dados e falhas durante o uso normal | Os dados conferiam com o SIGAA no dia da verificação (M2), e não houve falhas nos cenários de uso (M4). A defasagem ao longo do tempo e o processo de atualização não foram medidos | Não apoia diretamente |
+| 3 | Quais navegadores, sistemas e telas passam a ser suportados e testados | Matriz de funcionamento por ambiente | Funcionamento em seis ambientes, em Windows 11 e Android (M7). Outros sistemas, navegadores e tamanhos de tela não foram avaliados | Parcial |
+
+Fonte: [Propósito da avaliação](../fase-1/proposito.md), [Métricas de avaliação](Metricas.md).
+
+<font size="3"><p style="text-align: left">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
+
+**Síntese.** O propósito era identificar pontos de melhoria para apoiar a priorização de correções. Nos aspectos medidos, a avaliação encontrou um ponto de melhoria objetivo (a exclusão de grades salvas localmente) e não encontrou deficiência nos demais. Os resultados favoráveis apoiam as decisões 1 e 3 de forma parcial e não permitem apoiar a decisão 2 com dados: o resultado da M2 mostra que os dados estavam corretos na data da coleta, mas não informa se a atualização manual deve ser automatizada. Essas lacunas são tratadas como limitações na seção 6 e como oportunidades na página de oportunidades de melhoria.
+
+## 6. Limitações
+
+- **Amostras pequenas:** cinco disciplinas, quatro cenários, cinco situações de falha e seis ambientes. Os resultados não se generalizam para toda a oferta da UnB nem para todos os usuários.
+- **Data de referência:** o produto foi observado no estado de 17/10/2026, com coletas entre 19 e 24/10/2026. Alterações posteriores no produto ou no SIGAA não estão refletidas.
+- **Avaliação externa:** a abordagem é de caixa-preta, pela interface em produção. Os resultados indicam o que foi observado, não as causas internas.
+- **Métricas com julgamento provisório:** M3, M5 e M6, conforme a seção 3. O julgamento de Adequação Funcional e de Confiabilidade pode mudar após a confirmação.
+- **Aspectos sem métrica:** conflito de horário em grades geradas, defasagem dos dados, falha de dependências externas e ambientes fora da matriz avaliada.
+- **Avaliadores:** a avaliação foi feita pela própria equipe, sem participantes externos.
+- **Níveis por característica:** a regra do menor nível é uma escolha da equipe, não uma regra dos critérios da Fase 2. Como todas as métricas ficaram em Excelente, outra regra de combinação não alteraria o nível de nenhuma característica.
 
 
 ## Histórico de Versão
@@ -80,3 +107,4 @@ Notas sobre as situações provisórias e sobre a M1:
 | :----: | :--- | :--- | :---: | :--- | :---: |
 | 1.0 | Versão inicial do julgamento final da qualidade | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.1 | Adição dos tópicos 3 e 4 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
+| 1.2 | Adição dos tópicos 5 e 6 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
