@@ -38,9 +38,9 @@ A métrica é calculada pela proporção entre as funcionalidades implementadas 
 | Bom | De 81,82% a 89,99% | 9 das 11 funcionalidades estão implementadas, com poucas funcionalidades ausentes. |
 | Excelente | De 90% a 100% | Pelo menos 10 das 11 funcionalidades estão implementadas. |
 
-**Resultado obtido:** 90,91%.
+**Resultado obtido:** 100% (revisado em 19/11/2026; o registro anterior era 90,91%, ver [Métricas de avaliação](Metricas.md)).
 
-**Julgamento:** Excelente. O produto apresenta 10 das 11 funcionalidades planejadas implementadas. A ausência da operação de exclusão de uma grade salva localmente não chega a impedir que o resultado alcance o nível Excelente conforme os limites estabelecidos.
+**Julgamento:** Excelente. O produto apresenta as 11 funcionalidades planejadas implementadas. A exclusão de uma grade salva localmente (R9), antes registrada como ausente, está disponível no produto. O nível Excelente não muda com a revisão.
 
 ### 3.2. M2 — Correção funcional
 
@@ -172,3 +172,4 @@ Antes da consolidação dos resultados, devem ser conferidas eventuais divergên
 | :---: | :--- | :--- | :--- |
 | 1.0 | Versão inicial dos critérios de julgamento e dos níveis de pontuação das métricas. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |
 | 1.1 | Atualização de correção funcional. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 24/10/2026 |
+| 1.2 | Revisão do resultado da M1 (11/11, 100%). | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 |
