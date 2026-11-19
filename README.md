@@ -44,6 +44,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 | [Métricas de avaliação](docs/fase-4/Metricas.md) | Aplicação das métricas M1 a M7, com coleta e resultados. |
 | [Critérios de julgamento](docs/fase-4/criterios.md) | Níveis de pontuação e julgamento de cada métrica. |
 | [Julgamento final da qualidade](docs/fase-4/julgamento-final.md) | Nível de cada característica, coerência com o propósito da Fase 1 e limitações. |
+| [Relações entre as características](docs/fase-4/relacoes-caracteristicas.md) | Relações entre Adequação Funcional, Confiabilidade e Portabilidade, com evidências e limitações. |
 | [Oportunidades de melhoria](docs/fase-4/oportunidades-de-melhoria.md) | Melhorias identificadas a partir dos resultados, priorização e ação selecionada. |
 
 ## Gestão do projeto (PSM/CID)
