@@ -84,7 +84,7 @@ A escolha foi motivada pela relação direta com o propósito da avaliação: a 
 
 Como o repositório de avaliação não contém o código-fonte oficial do Sua Grade UnB, a ação será realizada por meio de um protótipo de alta fidelidade, demonstrando a indicação da data da última atualização na interface e o alerta exibido quando os dados ultrapassarem o limite definido.
 
-O protótipo será apresentado como entrega técnica da Fase 4 e servirá como referência para uma possível implementação futura no produto.
+O protótipo foi apresentado como entrega técnica da Fase 4, na página [Ação de melhoria](acao-de-melhoria.md), e serve como referência para uma possível implementação futura no produto.
 
 ## 5. Considerações finais
 
