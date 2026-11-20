@@ -2,7 +2,7 @@
 
 Este documento descreve as métricas selecionadas para avaliar a qualidade do **Sua Grade UnB**, relacionando cada métrica às questões de medição definidas pelo método Goal–Question–Metric (GQM). Para cada métrica, são apresentados sua definição, seu procedimento de cálculo, a fonte dos dados e o procedimento de coleta.
 
-As métricas estão organizadas de acordo com as questões de medição. Os critérios detalhados de julgamento são apresentados em [Critérios de julgamento](criterios.md).
+As métricas estão organizadas de acordo com as questões de medição. Os critérios detalhados de julgamento são apresentados em [Critérios de julgamento](../fase-2/criterios.md).
 
 ## 1. Adequação funcional
 
@@ -60,7 +60,7 @@ C_f = (11 / 11) * 100 = 100%
 | R10 | Salvar grade na nuvem | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 | R11 | Apagar grade horária na nuvem | [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 
-**Interpretação:** o resultado indica que 100% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em [Critérios de julgamento](criterios.md).
+**Interpretação:** o resultado indica que 100% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em [Critérios de julgamento](../fase-2/criterios.md).
 
 ### M2 — Correção funcional
 
@@ -338,7 +338,7 @@ Interpretação: O resultado de 100% indica que o Sua Grade UnB funcionou corret
 
 Os dados brutos, as evidências e os registros de cálculo deverão ser mantidos no repositório do projeto, permitindo relacionar cada resultado à respectiva fonte.
 
-Os critérios de julgamento e os níveis de pontuação de cada métrica estão documentados em [Critérios de julgamento](criterios.md). 
+Os critérios de julgamento e os níveis de pontuação de cada métrica estão documentados em [Critérios de julgamento](../fase-2/criterios.md). 
 
 A métrica de completude funcional utiliza o planejamento do *story map* como referência. As demais métricas dependem de cenários, condições e resultados esperados definidos antes da coleta, de modo a garantir consistência e reprodutibilidade.
 
