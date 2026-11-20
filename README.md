@@ -46,6 +46,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 | [Julgamento final da qualidade](docs/fase-4/julgamento-final.md) | Nível de cada característica, coerência com o propósito da Fase 1 e limitações. |
 | [Relações entre as características](docs/fase-4/relacoes-caracteristicas.md) | Relações entre Adequação Funcional, Confiabilidade e Portabilidade, com evidências e limitações. |
 | [Oportunidades de melhoria](docs/fase-4/oportunidades-de-melhoria.md) | Melhorias identificadas a partir dos resultados, priorização e ação selecionada. |
+| [Ação de melhoria](docs/fase-4/acao-de-melhoria.md) | Protótipo de alta fidelidade da indicação da data de atualização dos dados do SIGAA. |
 
 ## Gestão do projeto (PSM/CID)
 

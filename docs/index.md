@@ -49,6 +49,7 @@ Métricas aplicadas, resultados obtidos e julgamento da qualidade:
 * [Julgamento Final da Qualidade](fase-4/julgamento-final.md)
 * [Relações entre as Características](fase-4/relacoes-caracteristicas.md)
 * [Oportunidades de Melhoria](fase-4/oportunidades-de-melhoria.md)
+* [Ação de Melhoria (protótipo)](fase-4/acao-de-melhoria.md)
 
 ### Gestão do Projeto (PSM/CID)
 Acompanhamento do projeto nas categorias Calendário e Progresso, Recursos e Custos e Desempenho dos Processos:
