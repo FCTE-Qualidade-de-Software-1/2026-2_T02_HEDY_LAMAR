@@ -45,7 +45,7 @@ Roteiro minucioso para os avaliadores, requisitos de ambiente, massa de dados e 
 Métricas aplicadas, resultados obtidos e julgamento da qualidade:
 
 * [Métricas de Avaliação (M1 a M7)](fase-4/Metricas.md)
-* [Critérios de Julgamento](fase-4/criterios.md)
+* [Critérios de Julgamento](fase-2/criterios.md)
 * [Julgamento Final da Qualidade](fase-4/julgamento-final.md)
 * [Relações entre as Características](fase-4/relacoes-caracteristicas.md)
 * [Oportunidades de Melhoria](fase-4/oportunidades-de-melhoria.md)
