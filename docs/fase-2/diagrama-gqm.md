@@ -15,7 +15,7 @@ graph TD
     G1 --> Q2["Q2: Corretude funcional<br>(Dados correspondem ao SIGAA?)"]:::question
     G1 --> Q3["Q3: Adequação funcional<br>(Permite concluir a tarefa?)"]:::question
 
-    Q1 --> M1["M1: Completude funcional<br>(10/11 funcionais = 90,91%)"]:::metric
+    Q1 --> M1["M1: Completude funcional<br>(11/11 funcionais = 100%)"]:::metric
     Q2 --> M2["M2: Correção funcional<br>(15/15 atributos = 100%)"]:::metric
     Q3 --> M3["M3: Adequação às tarefas<br>(5/5 tarefas = 100%)"]:::metric
 

@@ -38,11 +38,14 @@ Na contagem, cada funcionalidade considerada deve corresponder a uma unidade ide
 
 **Resultado obtido:**
 
-Foram identificadas 11 funcionalidades planejadas, das quais 10 estão implementadas. A funcionalidade ausente identificada foi a possibilidade de apagar uma grade horária salva localmente diretamente pelo produto. Excluir manualmente um arquivo pelo sistema operacional não foi considerado equivalente, pois essa ação não é oferecida pelo produto como funcionalidade própria.
+Foram identificadas 11 funcionalidades planejadas, e as 11 estão implementadas.
+
+> **Revisão (19/11/2026):** a primeira versão desta métrica registrou a R9 (apagar grade horária salva localmente) como não implementada, com resultado de 10/11 (90,91%). A coleta complementar de 18 e 19/11/2026 mostrou que a exclusão está disponível: na tela "Suas Grades", cada grade local tem um ícone de lixeira, que pede confirmação e remove a grade, que continua removida depois de recarregar a página, no Chrome do computador e do celular. No [código-fonte público do produto](https://github.com/unb-mds/2023-2-SuaGradeUnB/blob/main/web/app/components/SchedulePreview/SchedulePreview.tsx), essa remoção existe desde dezembro de 2023, ou seja, já existia na coleta de outubro. O registro original tratou a grade local como um arquivo baixado, cuja exclusão dependeria do sistema operacional. Detalhes em [Relações entre as características](https://fcte-qualidade-de-software-1.github.io/2026-2_T02_HEDY_LAMAR/fase-4/relacoes-caracteristicas/), seção 3.
 
 ```text
-C_f = (10 / 11) * 100 ≈ 90,91%
+C_f = (11 / 11) * 100 = 100%
 ```
+
 | ID | Requisito | Evidência |
 | :---: | :--- | :--- |
 | R1 | Criar grade horária | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Gerar%20grades%20validas.png) |
@@ -53,11 +56,11 @@ C_f = (10 / 11) * 100 ≈ 90,91%
 | R6 | Fazer registro e login via Google | [E6](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Cadastro%20atrav%C3%A9s%20do%20google.png) |
 | R7 | Visualizar grade horária | [E7](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Visualizar%20grade%20horaria.png) |
 | R8 | Salvar grade localmente | [E8](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grade%20localmente.png) |
-| R9 | Apagar grade horária local | Não implementado |
+| R9 | Apagar grade horária local | [E9](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/complementar/06-r9-confirmacao-exclusao-local.png), [E9.1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/complementar/07-r9-apos-exclusao.png), [E9.2](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/complementar/13-pc-r9-confirmacao.png) |
 | R10 | Salvar grade na nuvem | [E10](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 | R11 | Apagar grade horária na nuvem | [E11](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Salvar%20grades%20remotamente.png) |
 
-**Interpretação:** o resultado indica que 90,91% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em [Critérios de julgamento](criterios.md).
+**Interpretação:** o resultado indica que 100% das funcionalidades identificadas no planejamento estão implementadas. O julgamento de adequação desse resultado deve seguir os critérios definidos em [Critérios de julgamento](criterios.md).
 
 ### M2 — Correção funcional
 
@@ -348,3 +351,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.3 | Correção do M6 e M2| [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |
 | 1.4 | Correção das referências aos critérios de julgamento, do símbolo da fórmula de M7, dos rótulos de evidência repetidos em M6 e M7 e de erro de digitação em M5 | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |
 | 1.5 | Correção de inconsistencia da M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |  |  |
+| 1.6 | Revisão da M1: R9 implementada, resultado de 11/11 (100%), com evidências da coleta complementar | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 |  |  |

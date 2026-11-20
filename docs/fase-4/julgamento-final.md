@@ -22,7 +22,7 @@ O julgamento também é relacionado ao propósito da avaliação, estabelecido n
 
 | Métrica | Característica | Resultado | Amostra | Nível | Situação |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| M1 — Completude funcional | Adequação Funcional | 90,91% | 10 de 11 funções | Excelente | Confirmado |
+| M1 — Completude funcional | Adequação Funcional | 100% | 11 de 11 funções | Excelente | Confirmado |
 | M2 — Correção funcional | Adequação Funcional | 100% | 15 de 15 atributos (5 disciplinas) | Excelente | Confirmado |
 | M3 — Adequação às tarefas | Adequação Funcional | 100% | 5 de 5 tarefas | Excelente | Provisório |
 | M4 — Maturidade | Confiabilidade | 100% | 4 de 4 cenários | Excelente | Confirmado |
@@ -36,7 +36,7 @@ Fonte: [Métricas de avaliação](Metricas.md) e [Critérios de julgamento](crit
 
 Notas sobre as situações provisórias e sobre a M1:
 
-- **M1:** o nível Excelente exige pelo menos 10 das 11 funções. Com 9 funções, o nível seria Bom. A única função ausente é a exclusão de uma grade salva localmente (R9); a equipe conferiu novamente, em 15/11/2026, que o produto não oferece essa exclusão.
+- **M1:** o nível Excelente exige pelo menos 10 das 11 funções. As 11 funções estão implementadas. A exclusão de uma grade salva localmente (R9), registrada antes como ausente, foi verificada na coleta complementar de 18 e 19/11/2026 e está disponível no produto (ver a revisão em [Métricas de avaliação](Metricas.md)).
 - **M3:** [Critérios de julgamento](criterios.md) condiciona a classificação à confirmação de que cada tarefa foi atendida segundo condições de aceitação definidas antes da coleta. Em [Métricas de avaliação](Metricas.md), a coleta registra a relação de cada tarefa com o objetivo do produto, sem evidência por tarefa.
 - **M5:** depende da conferência dos registros das 15 verificações. Pelos nomes dos arquivos de evidência, alguns horários de captura ficaram fora das janelas definidas no Plano de Avaliação (por exemplo, 12h13 e 23h40).
 - **M6:** depende de confirmar que as cinco situações da tabela de testes são o conjunto avaliado. O texto de coleta descreve quatro situações, e a tabela registra cinco.
@@ -47,11 +47,11 @@ Notas sobre as situações provisórias e sobre a M1:
 
 **Nível: Excelente (provisório).** Menor nível entre M1, M2 e M3, todos Excelente. O julgamento é provisório por causa da M3.
 
-- **Q1 — Completude funcional (H1):** 10 das 11 funções previstas no *story map* estão implementadas. A hipótese H1 prevê que ela seria contrariada se alguma função estivesse ausente; portanto, **H1 foi contrariada em um ponto** (R9), sem que isso rebaixe o nível da métrica.
+- **Q1 — Completude funcional (H1):** as 11 funções previstas no *story map* estão implementadas. A hipótese H1 prevê que ela seria contrariada se alguma função estivesse ausente; portanto, **H1 não foi contrariada**.
 - **Q2 — Corretude funcional (H2):** professor, local e horário das cinco disciplinas verificadas coincidiram com o SIGAA. H2 foi sustentada para essa amostra. A M2 compara atributos das turmas; a parte da Q2 sobre grades geradas sem conflito de horário ou disciplinas repetidas não tem métrica própria, de modo que H2 não foi verificada nesse aspecto.
 - **Q3 — Adequação às tarefas (H3):** as cinco tarefas avaliadas foram consideradas atendidas, de forma provisória, conforme a nota da M3.
 
-**Resposta ao objetivo G1:** nos aspectos medidos, o produto oferece as funções necessárias à tarefa principal e exibe dados coerentes com o SIGAA. O único ponto de melhoria objetivo identificado é a ausência da exclusão de grades salvas localmente. A exportação em PDF, tratada como saída do produto na Fase 1, não consta entre as 11 funções contadas na M1.
+**Resposta ao objetivo G1:** nos aspectos medidos, o produto oferece as funções necessárias à tarefa principal e exibe dados coerentes com o SIGAA. Nas 11 funções contadas na M1, não foi identificada ausência. A exportação em PDF, tratada como saída do produto na Fase 1, não consta entre as 11 funções contadas na M1.
 
 ### 4.2. Confiabilidade (objetivo G2)
 
@@ -88,7 +88,7 @@ Fonte: [Propósito da avaliação](../fase-1/proposito.md), [Métricas de avalia
 
 <font size="3"><p style="text-align: left">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
 
-**Síntese.** O propósito era identificar pontos de melhoria para apoiar a priorização de correções. Nos aspectos medidos, a avaliação encontrou um ponto de melhoria objetivo (a exclusão de grades salvas localmente) e não encontrou deficiência nos demais. Os resultados favoráveis apoiam as decisões 1 e 3 de forma parcial e não permitem apoiar a decisão 2 com dados: o resultado da M2 mostra que os dados estavam corretos na data da coleta, mas não informa se a atualização manual deve ser automatizada. Essas lacunas são tratadas como limitações na seção 6 e como oportunidades na página de oportunidades de melhoria.
+**Síntese.** O propósito era identificar pontos de melhoria para apoiar a priorização de correções. Nos aspectos medidos, a avaliação não encontrou deficiência objetiva; a ausência da exclusão de grades salvas localmente, apontada na primeira versão, foi revista após a verificação complementar. Os resultados favoráveis apoiam as decisões 1 e 3 de forma parcial e não permitem apoiar a decisão 2 com dados: o resultado da M2 mostra que os dados estavam corretos na data da coleta, mas não informa se a atualização manual deve ser automatizada. Essas lacunas são tratadas como limitações na seção 6 e como oportunidades na página de oportunidades de melhoria.
 
 ## 6. Limitações
 
@@ -128,3 +128,4 @@ Nas condições e amostras avaliadas, o Sua Grade UnB atende aos critérios da F
 | 1.1 | Adição dos tópicos 3 e 4 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.2 | Adição dos tópicos 5 e 6 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.3 | Adição da conclusão e bibliografia | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
+| 1.4 | Revisão da M1 (R9 implementada, 11/11) e dos trechos que dependiam dela | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 | | |
