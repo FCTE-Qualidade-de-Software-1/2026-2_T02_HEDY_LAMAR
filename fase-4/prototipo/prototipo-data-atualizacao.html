@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protótipo — Indicação da data de atualização dos dados do SIGAA</title>
+<style>
+  :root {
+    --verde: #16af5f; --verde-claro: #93d6b0; --azul: #3f7ff0;
+    --cinza-card: #f4f4f4; --cinza-fundo: #e9e9e9; --texto: #1d1d1d;
+    --aviso-bg: #fff4d6; --aviso-borda: #e3a008; --aviso-texto: #6b4a00;
+    --ok-bg: #e8f7ee; --ok-texto: #12673b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Poppins", "Inter", system-ui, sans-serif; background: #f2f4f3; color: var(--texto); }
+  .pagina { max-width: 1240px; margin: 0 auto; padding: 32px 24px 48px; }
+  .pagina > h1 { font-size: 24px; margin: 0 0 4px; }
+  .pagina > p.sub { margin: 0 0 28px; color: #4c5a52; font-size: 14px; }
+  .telas { display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; }
+  .bloco { width: 360px; }
+  .bloco h2 { font-size: 15px; margin: 0 0 10px; }
+  .celular { width: 360px; height: 760px; background: #fff; border-radius: 28px; border: 10px solid #1f1f1f;
+             overflow: hidden; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+  .topo { background: var(--verde); color: #fff; padding: 22px 20px 34px; border-radius: 0 0 26px 26px; position: relative; }
+  .topo .ola { font-weight: 600; font-size: 16px; } .topo .data { font-size: 15px; }
+  .entrar { position: absolute; right: 16px; top: 18px; width: 40px; height: 40px; border-radius: 50%; background: #fff;
+            display: flex; align-items: center; justify-content: center; }
+  .btn-buscar { position: absolute; left: 50%; transform: translateX(-50%); bottom: -20px; background: var(--azul); color: #fff;
+                font-weight: 600; font-size: 15px; padding: 10px 20px; border-radius: 10px; white-space: nowrap; }
+  .conteudo { padding: 34px 18px 0; }
+  .selo { display: flex; gap: 8px; align-items: flex-start; background: var(--ok-bg); color: var(--ok-texto); font-size: 12px;
+          border-radius: 10px; padding: 8px 10px; margin-bottom: 12px; line-height: 1.35; }
+  .alerta { display: flex; gap: 8px; align-items: flex-start; background: var(--aviso-bg); color: var(--aviso-texto);
+            border: 1px solid var(--aviso-borda); font-size: 12px; border-radius: 10px; padding: 9px 10px; margin-bottom: 12px; line-height: 1.4; }
+  .alerta a { color: #8a5a00; font-weight: 600; }
+  .disc { background: var(--verde-claro); text-align: center; font-weight: 500; font-size: 13px; padding: 7px; border-radius: 6px; margin: 10px 0 6px; }
+  .turma { background: var(--cinza-card); border-radius: 8px; padding: 8px 10px; font-size: 12px; line-height: 1.5; position: relative; }
+  .turma b { font-weight: 600; }
+  .lixo { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }
+  .gerar { position: absolute; left: 50%; transform: translateX(-50%); bottom: 78px; background: var(--verde); color: #fff;
+           font-weight: 600; font-size: 15px; padding: 9px 46px; border-radius: 10px; white-space: nowrap; }
+  .nav { position: absolute; bottom: 0; left: 0; right: 0; height: 64px; background: #f7f7f7; display: flex;
+         align-items: center; justify-content: space-around; }
+  .nav .ativo { background: var(--verde); border-radius: 22px; padding: 8px 30px; display: flex; }
+  .painel { background: var(--cinza-fundo); border-radius: 22px; margin: 6px 0 0; padding: 18px 16px; height: 560px; }
+  .painel h3 { text-align: center; margin: 4px 0 8px; font-size: 17px; }
+  .campo { background: #fff; border-radius: 10px; padding: 11px 12px; font-size: 14px; display: flex; justify-content: space-between;
+           box-shadow: 0 2px 4px rgba(0,0,0,.08); margin-bottom: 8px; }
+  .rodape-dados { font-size: 11.5px; color: #4c5a52; text-align: center; margin: 2px 0 12px; }
+  .res { font-weight: 600; font-size: 13px; margin: 8px 4px; }
+  .notas { width: 360px; font-size: 12.5px; color: #33423a; line-height: 1.5; margin-top: 12px; }
+  .notas b { color: #1f5a3a; }
+  .implementacao { margin-top: 32px; background: #fff; border-radius: 12px; padding: 18px 22px; border-left: 4px solid var(--verde); font-size: 14px; line-height: 1.6; }
+  .implementacao h2 { margin: 0 0 6px; font-size: 16px; }
+  .implementacao ol { margin: 6px 0 0 18px; padding: 0; }
+  .tag { display: inline-block; font-size: 11px; background: #fde7a7; color: #6b4a00; border-radius: 6px; padding: 1px 6px; margin-left: 6px; }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <h1>Protótipo: indicação da data de atualização dos dados do SIGAA</h1>
+  <p class="sub">Ação de melhoria da Fase 4 · Grupo Hedy Lamarr · Qualidade de Software 1 (UnB/FCTE) · Protótipo de alta fidelidade sobre a interface do Sua Grade UnB · Os elementos novos estão marcados com <span class="tag">novo</span></p>
+
+  <div class="telas">
+
+    <!-- Tela 1 -->
+    <div class="bloco">
+      <h2>Tela 1 — Dados atualizados</h2>
+      <div class="celular" id="tela-1">
+        <div class="topo"><div class="ola">Olá, Anônimo!</div><div class="data">Quinta, 19 de Novembro</div>
+          <div class="entrar"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="#16af5f"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" fill="#16af5f"/></svg></div>
+          <div class="btn-buscar">Buscar matéria</div></div>
+        <div class="conteudo">
+          <div class="selo"><svg width="16" height="16" viewBox="0 0 24 24" style="flex:none;margin-top:1px"><circle cx="12" cy="12" r="10" fill="#16af5f"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>
+            <span>Turmas de 2026/2 atualizadas a partir do SIGAA em <b>19/11/2026 às 06h00</b>.</span></div>
+          <div class="disc">QUALIDADE DE SOFTWARE 1</div>
+          <div class="turma"><b>Código:</b> FGA0315<br><b>Sala:</b> FCTE - S6<br><b>Horários:</b> 24M34<br><b>Professor:</b> CRISTIANE SOARES RAMOS
+            <span class="lixo"><svg width="18" height="20" viewBox="0 0 24 24"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13" stroke="#222" stroke-width="2" fill="none"/></svg></span></div>
+          <div class="disc">TESTES DE SOFTWARE</div>
+          <div class="turma"><b>Código:</b> FGA0314<br><b>Sala:</b> FCTE - I10<br><b>Horários:</b> 35M12<br><b>Professor:</b> ELAINE VENSON
+            <span class="lixo"><svg width="18" height="20" viewBox="0 0 24 24"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13" stroke="#222" stroke-width="2" fill="none"/></svg></span></div>
+        </div>
+        <div class="gerar">Gerar Grade</div>
+        <div class="nav">
+          <span class="ativo"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z" fill="#111"/></svg></span>
+          <svg width="22" height="22" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="#111" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="#111" stroke-width="2"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#111" stroke-width="2"/><path d="M12 11v6M12 7.5v.5" stroke="#111" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div class="notas"><b>O que muda:</b> um selo discreto <span class="tag">novo</span> abaixo do botão "Buscar matéria" informa o período letivo e a data e a hora da última atualização bem-sucedida dos dados. O estudante sabe, sem sair do produto, de quando são as turmas exibidas.</div>
+    </div>
+
+    <!-- Tela 2 -->
+    <div class="bloco">
+      <h2>Tela 2 — Dados possivelmente defasados</h2>
+      <div class="celular" id="tela-2">
+        <div class="topo"><div class="ola">Olá, Anônimo!</div><div class="data">Quinta, 19 de Novembro</div>
+          <div class="entrar"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="#16af5f"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" fill="#16af5f"/></svg></div>
+          <div class="btn-buscar">Buscar matéria</div></div>
+        <div class="conteudo">
+          <div class="alerta"><svg width="18" height="18" viewBox="0 0 24 24" style="flex:none;margin-top:1px"><path d="M12 3l10 18H2z" fill="#e3a008"/><path d="M12 10v5M12 17.5v.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <span>As turmas foram atualizadas pela última vez em <b>15/11/2026 às 06h00</b> (há 4 dias). Podem ter ocorrido mudanças no SIGAA. Confira suas turmas antes da matrícula. <a href="https://sigaa.unb.br/sigaa/public/turmas/listar.jsf">Abrir turmas no SIGAA</a></span></div>
+          <div class="disc">QUALIDADE DE SOFTWARE 1</div>
+          <div class="turma"><b>Código:</b> FGA0315<br><b>Sala:</b> FCTE - S6<br><b>Horários:</b> 24M34<br><b>Professor:</b> CRISTIANE SOARES RAMOS
+            <span class="lixo"><svg width="18" height="20" viewBox="0 0 24 24"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13" stroke="#222" stroke-width="2" fill="none"/></svg></span></div>
+          <div class="disc">TESTES DE SOFTWARE</div>
+          <div class="turma"><b>Código:</b> FGA0314<br><b>Sala:</b> FCTE - I10<br><b>Horários:</b> 35M12<br><b>Professor:</b> ELAINE VENSON
+            <span class="lixo"><svg width="18" height="20" viewBox="0 0 24 24"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13" stroke="#222" stroke-width="2" fill="none"/></svg></span></div>
+        </div>
+        <div class="gerar">Gerar Grade</div>
+        <div class="nav">
+          <span class="ativo"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z" fill="#111"/></svg></span>
+          <svg width="22" height="22" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="#111" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="#111" stroke-width="2"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#111" stroke-width="2"/><path d="M12 11v6M12 7.5v.5" stroke="#111" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div class="notas"><b>O que muda:</b> quando a última atualização passa do limite definido pela equipe mantenedora (no exemplo, 48 horas), o selo vira um alerta <span class="tag">novo</span> com a data, há quanto tempo foi e um link direto para a consulta pública de turmas do SIGAA. O estudante é avisado em vez de planejar o semestre sobre dados possivelmente antigos.</div>
+    </div>
+
+    <!-- Tela 3 -->
+    <div class="bloco">
+      <h2>Tela 3 — Busca de matéria</h2>
+      <div class="celular" id="tela-3">
+        <div class="topo"><div class="ola">Olá, Anônimo!</div><div class="data">Quinta, 19 de Novembro</div>
+          <div class="entrar"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="#16af5f"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" fill="#16af5f"/></svg></div>
+          <div class="btn-buscar">Buscar matéria</div></div>
+        <div class="conteudo">
+          <div class="painel">
+            <h3>Ano/Período</h3>
+            <div class="campo"><span>2026/2</span><span>⌄</span></div>
+            <div class="rodape-dados">Dados de 2026/2 atualizados em 19/11/2026 às 06h00 <span class="tag">novo</span></div>
+            <h3>Matéria</h3>
+            <div class="campo"><span>qualidade de software</span><svg width="18" height="18" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7" stroke="#111" stroke-width="2.4" fill="none"/><path d="M15 15l6 6" stroke="#111" stroke-width="2.4"/></svg></div>
+            <div class="res">⌃ QUALIDADE DE SOFTWARE 1 - FGA0315</div>
+            <div class="turma" style="background:#93d6b0"><b>Sala:</b> FCTE - S6<br><b>Horários:</b> 24M34<br><b>Professor:</b> CRISTIANE SOARES RAMOS</div>
+            <div class="turma" style="margin-top:8px"><b>Sala:</b> FCTE - S6<br><b>Horários:</b> 24T23<br><b>Professor:</b> CRISTIANE SOARES RAMOS</div>
+          </div>
+        </div>
+      </div>
+      <div class="notas"><b>O que muda:</b> na busca, a data de atualização aparece logo abaixo da escolha do período letivo <span class="tag">novo</span>, no momento em que o estudante escolhe as turmas.</div>
+    </div>
+  </div>
+
+  <div class="implementacao">
+    <h2>Como implementar no produto</h2>
+    <ol>
+      <li><b>Registrar a data:</b> ao final de cada execução bem-sucedida do comando de atualização do banco (<code>updatedb</code>), gravar a data e a hora da atualização de cada período letivo. Hoje o produto não guarda essa informação.</li>
+      <li><b>Expor a data:</b> devolver esse registro junto com os dados de turmas consultados pela interface.</li>
+      <li><b>Exibir na interface:</b> mostrar o selo da Tela 1 e a data da Tela 3; exibir o alerta da Tela 2 quando a última atualização ultrapassar o limite definido pela equipe mantenedora.</li>
+    </ol>
+    <p style="margin:10px 0 0">Justificativa e evidências: página <i>Oportunidades de melhoria</i>, seção 2.1, no GitPage do grupo. Os nomes, horários e turmas usados nas telas são ilustrativos, baseados na coleta complementar de 18 e 19/11/2026.</p>
+  </div>
+</div>
+</body>
+</html>
