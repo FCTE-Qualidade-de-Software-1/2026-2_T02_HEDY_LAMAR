@@ -38,7 +38,7 @@ A métrica é calculada pela proporção entre as funcionalidades implementadas 
 | Bom | De 81,82% a 89,99% | 9 das 11 funcionalidades estão implementadas, com poucas funcionalidades ausentes. |
 | Excelente | De 90% a 100% | Pelo menos 10 das 11 funcionalidades estão implementadas. |
 
-**Resultado obtido:** 100% (revisado em 19/11/2026; o registro anterior era 90,91%, ver [Métricas de avaliação](Metricas.md)).
+**Resultado obtido:** 100% (revisado em 19/11/2026; o registro anterior era 90,91%, ver [Métricas de avaliação](../fase-4/Metricas.md)).
 
 **Julgamento:** Excelente. O produto apresenta as 11 funcionalidades planejadas implementadas. A exclusão de uma grade salva localmente (R9), antes registrada como ausente, está disponível no produto. O nível Excelente não muda com a revisão.
 
