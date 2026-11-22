@@ -354,6 +354,11 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.2 | Adição das evidencias em portabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |   |  |
 | 1.3 | Correção do M6 e M2| [Pablo Rodrigues](https://github.com/Pablo-R-L) | 23/10/2026 |   |  |
 | 1.4 | Correção das referências aos critérios de julgamento, do símbolo da fórmula de M7, dos rótulos de evidência repetidos em M6 e M7 e de erro de digitação em M5 | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |
+<<<<<<< HEAD
 | 1.5 | Correção de inconsistencia da M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |  |  |
 | 1.6 | Revisão da M1: R9 implementada, resultado de 11/11 (100%), com evidências da coleta complementar | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 |  |  |
 | 1.7 | Revisão da M6: inclusão da quinta situação (T5, busca sem parâmetros) no procedimento e no resultado, conforme o Plano de Avaliação e a tabela de testes, e correção da exibição da tabela de testes | [Cauã Clemente](https://github.com/CauaoClemente) | 21/11/2026 |  |  |
+=======
+| 1.5 | Correção de inconsistencia da M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 | [Joao Victor Marques](https://github.com/jmarquees) | 22/11/2026 |
+| 1.6 | Revisão da M1: R9 implementada, resultado de 11/11 (100%), com evidências da coleta complementar | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 | [Joao Victor Marques](https://github.com/jmarquees) | 22/11/2026 |
+>>>>>>> 5f6c361 (add revisao no historico de versão das metricas)
