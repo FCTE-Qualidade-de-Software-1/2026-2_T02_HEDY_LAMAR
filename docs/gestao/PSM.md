@@ -54,13 +54,13 @@ de resultados, listadas abaixo.
 
 ### 2.1. Resumo dos resultados
 
-Quadro 1: Resumo dos resultados por métrica (dados de 11/11/2026).
+Quadro 1: Resumo dos resultados por métrica (Métricas 2 e 3: coleta de 22/11/2026).
 
 | Métrica | Categoria PSM/CID | Resultado | Classificação | Páginas |
 |---|---|---|---|---|
-| 1. Antecedência de conclusão | Calendário e Progresso | Entrega 1: 0 dia de antecedência (Entrega 2 pendente) | **Aceitável** | [Método](metrica-1-metodo.md) · [Resultados](metrica-1-resultados.md) |
-| 2. Distribuição de commits | Recursos e Custos | 40,0% / 40,0% / 15,0% / 5,0% / 0,0% dos 40 commits, por integrante | 1 integrante **Ideal**; 4 **Ruim** | [Método](metrica-2-metodo.md) · [Resultados](metrica-2-resultados.md) |
-| 3. Tempo médio de resolução de PRs | Desempenho dos Processos | 2,70 dias (média) e 0,80 dia (mediana), 12 Pull Requests | **Ideal** | [Método](metrica-3-metodo.md) · [Resultados](metrica-3-resultados.md) |
+| 1. Antecedência de conclusão | Calendário e Progresso | Entrega 1: 0 dia de antecedência (Entrega 2, entrega final, pendente) | **Aceitável** | [Método](metrica-1-metodo.md) · [Resultados](metrica-1-resultados.md) |
+| 2. Distribuição de commits | Recursos e Custos | 33,3% / 26,2% / 22,6% / 13,1% / 4,8% dos 84 commits, por integrante | 3 integrantes **Ideal**; 1 **Aceitável**; 1 **Ruim** | [Método](metrica-2-metodo.md) · [Resultados](metrica-2-resultados.md) |
+| 3. Tempo médio de resolução de PRs | Desempenho dos Processos | 1,21 dia (média) e 0,16 dia (mediana), 31 Pull Requests | **Ideal** | [Método](metrica-3-metodo.md) · [Resultados](metrica-3-resultados.md) |
 
 ### 2.2. Como navegar
 

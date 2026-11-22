@@ -181,6 +181,6 @@ A tabela a seguir consolida a rastreabilidade hierárquica completa do GQM, cone
 
 | Versão | Descrição | Autor | Data | Revisor | Data de revisão |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1.0 | Versão inicial dos objetivos, questões e hipóteses de medição | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 |   |  |
-| 1.1 | Remoção de instalabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 |   |  |
-| 1.2 | Adição da Seção 3.1.5 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 12/11/2026 |  |  |
+| 1.0 | Versão inicial dos objetivos, questões e hipóteses de medição | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 | [João Vitor](https://github.com/Jauzimm)  | 22/11/2026 |
+| 1.1 | Remoção de instalabilidade | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 21/10/2026 | [João Vitor](https://github.com/Jauzimm)  | 22/11/2026 |
+| 1.2 | Adição da Seção 3.1.5 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 12/11/2026 | [João Vitor](https://github.com/Jauzimm) | 22/11/2026 |

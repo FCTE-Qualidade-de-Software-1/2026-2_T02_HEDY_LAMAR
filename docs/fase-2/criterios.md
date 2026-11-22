@@ -38,7 +38,7 @@ A métrica é calculada pela proporção entre as funcionalidades implementadas 
 | Bom | De 81,82% a 89,99% | 9 das 11 funcionalidades estão implementadas, com poucas funcionalidades ausentes. |
 | Excelente | De 90% a 100% | Pelo menos 10 das 11 funcionalidades estão implementadas. |
 
-**Resultado obtido:** 100% (revisado em 19/11/2026; o registro anterior era 90,91%, ver [Métricas de avaliação](Metricas.md)).
+**Resultado obtido:** 100% (revisado em 19/11/2026; o registro anterior era 90,91%, ver [Métricas de avaliação](../fase-4/Metricas.md)).
 
 **Julgamento:** Excelente. O produto apresenta as 11 funcionalidades planejadas implementadas. A exclusão de uma grade salva localmente (R9), antes registrada como ausente, está disponível no produto. O nível Excelente não muda com a revisão.
 
@@ -125,7 +125,7 @@ A classificação considera a quantidade de situações de falha tratadas adequa
 
 **Resultado registrado:** 100%.
 
-**Julgamento provisório:** Excelente, caso seja confirmado que as cinco situações apresentadas na tabela de testes correspondem ao conjunto efetivamente avaliado e que todas foram tratadas adequadamente.
+**Julgamento:** Excelente. As cinco situações da tabela de testes correspondem aos cinco testes definidos no [Plano de Avaliação (seção 2.6)](../fase-3/plano-avaliacao.md#26-procedimento-para-m6-tolerancia-a-falhas), e cada uma tem evidência de aviso ao usuário em [Métricas de avaliação](../fase-4/Metricas.md#m6-tolerancia-a-falhas). O julgamento, antes provisório, foi confirmado na revisão de 21/11/2026.
 
 A métrica considera a identificação e a comunicação das situações de falha. Não avalia, por si só, recuperação automática, continuidade do serviço após erros ou prevenção de perda de dados.
 
@@ -173,3 +173,4 @@ Antes da consolidação dos resultados, devem ser conferidas eventuais divergên
 | 1.0 | Versão inicial dos critérios de julgamento e dos níveis de pontuação das métricas. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 22/10/2026 |
 | 1.1 | Atualização de correção funcional. | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 24/10/2026 |
 | 1.2 | Revisão do resultado da M1 (11/11, 100%). | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 |
+| 1.3 | Confirmação do julgamento da M6 (cinco situações conforme o Plano de Avaliação). | [Cauã Clemente](https://github.com/CauaoClemente) | 21/11/2026 |

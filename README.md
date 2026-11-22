@@ -7,7 +7,7 @@ Somos o grupo **Hedy Lamarr**, da disciplina **Qualidade de Software** da Univer
 Este repositório é dedicado ao trabalho acadêmico da disciplina; ele não contém o código-fonte oficial do Sua Grade UnB.
 
 - **Site da documentação (GitPage):** https://fcte-qualidade-de-software-1.github.io/2026-2_T02_HEDY_LAMAR/
-- **Releases:** [versões entregues](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases)
+- **Releases:** [versões entregues](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases) · [versão mais recente (Entrega 2)](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases/latest)
 
 ## Sobre o produto
 
@@ -42,11 +42,12 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda 
 | Documento | Conteúdo |
 |---|---|
 | [Métricas de avaliação](docs/fase-4/Metricas.md) | Aplicação das métricas M1 a M7, com coleta e resultados. |
-| [Critérios de julgamento](docs/fase-4/criterios.md) | Níveis de pontuação e julgamento de cada métrica. |
+| [Critérios de julgamento](docs/fase-2/criterios.md) | Níveis de pontuação e julgamento de cada métrica. |
 | [Julgamento final da qualidade](docs/fase-4/julgamento-final.md) | Nível de cada característica, coerência com o propósito da Fase 1 e limitações. |
 | [Relações entre as características](docs/fase-4/relacoes-caracteristicas.md) | Relações entre Adequação Funcional, Confiabilidade e Portabilidade, com evidências e limitações. |
 | [Oportunidades de melhoria](docs/fase-4/oportunidades-de-melhoria.md) | Melhorias identificadas a partir dos resultados, priorização e ação selecionada. |
 | [Ação de melhoria](docs/fase-4/acao-de-melhoria.md) | Protótipo de alta fidelidade da indicação da data de atualização dos dados do SIGAA. |
+| [Conclusões e sugestões](docs/fase-4/conclusoes.md) | Conclusões da avaliação e sugestões de melhoria à equipe mantenedora. |
 
 ## Gestão do projeto (PSM/CID)
 
