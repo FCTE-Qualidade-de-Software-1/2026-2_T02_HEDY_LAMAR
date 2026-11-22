@@ -7,7 +7,7 @@ Somos o grupo **Hedy Lamarr**, da disciplina **Qualidade de Software** da Univer
 Este repositório é dedicado ao trabalho acadêmico da disciplina; ele não contém o código-fonte oficial do Sua Grade UnB.
 
 - **Site da documentação (GitPage):** https://fcte-qualidade-de-software-1.github.io/2026-2_T02_HEDY_LAMAR/
-- **Releases:** [versões entregues](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases)
+- **Releases:** [versões entregues](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases) · [versão mais recente (Entrega 2)](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases/latest)
 
 ## Sobre o produto
 
