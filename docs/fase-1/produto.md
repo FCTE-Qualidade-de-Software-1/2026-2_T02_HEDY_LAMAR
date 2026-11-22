@@ -132,6 +132,6 @@ O indicador oficial dessa meta, o **4.3.1** (taxa de participação de jovens e 
 
 | Versão |          Descrição          |                       Autor                       |    Data    |                       Revisor                       | Data de revisão |
 | :----: | :-------------------------: | :-----------------------------------------------: | :--------: | :-------------------------------------------------: | :-------------: |
-|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Caua Clemente](https://github.com/CauaoClemente) |   |
-|  1.1   |       Padronização das funções do sistema        |     [Pablo Rodrigues](https://github.com/Pablo-R-L)      | 21/10/2026 |  |   |
+|  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 18/10/2026 | [Caua Clemente](https://github.com/CauaoClemente) | 19/10/2026  |
+|  1.1   |       Padronização das funções do sistema        |     [Pablo Rodrigues](https://github.com/Pablo-R-L)      | 21/10/2026 | [João Vitor](https://github.com/Jauzimm) | 22/11/2026  |
 
