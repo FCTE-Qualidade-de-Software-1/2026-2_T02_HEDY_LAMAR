@@ -14,7 +14,7 @@ O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que auxili
 - **Equipe:** Hedy Lamarr
 - **Etapas documentadas:** Fase 1 (Requisitos), Fase 2 (Especificação GQM), Fase 3 (Plano de Avaliação), Fase 4 (Execução da Avaliação) e Gestão do projeto (PSM/CID).
 - **Repositório:** [FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR)
-- **Releases:** [Entrega 1 (v1.0.0)](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases/tag/v1.0.0) · [todas as releases](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases)
+- **Releases:** [Entrega 1 (v1.0.0)](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases/tag/v1.0.0) · [Entrega 2 (versão mais recente)](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases/latest) · [todas as releases](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/releases)
 
 ## Estrutura da Documentação
 
@@ -50,6 +50,7 @@ Métricas aplicadas, resultados obtidos e julgamento da qualidade:
 * [Relações entre as Características](fase-4/relacoes-caracteristicas.md)
 * [Oportunidades de Melhoria](fase-4/oportunidades-de-melhoria.md)
 * [Ação de Melhoria (protótipo)](fase-4/acao-de-melhoria.md)
+* [Conclusões e Sugestões de Melhoria](fase-4/conclusoes.md)
 
 ### Gestão do Projeto (PSM/CID)
 Acompanhamento do projeto nas categorias Calendário e Progresso, Recursos e Custos e Desempenho dos Processos:
@@ -102,6 +103,7 @@ As contribuições detalhadas por atividade estão registradas na [Tabela de Con
 | 1.2 | 06/11/2026 | Inclusão do Plano de Avaliação da Fase 3 (métodos, massa de dados e repetibilidade) e atualização da navegação. | Cauã Clemente |
 | 1.3 | 15/11/2026 | Inclusão da Fase 4 e da Gestão (PSM/CID) na página inicial, correção dos links para Métricas e Critérios e da exibição das listas, links para o repositório e as releases, e versão e data no rodapé. | Cauã Clemente |
 | 1.4 | 15/11/2026 | Link da declaração de uso de IA atualizado para a nova seção IA. | Cauã Clemente |
+| 1.5 | 21/11/2026 | Inclusão das Conclusões na página inicial e no README, link para a release mais recente da Entrega 2, correção dos links para os Critérios após a mudança da página para a pasta da Fase 2 e atualização da versão e da data no rodapé. | Cauã Clemente |
 
 ---
 
