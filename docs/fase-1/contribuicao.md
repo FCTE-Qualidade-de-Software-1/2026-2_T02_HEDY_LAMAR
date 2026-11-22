@@ -30,7 +30,7 @@ Esta página consolida as contribuições dos integrantes da equipe **Hedy Lamar
 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | [Reorganização do conteúdo da fase 2 e fase 4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/commit/c26c297648c8cc518aeac365840901d618129a1f), [adição das metricas selecionadas em objetivos.md](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/commit/c26c297648c8cc518aeac365840901d618129a1f). [Criação da versao inicial do arquivo referente ao PSM](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/commit/7b7305371f33a66dd8aef3dfc545c6fed46f40b2). [Revisao e apoio ao plano de verificação da fase 3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/commit/278313c0913442a36b9c97c61f33919e8697f891). [Organização do cronograma](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/commit/660f91c4d18faeebd6c8127bb807a2a3c7c5db25). Apoio na proposta de melhoria da fase 4 e [correções em outras partes da documentação](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/commit/278313c0913442a36b9c97c61f33919e8697f891). | 20% |
 | [João Vitor](https://github.com/Jauzimm) | Condução dos testes de tarefas de usuário e persistência de dados. | 20% |
 | [Leonardo Rodrigues](https://github.com/Antedeguemon21) | Apoio na execução dos testes de portabilidade mobile e revisão editorial. | 20% |
-| [João Victor Marques](https://github.com/jmarquees) | Incorporação dos novos resultados e seções no artigo formal em LaTeX. | 20% |
+| [João Victor Marques](https://github.com/jmarquees) | Incorporação dos novos resultados e seções no artigo formal em LaTeX, inclusão do documento do julgamento final na última fase. | 20% |
 
 ---
 
@@ -43,3 +43,4 @@ Esta página consolida as contribuições dos integrantes da equipe **Hedy Lamar
 | 1.2 | Inclusão das contribuições de Leonardo, Cauã e João Victor Marques | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 26/10/2026 | | |
 | 1.3 | Adição da Tabela de Contribuição da Entrega 2 e registro do artefato da Fase 3 desenvolvido por Cauã Clemente | [Cauã Clemente](https://github.com/CauaoClemente) | 06/11/2026 |[Pablo Rodrigues](https://github.com/Pablo-R-L) | 20/11/2026 |
 | 1.3 |  Registro da minha participação | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 20/11/2026 | |  |
+| 1.4 |  Registro da minha participação | [Joao Victor Marques](https://github.com/jmarquees) | 22/11/2026 | |  |
