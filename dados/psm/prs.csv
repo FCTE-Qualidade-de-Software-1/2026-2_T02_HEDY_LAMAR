@@ -1,14 +1,36 @@
 numero,titulo,situacao,criado_em_utc,integrado_em_utc,fechado_em_utc,dias,coletado_em_utc
-1,Fase 1 revisado pronto pra merge,integrado,2026-10-19T02:15:51Z,2026-10-19T10:22:59Z,2026-10-19T10:22:59Z,0.34,2026-11-14T15:42:56Z
-2,Revise README for clarity and additional details,integrado,2026-10-24T00:49:40Z,2026-10-24T20:19:10Z,2026-10-24T20:19:10Z,0.81,2026-11-14T15:42:56Z
-3,Fase 1,integrado,2026-10-25T00:18:13Z,2026-10-27T00:41:01Z,2026-10-27T00:41:01Z,2.02,2026-11-14T15:42:56Z
-4,Diagrama GQM (Fase 2),integrado,2026-10-26T05:51:31Z,2026-10-27T00:43:24Z,2026-10-27T00:43:24Z,0.79,2026-11-14T15:42:56Z
-5,docs: atualiza README com etapas e links da Fase 2,aberto,2026-10-26T06:26:28Z,,,19.39,2026-11-14T15:42:56Z
-6,docs: atualiza pagina inicial e adiciona link do Diagrama GQM,integrado,2026-10-26T06:27:05Z,2026-10-27T00:45:18Z,2026-10-27T00:45:18Z,0.76,2026-11-14T15:42:56Z
-7,docs: adiciona contribuicao do Caua e apendice do artigo,integrado,2026-10-26T06:28:13Z,2026-11-12T19:46:12Z,2026-11-12T19:46:12Z,17.55,2026-11-14T15:42:56Z
-8,docs: elabora sugestão de plano de avaliação da Fase 3 e atualiza navegação,integrado,2026-11-07T04:14:40Z,2026-11-12T19:46:10Z,2026-11-12T19:46:10Z,5.65,2026-11-14T15:42:56Z
-9,PSM,integrado,2026-11-08T20:51:36Z,2026-11-11T00:11:21Z,2026-11-11T00:11:21Z,2.14,2026-11-14T15:42:56Z
-40,"docs: PSM/CID com resultados, gráficos, decisões de gestão e scripts de coleta",integrado,2026-11-11T10:03:57Z,2026-11-11T10:04:12Z,2026-11-11T10:04:12Z,0.00,2026-11-14T15:42:56Z
-41,feat: automatiza a atualização dos dados e gráficos do PSM com GitHub Actions,integrado,2026-11-11T10:19:05Z,2026-11-11T10:19:20Z,2026-11-11T10:19:21Z,0.00,2026-11-14T15:42:56Z
-42,docs: corrige bloco mermaid do diagrama GQM,integrado,2026-11-11T11:34:57Z,2026-11-13T19:20:47Z,2026-11-13T19:20:47Z,2.32,2026-11-14T15:42:56Z
-43,"Reorganização das fases, e ajustes do cronograma",integrado,2026-11-13T19:17:24Z,2026-11-13T19:36:19Z,2026-11-13T19:36:19Z,0.01,2026-11-14T15:42:56Z
+1,Fase 1 revisado pronto pra merge,integrado,2026-10-19T02:15:51Z,2026-10-19T10:22:59Z,2026-10-19T10:22:59Z,0.34,2026-11-22T11:37:44Z
+2,Revise README for clarity and additional details,integrado,2026-10-24T00:49:40Z,2026-10-24T20:19:10Z,2026-10-24T20:19:10Z,0.81,2026-11-22T11:37:44Z
+3,Fase 1,integrado,2026-10-25T00:18:13Z,2026-10-27T00:41:01Z,2026-10-27T00:41:01Z,2.02,2026-11-22T11:37:44Z
+4,Diagrama GQM (Fase 2),integrado,2026-10-26T05:51:31Z,2026-10-27T00:43:24Z,2026-10-27T00:43:24Z,0.79,2026-11-22T11:37:44Z
+5,docs: atualiza README com etapas e links da Fase 2,fechado,2026-10-26T06:26:28Z,,2026-11-15T19:19:35Z,20.54,2026-11-22T11:37:44Z
+6,docs: atualiza pagina inicial e adiciona link do Diagrama GQM,integrado,2026-10-26T06:27:05Z,2026-10-27T00:45:18Z,2026-10-27T00:45:18Z,0.76,2026-11-22T11:37:44Z
+7,docs: adiciona contribuicao do Caua e apendice do artigo,integrado,2026-10-26T06:28:13Z,2026-11-12T19:46:12Z,2026-11-12T19:46:12Z,17.55,2026-11-22T11:37:44Z
+8,docs: elabora sugestão de plano de avaliação da Fase 3 e atualiza navegação,integrado,2026-11-07T04:14:40Z,2026-11-12T19:46:10Z,2026-11-12T19:46:10Z,5.65,2026-11-22T11:37:44Z
+9,PSM,integrado,2026-11-08T20:51:36Z,2026-11-11T00:11:21Z,2026-11-11T00:11:21Z,2.14,2026-11-22T11:37:44Z
+40,"docs: PSM/CID com resultados, gráficos, decisões de gestão e scripts de coleta",integrado,2026-11-11T10:03:57Z,2026-11-11T10:04:12Z,2026-11-11T10:04:12Z,0.00,2026-11-22T11:37:44Z
+41,feat: automatiza a atualização dos dados e gráficos do PSM com GitHub Actions,integrado,2026-11-11T10:19:05Z,2026-11-11T10:19:20Z,2026-11-11T10:19:21Z,0.00,2026-11-22T11:37:44Z
+42,docs: corrige bloco mermaid do diagrama GQM,integrado,2026-11-11T11:34:57Z,2026-11-13T19:20:47Z,2026-11-13T19:20:47Z,2.32,2026-11-22T11:37:44Z
+43,"Reorganização das fases, e ajustes do cronograma",integrado,2026-11-13T19:17:24Z,2026-11-13T19:36:19Z,2026-11-13T19:36:19Z,0.01,2026-11-22T11:37:44Z
+44,"docs: corrige links da home, rodapé e configuração duplicada do site",integrado,2026-11-14T19:47:26Z,2026-11-15T22:28:27Z,2026-11-15T22:28:27Z,1.11,2026-11-22T11:37:44Z
+45,"docs: corrige referências, símbolo e rótulos nas métricas (M5 a M7)",integrado,2026-11-14T20:44:17Z,2026-11-14T23:01:57Z,2026-11-14T23:01:57Z,0.10,2026-11-22T11:37:44Z
+46,"docs: completa recursos, participantes e massa de dados do plano de avaliação",integrado,2026-11-14T21:02:49Z,2026-11-15T19:04:24Z,2026-11-15T19:04:24Z,0.92,2026-11-22T11:37:44Z
+47,Create document for improvement opportunities,integrado,2026-11-15T03:06:22Z,2026-11-15T23:01:55Z,2026-11-15T23:01:55Z,0.83,2026-11-22T11:37:44Z
+48,Recoleta metrica 3,integrado,2026-11-15T03:17:29Z,2026-11-15T23:00:24Z,2026-11-15T23:00:24Z,0.82,2026-11-22T11:37:44Z
+49,docs: adiciona ata da reunião de 15/11/2026,integrado,2026-11-15T22:14:58Z,2026-11-15T22:29:23Z,2026-11-15T22:29:24Z,0.01,2026-11-22T11:37:44Z
+51,docs: atualiza o README e inclui a ata no menu do site,integrado,2026-11-15T22:44:31Z,2026-11-16T01:18:36Z,2026-11-16T01:18:36Z,0.11,2026-11-22T11:37:44Z
+52,docs: declara o uso de IA nos scripts Python do PSM e move a página para a seção IA,integrado,2026-11-16T01:14:06Z,2026-11-16T01:27:36Z,2026-11-16T01:27:36Z,0.01,2026-11-22T11:37:44Z
+53,add versao inicial do julgamento final,integrado,2026-11-16T01:23:43Z,2026-11-16T01:24:14Z,2026-11-16T01:24:14Z,0.00,2026-11-22T11:37:44Z
+54,"Revert ""add versao inicial do julgamento final""",fechado,2026-11-16T01:29:14Z,,2026-11-16T01:32:37Z,0.00,2026-11-22T11:37:44Z
+55,"docs: inclui as oportunidades de melhoria no menu, na home e no README",integrado,2026-11-16T01:36:59Z,2026-11-16T01:38:31Z,2026-11-16T01:38:31Z,0.00,2026-11-22T11:37:44Z
+56,add topicos 3 e 4,integrado,2026-11-16T01:37:29Z,2026-11-16T01:42:39Z,2026-11-16T01:42:39Z,0.00,2026-11-22T11:37:44Z
+57,adiciona conclusao e bibliografia,integrado,2026-11-16T01:45:57Z,2026-11-16T01:49:02Z,2026-11-16T01:49:02Z,0.00,2026-11-22T11:37:44Z
+58,"docs: inclui o julgamento final no menu, na home e no README",integrado,2026-11-16T01:46:47Z,2026-11-16T01:48:49Z,2026-11-16T01:48:49Z,0.00,2026-11-22T11:37:44Z
+59,docs: adiciona as relações entre as características e a coleta complementar (#21),integrado,2026-11-19T20:36:30Z,2026-11-20T00:29:36Z,2026-11-20T00:29:36Z,0.16,2026-11-22T11:37:44Z
+60,"docs: revisa a M1 (R9 implementada, 11/11) e as oportunidades de melhoria",integrado,2026-11-19T20:39:01Z,2026-11-20T00:43:38Z,2026-11-20T00:43:38Z,0.17,2026-11-22T11:37:44Z
+61,docs: adiciona a ação de melhoria com o protótipo da data de atualização dos dados (#23),integrado,2026-11-19T21:28:27Z,2026-11-20T00:53:46Z,2026-11-20T00:53:46Z,0.14,2026-11-22T11:37:44Z
+62,reorganizacao do arquivo de criterios e atualizacao do caminhho,integrado,2026-11-20T02:06:16Z,2026-11-20T14:46:50Z,2026-11-20T14:46:51Z,0.53,2026-11-22T11:37:44Z
+63,docs: Adição das conclusoes.md,integrado,2026-11-21T17:09:11Z,2026-11-21T18:36:02Z,2026-11-21T18:36:02Z,0.06,2026-11-22T11:37:44Z
+64,docs: corrige os links dos Critérios (404) e inclui as Conclusões na navegação,aberto,2026-11-22T00:52:15Z,,,0.45,2026-11-22T11:37:44Z
+65,docs: confirma o julgamento da M6 (as cinco situações de falha têm evidência),aberto,2026-11-22T01:13:45Z,,,0.43,2026-11-22T11:37:44Z
+67,fix: adiciona e-mails faltantes em integrantes.csv,integrado,2026-11-22T11:36:32Z,2026-11-22T11:36:58Z,2026-11-22T11:36:58Z,0.00,2026-11-22T11:37:44Z
