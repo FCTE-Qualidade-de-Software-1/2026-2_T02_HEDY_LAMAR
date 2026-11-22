@@ -266,17 +266,19 @@ Em que:
 2. Tentar selecionar mais de quatro turmas de uma mesma disciplina.
 3. Realizar uma busca de disciplinas utilizando parâmetros que não retornem resultados.
 4. Tentar inserir uma disciplina em uma grade quando não houver possibilidade de adicioná-la sem conflito de horários.
-5. Registrar se o sistema identifica cada situação e apresenta um aviso que explique adequadamente o motivo pelo qual a operação não pode ser concluída.
-6. Classificar cada situação como tratada adequadamente ou não tratada adequadamente.
-7. Calcular a proporção de situações tratadas adequadamente em relação ao total avaliado.
+5. Tentar realizar a busca sem informar nenhum parâmetro de pesquisa.
+6. Registrar se o sistema identifica cada situação e apresenta um aviso que explique adequadamente o motivo pelo qual a operação não pode ser concluída.
+7. Classificar cada situação como tratada adequadamente ou não tratada adequadamente.
+8. Calcular a proporção de situações tratadas adequadamente em relação ao total avaliado.
 
-**Resultado obtido:** Nas cinco situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de quatro turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados e quando não era possível inserir uma disciplina sem gerar conflito de horários.
+**Resultado obtido:** Nas cinco situações avaliadas, o sistema apresentou avisos ao usuário: ao tentar buscar uma disciplina sem informar o período letivo, ao tentar selecionar mais de quatro turmas de uma mesma disciplina, quando a busca não encontrou disciplinas correspondentes aos parâmetros informados, quando não era possível inserir uma disciplina sem gerar conflito de horários e ao tentar buscar sem informar nenhum parâmetro.
 
 Considerando que as cinco situações foram identificadas e comunicadas adequadamente pelo sistema, o resultado foi:
 
 ```text
 T_f = (5 / 5) * 100 = 100%
 ```
+
 | Teste | Descrição | Aviso | Evidência |
 | :---: | :--- | :---: | :--- |
 | T1 | Buscar uma disciplina sem informar o período letivo. | Sim | [E1](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Buscar%20sem%20escolher%20periodo%20(falha).png) |
@@ -284,6 +286,8 @@ T_f = (5 / 5) * 100 = 100%
 | T3 | Buscar disciplinas com parâmetros que não retornam resultados. | Sim | [E3](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Busca%20por%20materia%20e%20professor%20(falha).png) |
 | T4 | Tentar inserir uma disciplina que não pode ser encaixado em uma grade válida por conflito. | Sim | [E4](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Impedir%20conflitos%20de%20horarios.png) |
 | T5 | Tentar buscar sem parametros. | Sim | [E5](https://github.com/FCTE-Qualidade-de-Software-1/2026-2_T02_HEDY_LAMAR/blob/main/docs/evidencias/Buscar%20sem%20parametros.png) |
+
+> **Revisão (21/11/2026):** o procedimento de coleta e o parágrafo de resultado citavam quatro situações, enquanto o [Plano de Avaliação (seção 2.6)](../fase-3/plano-avaliacao.md#26-procedimento-para-m6-tolerancia-a-falhas) e a tabela de testes registram cinco. A quinta situação (T5, busca sem parâmetros), registrada na tabela com a evidência E5 desde a coleta original, foi incluída no texto. O resultado de 5/5 (100%) não muda. As cinco situações também foram repetidas na coleta complementar, no Chrome do Android ([Relações entre as características, Tabela 4](relacoes-caracteristicas.md#34-situacoes-da-m6-no-celular)).
 
 **Interpretação:** O resultado de 100% indica que todas as situações de falha avaliadas foram acompanhadas de avisos do sistema. Isso demonstra que, nos cenários testados, o Sua Grade UnB fornece respostas informativas quando determinadas condições impedem a realização das operações solicitadas. Entretanto, a métrica avalia especificamente a identificação e a comunicação dessas situações, não abrangendo a recuperação automática de falhas, a continuidade do serviço após erros ou a prevenção de perda de dados.
 
@@ -352,3 +356,4 @@ A métrica de completude funcional utiliza o planejamento do *story map* como re
 | 1.4 | Correção das referências aos critérios de julgamento, do símbolo da fórmula de M7, dos rótulos de evidência repetidos em M6 e M7 e de erro de digitação em M5 | [Cauã Clemente](https://github.com/CauaoClemente) | 14/11/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |
 | 1.5 | Correção de inconsistencia da M6 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 14/11/2026 |  |  |
 | 1.6 | Revisão da M1: R9 implementada, resultado de 11/11 (100%), com evidências da coleta complementar | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 |  |  |
+| 1.7 | Revisão da M6: inclusão da quinta situação (T5, busca sem parâmetros) no procedimento e no resultado, conforme o Plano de Avaliação e a tabela de testes, e correção da exibição da tabela de testes | [Cauã Clemente](https://github.com/CauaoClemente) | 21/11/2026 |  |  |

@@ -27,19 +27,19 @@ O julgamento também é relacionado ao propósito da avaliação, estabelecido n
 | M3 — Adequação às tarefas | Adequação Funcional | 100% | 5 de 5 tarefas | Excelente | Provisório |
 | M4 — Maturidade | Confiabilidade | 100% | 4 de 4 cenários | Excelente | Confirmado |
 | M5 — Disponibilidade observada | Confiabilidade | 100% | 15 de 15 verificações | Excelente | Provisório |
-| M6 — Tolerância a falhas | Confiabilidade | 100% | 5 de 5 situações | Excelente | Provisório |
+| M6 — Tolerância a falhas | Confiabilidade | 100% | 5 de 5 situações | Excelente | Confirmado |
 | M7 — Adaptabilidade | Portabilidade | 100% | 6 de 6 ambientes | Excelente | Confirmado |
 
 Fonte: [Métricas de avaliação](Metricas.md) e [Critérios de julgamento](../fase-2/criterios.md).
 
 <font size="3"><p style="text-align: left">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
 
-Notas sobre as situações provisórias e sobre a M1:
+Notas sobre as situações provisórias e sobre as revisões da M1 e da M6:
 
 - **M1:** o nível Excelente exige pelo menos 10 das 11 funções. As 11 funções estão implementadas. A exclusão de uma grade salva localmente (R9), registrada antes como ausente, foi verificada na coleta complementar de 18 e 19/11/2026 e está disponível no produto (ver a revisão em [Métricas de avaliação](Metricas.md)).
 - **M3:** [Critérios de julgamento](../fase-2/criterios.md) condiciona a classificação à confirmação de que cada tarefa foi atendida segundo condições de aceitação definidas antes da coleta. Em [Métricas de avaliação](Metricas.md), a coleta registra a relação de cada tarefa com o objetivo do produto, sem evidência por tarefa.
 - **M5:** depende da conferência dos registros das 15 verificações. Pelos nomes dos arquivos de evidência, alguns horários de captura ficaram fora das janelas definidas no Plano de Avaliação (por exemplo, 12h13 e 23h40).
-- **M6:** depende de confirmar que as cinco situações da tabela de testes são o conjunto avaliado. O texto de coleta descreve quatro situações, e a tabela registra cinco.
+- **M6:** as cinco situações da tabela de testes são os cinco testes definidos no Plano de Avaliação (seção 2.6), cada um com evidência da coleta original. O texto de coleta citava apenas quatro e foi completado na revisão de 21/11/2026 (ver [Métricas de avaliação](Metricas.md#m6-tolerancia-a-falhas)). O julgamento passa a confirmado.
 
 ## 4. Julgamento por característica
 
@@ -55,7 +55,7 @@ Notas sobre as situações provisórias e sobre a M1:
 
 ### 4.2. Confiabilidade (objetivo G2)
 
-**Nível: Excelente (provisório).** Menor nível entre M4, M5 e M6, todos Excelente. O julgamento é provisório por causa da M5 e da M6.
+**Nível: Excelente (provisório).** Menor nível entre M4, M5 e M6, todos Excelente. O julgamento é provisório por causa da M5.
 
 - **Q4 — Maturidade (H4):** os quatro cenários (repetição das operações, persistência das grades, uso contínuo e acesso em sessões diferentes) foram concluídos sem falhas observáveis. H4 foi sustentada nas condições testadas. [Métricas de avaliação](Metricas.md) não anexa evidências a esses cenários.
 - **Q5 — Disponibilidade (H5):** as 15 verificações, em cinco dias, foram bem-sucedidas. H5 foi sustentada para os horários observados, sem permitir concluir sobre disponibilidade contínua.
@@ -95,7 +95,7 @@ Fonte: [Propósito da avaliação](../fase-1/proposito.md), [Métricas de avalia
 - **Amostras pequenas:** cinco disciplinas, quatro cenários, cinco situações de falha e seis ambientes. Os resultados não se generalizam para toda a oferta da UnB nem para todos os usuários.
 - **Data de referência:** o produto foi observado no estado de 17/10/2026, com coletas entre 19 e 24/10/2026. Alterações posteriores no produto ou no SIGAA não estão refletidas.
 - **Avaliação externa:** a abordagem é de caixa-preta, pela interface em produção. Os resultados indicam o que foi observado, não as causas internas.
-- **Métricas com julgamento provisório:** M3, M5 e M6, conforme a seção 3. O julgamento de Adequação Funcional e de Confiabilidade pode mudar após a confirmação.
+- **Métricas com julgamento provisório:** M3 e M5, conforme a seção 3. O julgamento de Adequação Funcional e de Confiabilidade pode mudar após a confirmação.
 - **Aspectos sem métrica:** conflito de horário em grades geradas, defasagem dos dados, falha de dependências externas e ambientes fora da matriz avaliada.
 - **Avaliadores:** a avaliação foi feita pela própria equipe, sem participantes externos.
 - **Níveis por característica:** a regra do menor nível é uma escolha da equipe, não uma regra dos critérios da Fase 2. Como todas as métricas ficaram em Excelente, outra regra de combinação não alteraria o nível de nenhuma característica.
@@ -107,7 +107,7 @@ Fonte: [Propósito da avaliação](../fase-1/proposito.md), [Métricas de avalia
 | Característica | Objetivo | Nível | Situação |
 | :--- | :---: | :--- | :--- |
 | Adequação Funcional | G1 | Excelente | Provisório (M3) |
-| Confiabilidade | G2 | Excelente | Provisório (M5 e M6) |
+| Confiabilidade | G2 | Excelente | Provisório (M5) |
 | Portabilidade | G3 | Excelente | Confirmado |
 
 <font size="3"><p style="text-align: left">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
@@ -129,3 +129,4 @@ Nas condições e amostras avaliadas, o Sua Grade UnB atende aos critérios da F
 | 1.2 | Adição dos tópicos 5 e 6 | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.3 | Adição da conclusão e bibliografia | [João Victor Marques](https://github.com/jmarquees) | 15/11/2026 | | |
 | 1.4 | Revisão da M1 (R9 implementada, 11/11) e dos trechos que dependiam dela | [Cauã Clemente](https://github.com/CauaoClemente) | 19/11/2026 | | |
+| 1.5 | Confirmação da M6 (cinco situações conforme o Plano de Avaliação) e dos trechos que dependiam dela | [Cauã Clemente](https://github.com/CauaoClemente) | 21/11/2026 | | |
