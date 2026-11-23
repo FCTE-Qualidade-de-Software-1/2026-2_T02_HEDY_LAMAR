@@ -72,3 +72,4 @@ Os scripts Python foram gerados pela IA e conferidos pela equipe apenas por meio
 |  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 24/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 26/10/2026  |
 |  1.1   |      Adição sobre scripts       |     [João Vitor](https://github.com/Jauzimm)      | 15/11/2026 |  |   |
 |  1.2   |  Correção dos links após a mudança de pasta e de erros de digitação  |  [Cauã Clemente](https://github.com/CauaoClemente)  | 15/11/2026 |  |   |
+|  1.2   |  Adição sobre atas de reunião  |  [Joao Victor Marques](https://github.com/jmarquees)  | 22/11/2026 |  |   |
