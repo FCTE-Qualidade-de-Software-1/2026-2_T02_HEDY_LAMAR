@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&display=swap");
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #2f5d3a;
+  --md-primary-fg-color--light: #46785a;
+  --md-primary-fg-color--dark: #1f4228;
+  --md-accent-fg-color: #8cc9a0;
+  --md-accent-fg-color--transparent: rgba(140, 201, 160, 0.2);
+  --md-default-bg-color: #faf8f2;
+  --md-default-fg-color: #1f2a22;
+  --md-typeset-a-color: #2f5d3a;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1d2420;
+  --md-primary-fg-color--light: #2a332d;
+  --md-primary-fg-color--dark: #141916;
+  --md-accent-fg-color: #9cc9a6;
+  --md-accent-fg-color--transparent: rgba(156, 201, 166, 0.16);
+  --md-default-bg-color: #1a1d1b;
+  --md-default-fg-color: #e6e9e4;
+  --md-typeset-a-color: #9cc9a6;
+}
+
+.md-typeset {
+  line-height: 1.8;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  padding-bottom: 0.4rem;
+}
+
+.md-typeset table:not([class]) {
+  border-top: 2px solid var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
