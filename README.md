@@ -13,6 +13,12 @@ Este repositório é dedicado ao trabalho acadêmico da disciplina; ele não con
 
 O [Sua Grade UnB](https://suagradeunb.com.br/) é uma aplicação web que ajuda estudantes da Universidade de Brasília a organizar as disciplinas e os horários do semestre em uma grade.
 
+## Artigo acadêmico
+
+O artigo apresenta a consolidação da avaliação de qualidade do Sua Grade UnB, reunindo a metodologia adotada, os procedimentos de coleta, os resultados das métricas M1 a M7 e as conclusões da equipe.
+
+- **Projeto LaTeX (Overleaf):** [Acessar o artigo](https://www.overleaf.com/project/6b03286ba5a3f1c8ada97ba9/share#d8726a7fd3ab66dc98d5b070c82182d4a6476fdc92b2c220)
+
 ## Documentos da Fase 1
 
 | Documento | Conteúdo |
