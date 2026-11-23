@@ -13,8 +13,9 @@ A ferramenta utilizada foi o Claude, IA da Anthropic. Ela foi usada como apoio e
 | Rascunho de texto | Geração de primeira versão de trechos de texto | Cada trecho foi lido, reescrito quando necessário e conferido nas fontes |
 | Revisão de português | Sugestões de correção gramatical e de clareza em trechos já escritos pela equipe | Cada sugestão foi avaliada antes de ser aceita |
 | Estrutura e tabelas | Sugestões de organização das seções e de formatação das tabelas | A organização final foi decidida pela equipe e revisada na leitura dos documentos |
+| Transcrição de reuniões | Foi utilizada para fazer as transcrições das reuniões, resumos das mesmas, auxiliando no documento de atas. | Cada transcrição foi conferida por um membro da equipe antes da criação dos documentos |
 
-Autor(es):  [João Vitor](https://github.com/Jauzimm), 2026.
+Autor(es):  [João Vitor](https://github.com/Jauzimm), [João Victor Marques](https://github.com/jmarquees), 2026.
 
 ## Conferência e criticidade
 
@@ -71,3 +72,4 @@ Os scripts Python foram gerados pela IA e conferidos pela equipe apenas por meio
 |  1.0   |       Versão Inicial        |     [João Vitor](https://github.com/Jauzimm)      | 24/10/2026 | [Pablo Rodrigues](https://github.com/Pablo-R-L) | 26/10/2026  |
 |  1.1   |      Adição sobre scripts       |     [João Vitor](https://github.com/Jauzimm)      | 15/11/2026 |  |   |
 |  1.2   |  Correção dos links após a mudança de pasta e de erros de digitação  |  [Cauã Clemente](https://github.com/CauaoClemente)  | 15/11/2026 |  |   |
+|  1.3   |  Adição sobre atas de reunião  |  [Joao Victor Marques](https://github.com/jmarquees)  | 22/11/2026 |  |   |
